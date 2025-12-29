@@ -1,0 +1,115 @@
+PREFIX ex: <http://example.org/movie/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+#movie similarity based on shared genre/actor/director
+SELECT ?recommended ?title (COUNT(DISTINCT ?feature) AS ?score)
+WHERE {
+  ?selectedMovie (ex:genre|ex:actor|ex:director) ?feature.
+  ?recommended (ex:genre|ex:actor|ex:director) ?feature;
+               ex:title ?title.
+  FILTER(?recommended != ?selectedMovie)
+}
+GROUP BY ?recommended ?title
+HAVING (COUNT(DISTINCT ?feature) >= 2)
+ORDER BY DESC(?score)
+LIMIT 10
+
+              
+#movies sharing actors
+SELECT ?movie ?title (COUNT(DISTINCT ?actor) AS ?sharedActors)
+WHERE {
+  ?movie ex:actor ?actor ;
+         ex:title ?title .
+  FILTER(?actor IN (?a1, ?a2))
+}
+GROUP BY ?movie ?title
+HAVING (COUNT(DISTINCT ?actor) = 2)
+ORDER BY DESC(?sharedActors)
+LIMIT 5
+
+#movies with specific genres
+SELECT ?movie ?title (COUNT(DISTINCT ?genre) AS ?numGenres)
+WHERE {
+  ?movie ex:genre ?genre ;
+         ex:title ?title .
+  FILTER(?genre IN (?g1, ?g2, ?g3))
+}
+GROUP BY ?movie ?title
+HAVING (COUNT(DISTINCT ?genre) >= 2) 
+ORDER BY DESC(?numGenres)
+LIMIT 5
+
+
+#movies by a specific director
+SELECT ?movie ?title ?year
+WHERE {
+  ?movie ex:director ?selectedDirector ;
+         ex:title ?title .
+  OPTIONAL { ?movie ex:year ?year }
+}
+ORDER BY DESC(?year)
+
+
+#movies within a year range
+SELECT ?movie ?title ?year
+WHERE {
+  ?movie ex:title ?title ;
+         ex:year ?year .
+  FILTER(str(?year) >= ?startYear && str(?year) <= ?endYear)
+}
+ORDER BY DESC(?year)
+LIMIT 5
+
+
+#movies by runtime
+SELECT ?movie ?title ?runtime
+WHERE {
+  ?movie ex:title ?title ;
+         ex:runtime ?runtime .
+  FILTER(?runtime >= ?minRuntime && ?runtime <= ?maxRuntime)
+}
+ORDER BY ?runtime
+LIMIT 5
+
+
+#movies with keywords in the title
+SELECT ?movie ?title
+WHERE {
+  ?movie ex:title ?title .
+  FILTER(CONTAINS(LCASE(?title), LCASE(?keyword)))
+}
+LIMIT 5
+
+
+#most recent movie per person
+SELECT ?person ?movie ?title ?year
+WHERE {
+  ?movie ex:title ?title ;
+         ex:year ?year .
+  { ?movie ex:director ?person } 
+  UNION 
+  { ?movie ex:actor ?person }
+  FILTER(?person = ?selectedPerson)
+}
+ORDER BY DESC(?year)
+LIMIT 1
+
+
+#movies excluding a specific genre
+SELECT ?movie ?title
+WHERE {
+  ?movie ex:title ?title .
+  FILTER NOT EXISTS { ?movie ex:genre ?excludedGenre }
+}
+LIMIT 5
+
+#movies with a specific genre but excluding a specific actor
+SELECT ?movie ?title
+WHERE {
+  ?selectedMovie ex:genre ?genre .
+  ?movie ex:genre ?genre ;
+         ex:title ?title .
+  FILTER(?movie != ?selectedMovie)
+  FILTER NOT EXISTS { ?movie ex:actor ?excludedActor}
+}
+LIMIT 10

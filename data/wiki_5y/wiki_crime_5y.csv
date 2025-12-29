@@ -1,0 +1,623 @@
+movie,title,year,runtime,directors,actors
+http://www.wikidata.org/entity/Q189330,The Dark Knight Rises,2022,164,Christopher Nolan,"Marion Cotillard, Anne Hathaway, Morgan Freeman, Christian Bale, Liam Neeson, Joey King, Gary Oldman, Aaron Eckhart, Josh Stewart, Michael Caine, Nestor Carbonell, Brett Cullen, Joseph Gordon-Levitt, Juno Temple, Tom Hardy, Christopher Judge, Matthew Modine, Cillian Murphy, Tom Conti, Aidan Gillen, Linus Roache, Wade Williams, Rob Brown, Robert Wisdom, Desmond Harrington, William Devane, Uri Gavriel, Daniel Sunjata, Brent Briscoe, Tomas Arana, Ben Mendelsohn, Josh Pence, Jillian Armenante, Michael Papajohn, Burn Gorman, Reggie Lee, David Gyasi, Thomas Lennon, Alon Abutbul, Ronnie Gene Blevins, Vincent van Ommen, Fredric Lehne, Ian Bohen, James Harvey Ward, Jay Benedict, John Nolan, Thomas Tull, Glen Powell"
+http://www.wikidata.org/entity/Q108628759,Joker: Folie à Deux,2024,138,Todd Phillips,"Lady Gaga, Joaquin Phoenix, Ken Leung, Steve Coogan, Catherine Keener, Brendan Gleeson, Bill Smitrovich, Jacob Lofland, Zazie Beetz, Leigh Gill, Tim Dillon, Harry Lawtey"
+http://www.wikidata.org/entity/Q29021224,Bad Boys for Life,2020,123,"Bilall Fallah, Adil El Arbi","Will Smith, Martin Lawrence, DJ Khaled, Kate del Castillo, Vanessa Hudgens, Michael Bay, Joe Pantoliano, Alexander Ludwig, Theresa Randle, Nicky Jam, Rory Markham, David Moretti, Massi Furlan, Jacob Scipio, Bilall Fallah, Happy Anderson, Norma Alvarez, Ivo Nandi, Charles Melton, Gissette Valentin"
+http://www.wikidata.org/entity/Q31271357,Bad Boys: Ride or Die,2024,115,"Bilall Fallah, Adil El Arbi","Will Smith, Martin Lawrence, DJ Khaled, Ioan Gruffudd, Vanessa Hudgens, Eric Dane, Alexander Ludwig, Tasha Smith, John Salley, Paola Núñez, Joyner Lucas"
+http://www.wikidata.org/entity/Q99796333,No Sudden Move,2021,115,Steven Soderbergh,"Brendan Fraser, Benicio del Toro, Ray Liotta, Jon Hamm, Don Cheadle, David Harbour, Kieran Culkin, Matt Damon, Bill Duke, Amy Seimetz, muMs da Schemer, Frankie Shaw, Byron Bowers, Noah Jupe, Julia Fox, Hugh Maguire"
+http://www.wikidata.org/entity/Q248354,Infernal Affairs III,2022,118,"Alan Mak, Andrew Lau","Andy Lau, Leon Lai, Shawn Yue, Kelly Chen, Edison Chen, Anthony Wong, Sammi Cheng, Chen Daoming, Tony Leung, Gordon Lam, Eric Tsang"
+http://www.wikidata.org/entity/Q99897499,Locked Down,2021,118,Doug Liman,"Stephen Merchant, Anne Hathaway, Ben Kingsley, Ben Stiller, Katie Leung, Chiwetel Ejiofor, Frances Ruffelle, Mark Gatiss, Eva Röse, Dulé Hill, Mindy Kaling, Sam Spruell, Claes Bang, Lucy Boynton, Marek Larwood, Bobby Schofield, Tallulah Greive, Jazmyn Simon, Olivia Onyehara, Mark Lisseman"
+http://www.wikidata.org/entity/Q85854045,Maigret,2022,88,Patrice Leconte,"Gérard Depardieu, Anne Loiret, Aurore Clément, Mélanie Bernier, Clara Antoons, John Sehil, Moana Ferré, Norbert Ferrer, Bertrand Poncet, Jade Labeste"
+http://www.wikidata.org/entity/Q94969014,Man from Beirut,2020,,Christoph Gampl,"Blerim Destani, Kida Khodr Ramadan, Susanne Wuest"
+http://www.wikidata.org/entity/Q98298706,25 Years of Innocence,2020,,Jan Holoubek,"Jan Frycz, Agnieszka Krukówna, Agata Kulesza, Magdalena Różczka, Vienio, Wojciech Machnicki, Elżbieta Okupska, Szymon Kuśmider, Sławomir Federowicz, Adam Hutyra, Andrzej Konopka, Artur Steranko, Dariusz Toczek, Grzegorz Przybył, Łukasz Lewandowski, Mirosław Kropielnicki, Piotr Nowak, Jacek Beler, Sebastian Pawlak, Joanna Gonschorek, Juliusz Krzysztof Warunek, Adam Nawojczyk, Sebastian Stankiewicz, Bartosz Bielenia, Katarzyna Cynke, Krzysztof Grabowski, Marek Dyjak, Michał Czernecki, Aleksander Janiszewski, Paweł Ferens, Piotr Łukawski, Piotr Trojan, Mariusz Węgłowski"
+http://www.wikidata.org/entity/Q107584295,Havoc,2025,107,Gareth Evans,"Forest Whitaker, Tom Hardy, Timothy Olyphant, Luis Gómez, Michelle Waterson, Richard Harrington, Yeo Yann Yann, Justin Cornwell, Narges Rashidi, Xelia Mendes-Jones, Jessie Mei Li"
+http://www.wikidata.org/entity/Q107863171,Guglhupfgeschwader,2022,97,Ed Herzog,"Sebastian Bezzel, Simon Schwarz, Lisa Maria Potthoff"
+http://www.wikidata.org/entity/Q96460292,Me and Me,2020,105,Jeong Jin-yeong,"Cha Soo-yeon, Cho Jin-woong, Bae Soo-bin, Lee Sun-bin, Jung Hae-gyun"
+http://www.wikidata.org/entity/Q98273324,Bordertown: The Mural Murders,2021,,Juuso Syrjä,"Ville Virtanen, Anu Sinisalo, Sampo Sarkola"
+http://www.wikidata.org/entity/Q24284363,Cruella,2021,134,Craig Gillespie,"Emma Stone, Emma Thompson, Mark Strong, Emily Beecham, Joel Fry, Kayvan Novak, Jamie Demetriou, Kirby Howell-Baptiste, Paul Walter Hauser, Ed Birch"
+http://www.wikidata.org/entity/Q98147427,Paydirt,2020,81,Christian Sesma,"Luke Goss, Val Kilmer, Mirtha Michelle, V. Bozeman, Murielle Telio, Nick Vallelonga, Mike Hatton, Mercedes Kilmer"
+http://www.wikidata.org/entity/Q163872,The Dark Knight,2022,153,Christopher Nolan,"Christian Bale, Heath Ledger, Morgan Freeman, Gary Oldman, Aaron Eckhart, Michael Caine, Maggie Gyllenhaal, Nestor Carbonell, William Fichtner, Eric Roberts, Cillian Murphy, Monique Gabriela Curnen, Nicky Katt, Michael Jai White, Beatrice Rosen, Anthony Michael Hall, Edison Chen, Joshua Harto, Nathan Gamble, Chin Han, Vincent Riotta, Sarah Jayne Dunn, Colin McFarlane, Keith Szarabajka, Melinda McGraw, Richard Dillane, Ritchie Coster, Tommy Lister Jr., David Dastmalchian"
+http://www.wikidata.org/entity/Q107524912,"Confess, Fletch",2022,98,Greg Mottola,"Marcia Gay Harden, Kyle MacLachlan, John Slattery, Jon Hamm, Annie Mumolo, Roy Wood Jr., Lorenza Izzo"
+http://www.wikidata.org/entity/Q86755284,Forensic,2020,134,,"Mamta Mohandas, Prathap K. Pothan, Rajesh Hebbar, Renji Panicker, Saiju Kurup, Anil Murali, Mohan Sharma, Ramu, Anjali Nair, Rony David, Giju John, Devi Ajith, Reba Monica John, Tovino Thomas, Srikanth Murali, Lukman Avaran, Thennal Abhilash"
+http://www.wikidata.org/entity/Q96279102,Intuition,2020,116,Alejandro Montiel,"Juan Manuel Guilera, Abel Ayala, Joaquín Furriel, Maite Lanata, Marita Ballesteros, Lusiana Lopilato, Sebastián Mogordoy, Rafael Ferro, Delfina Chaves"
+http://www.wikidata.org/entity/Q97495364,Raat Akeli Hai,2020,149,,"Aditya Shrivastava, Ila Arun, Nawazuddin Siddiqui, Radhika Apte, Shweta Tripathi, Swanand Kirkire, Tigmanshu Dhulia, Shivani Raghuvanshi, Padmavati Rao"
+http://www.wikidata.org/entity/Q21577091,Memoir of a Murderer,2021,118,Won Sin-yeon,"Kim Nam-gil, Oh Dal-su, Sul Kyung-gu, Kim Seolhyun"
+http://www.wikidata.org/entity/Q86733064,Disturbing the Peace,2020,,York Shackleton,"Guy Pearce, Devon Sawa, Kelly Greyson"
+http://www.wikidata.org/entity/Q97928050,Agua dos Porcos,2020,118,Roly Santos,"Leona Cavalli, Daniel Valenzuela, Mayana Neiva, Roberto Birindelli"
+http://www.wikidata.org/entity/Q108372702,Ted Bundy: American Boogeyman,2021,,Daniel Farrands,"Chad Michael Murray, Lin Shaye, Greer Grammer, Anthony De Longis, Holland Roden, Asante Jones, Olivia DeLaurentis, Alice Prime, Gianna Adams, Marietta Melrose, Alexandra Scott, Leslie Stratton, Julianne Collins, Jake Hays"
+http://www.wikidata.org/entity/Q96782648,The Knower,2021,,,"Ahmed Ezz, Mahmoud Hemida, Ahmed Fahmy, Fathy Abdel Wahab, Mustafa Khater, Mohamed Mamdouh, Rakeen Saad, Carmen Bsaibes"
+http://www.wikidata.org/entity/Q99964772,Raging Fire,2021,126,Benny Chan,"Donnie Yen, Nicholas Tse, Simon Yam, Ray Lui, Ken Lo, Qin Lan, Ben Lam, Ben Yuen"
+http://www.wikidata.org/entity/Q100886621,Yakuza and the Family,2021,,Michihito Fujii,"Shinobu Terajima, Hayato Ichihara, Hiroshi Tachi, Kōsuke Toyohara, Machiko Ono, Yukiya Kitamura, Suon Kan, Shun Sugata, Ryō Iwamatsu, Gō Ayano, Hayato Isomura, Tarō Suruga, Ryūtarō Ninomiya"
+http://www.wikidata.org/entity/Q100422251,Diabolik,2021,133,"Antonio Manetti, Marco Manetti","Miriam Leone, Roberto Citran, Claudia Gerini, Pier Giorgio Bellocchio, Antonino Iuorio, Daniela Piperno, Davide Devenuto, Luca Marinelli, Serena Rossi, Stefano Pesce, Vanessa Scalera, Valerio Mastandrea, Urbano Barberini, Alessandro Roja, Massimo Triggiani, Giovanni Calcagno, Guglielmo Favilla, Luca Di Giovanni"
+http://www.wikidata.org/entity/Q108044502,7 Prisoners,2021,94,Alex Moratto,"Rodrigo Santoro, Cecília Homem de Mello, Christian Malheiros"
+http://www.wikidata.org/entity/Q39069693,The Empty Man,2020,137,David Prior,James Badge Dale
+http://www.wikidata.org/entity/Q107985568,Treat or Trick,2021,,Fu-Hsiang Hsu,"Ivy Chen, Hui-Min Lin, Bolin Chen, Ralf Chiu, You Anshun, Shang-Ho Huang, Chen Yi Wen, Bai Bai, Liu Kuan-ting, Yan-xi Hou, Da-her Lin, Chih-Ju Lin, Quro Tsai"
+http://www.wikidata.org/entity/Q2517358,Battles Without Honor and Humanity,2024,99,Kinji Fukasaku,"Kunie Tanaka, Hiroki Matsukata, Bunta Sugawara, Tsunehiko Watase, Gorō Ibuki, Takuzo Kawatani, Nobuo Kaneko"
+http://www.wikidata.org/entity/Q108730218,"Snow, Tea and Love",2021,115,Cătălin Bugean,"Monica Anghel, Carmen Tănase, Alex Velea, Cristian Iacob, Cosmin Seleși, Pepe, Alina Pușcaș, Paula Chirilă, Levent Sali, Liviu Vârciu, Florin Busuioc, Dorian Popa, Angel Popescu, Sorin Bontea"
+http://www.wikidata.org/entity/Q108673914,Grom: Boyhood,2022,84,Oleg Trofim,"Anton Adasinsky, Irina Rozanova, Oleg Yagodin, Daniil Vorobyov, Sergey Marin"
+http://www.wikidata.org/entity/Q99201870,Detective vs Sleuths,2022,,Wai Ka-fai,"Raymond Lam, Sean Lau, Charlene Choi, Carman Lee"
+http://www.wikidata.org/entity/Q108037639,On the Line,2021,109,,"Kim Mu-yeol, Kim Hee-won, Jo Jae-yun, Won Jin-ah, Park Myung-hoon, Byun Yo-han, Lee Joo-young, Lee Kyu-sung"
+http://www.wikidata.org/entity/Q16734496,A Hard Day,2021,111,Kim Seong-hun,"Lee Sun-kyun, Cho Jin-woong, Jeong Man-sik, Lee Ji-hoon, Heo Jeong-eun, Park Bo-gum, Shin Jung-geun, Shin Dong-mi, Jang In-sub"
+http://www.wikidata.org/entity/Q729671,Branded to Kill,2023,97,Seijun Suzuki,"Joe Shishido, Hiroshi Minami, Kōji Nanbara, Annu Mari, Isao Tamagawa"
+http://www.wikidata.org/entity/Q108101745,Yaksha: Ruthless Operations,2022,125,Na Hyun,"Yang Dong-geun, Sul Kyung-gu, Park Jin-young, Song Jae-lim, Hiroyuki Ikeuchi, Lee El, Jin Kyeong, Park Hae-soo, Lee Soo-kyung"
+http://www.wikidata.org/entity/Q108713956,Operation Hyacinth,2021,112,,"Mirosław Zbrojewicz, Adam Cywka, Agnieszka Suchora, Tomasz Schuchardt, Marek Kalita, Tomasz Ziętek, Sebastian Stankiewicz, Tomasz Włosok, Piotr Trojan, Hubert Miłkowski"
+http://www.wikidata.org/entity/Q43094535,The Congo Murders,2020,128,Marius Holst,"Dennis Storhøi, Aksel Hennie, Tone Danielsen, Tobias Santelmann, Ine F. Jansen"
+http://www.wikidata.org/entity/Q97766123,Night in Paradise,2020,131,Park Hoon-jung,"Uhm Tae-goo, Jeon Yeo-been"
+http://www.wikidata.org/entity/Q97959431,Night of the Kings,2020,93,Philippe Lacôte,"Rasmane Ouedraogo, Isaka Sawadogo, Laetitia Ky, Steve Tientcheu, Koné Bakary"
+http://www.wikidata.org/entity/Q220741,City of God,2024,128,"Kátia Lund, Fernando Meirelles","Alice Braga, Edward Boggis, Marcello Melo, Mary Sheyla, Olivia Araújo, Seu Jorge, Alexandre Rodrigues, Leandro Firmino, Darlan Cunha, Michel Gomes, Paulo Lins, Douglas Silva, Matheus Nachtergaele, Sérgio Chapelin, Graziella Moretto, Charles Paraventi, Jonathan Haagensen, Roberta Rodrigues, Phellipe Haagensen, Babu Santana, Renato de Souza, Thiago Martins, Arlindo Lopes, Dani Ornellas, Daniel Zettel, Micael Borges, Gero Camilo"
+http://www.wikidata.org/entity/Q43295469,Major Grom: Plague Doctor,2021,137,Oleg Trofim,"Mikhail Yevlanov, Tikhon Zhiznevsky, Aleksei Maklakov, Anton Bogdanov, Tatyana Gubina, Kyivstoner, Sergey Goroshko, Dmitry Chebotaryov, Shahin Adygezalov, Oleg Chugunov, Alexander Seteykin"
+http://www.wikidata.org/entity/Q46223211,The Informer,2020,113,Andrea Di Stefano,"Joel Kinnaman, Rosamund Pike, Common, Ana de Armas, Sam Spruell, Janusz Sheagall"
+http://www.wikidata.org/entity/Q56816969,Death on the Nile,2022,127,Kenneth Branagh,"Kenneth Branagh, Gal Gadot, Annette Bening, Sophie Okonedo, Jennifer Saunders, Dawn French, Armie Hammer, Rose Leslie, Ali Fazal, Ann Turkel, Tom Bateman, Alaa Safi, Emma Mackey, Letitia Wright"
+http://www.wikidata.org/entity/Q48637969,The Highwaymen,2020,131,John Lee Hancock,"Kevin Costner, William Sadler, Thomas Mann, Woody Harrelson, Kim Dickens, Kathy Bates, John Carroll Lynch, W. Earl Brown, David Furr, Jason Davis, Jane McNeill, Brian F. Durkin, Josh Caras, Emily Brobst, David Born, Edward Bossert"
+http://www.wikidata.org/entity/Q55715719,Project Gutenberg,2020,130,Felix Chong,"Aaron Kwok, Chow Yun-fat, Zhang Jingchu, Liu Kai-chi, David Wang, Catherine Chau, Feng Wenjuan"
+http://www.wikidata.org/entity/Q55642336,The Tax Collector,2020,95,David Ayer,"George Lopez, Shia LaBeouf, Lana Parrilla, Elpidia Carrillo"
+http://www.wikidata.org/entity/Q98761460,La sombra del gallo,2020,85,Nicolás Herzog,"Claudio Rissi, Lautaro Delgado, Alián Devetac"
+http://www.wikidata.org/entity/Q62115813,The Many Saints of Newark,2021,120,Alan Taylor,"Corey Stoll, Ray Liotta, Vera Farmiga, Talia Balsam, Jon Bernthal, Michael Imperioli, Billy Magnussen, Alessandro Nivola, Ed Marinaro, Lesli Margherita, Joey Diaz, John Magaro, Kathryn Kates, Leslie Odom Jr., Nick Vallelonga, Michael Gandolfini, Michela De Rossi"
+http://www.wikidata.org/entity/Q62595383,Promising Young Woman,2020,113,Emerald Fennell,"Clancy Brown, Carey Mulligan, Jennifer Coolidge, Alison Brie, Connie Britton, Molly Shannon, Adam Brody, Christopher Mintz-Plasse, Alfred Molina, Bo Burnham, Chris Lowell, Max Greenfield, Laverne Cox, Steve Monroe, Sam Richardson"
+http://www.wikidata.org/entity/Q65124551,Do You Do You Saint-Tropez,2021,90,Nicolas Benamou,"Gérard Depardieu, Rossy de Palma, Christian Clavier, Thierry Lhermitte, Benoît Poelvoorde, Camille Claris, Nicolas Briançon, Vincent Desagnat, Chloé Lambert, Gil Alma, Jérôme Commandeur, Virginie Hocq, Philypa Phoenix, Elisa Bachir Bey"
+http://www.wikidata.org/entity/Q65047848,Blithe Spirit,2020,95,Edward Hall,"Isla Fisher, Judi Dench, Emilia Fox, Leslie Mann, Aimee-Ffion Edwards, Julian Rhind-Tutt, Michele Dotrice, Dan Stevens, James Fleet, Adil Ray, Dave Johns"
+http://www.wikidata.org/entity/Q47063439,The Rhythm Section,2020,109,Reed Morano,"Jude Law, Blake Lively, Raza Jaffrey, Sterling K. Brown"
+http://www.wikidata.org/entity/Q65121393,The Misfits,2021,94,Renny Harlin,"Pierce Brosnan, Tim Roth, Jamie Chung, Hermione Corfield"
+http://www.wikidata.org/entity/Q98690237,Yellow Cat,2020,,Adilkhan Yerzhanov,Sanjar Madi
+http://www.wikidata.org/entity/Q57177410,Birds of Prey and the Fantabulous Emancipation of One Harley Quinn,2020,109,Cathy Yan,"Ewan McGregor, Daniel Bernhardt, Rosie Perez, Mary Elizabeth Winstead, François Chau, Bojana Novaković, Chris Messina, Margot Robbie, Steven Williams, Matt Willig, Charlene Amoia, Ali Wong, Derek Wilson, Ella Jay Basco, Dana Lee"
+http://www.wikidata.org/entity/Q106890667,A Day to Die,2022,105,Wes Miller,"Bruce Willis, Kevin Dillon, Johnny Messner, Vernon Davis, Leon Robinson, Frank Grillo, Gianni Capaldi, Brooke Butler"
+http://www.wikidata.org/entity/Q106942529,Weißbier im Blut,2021,96,Jörg Graser,"Sigi Zimmerschied, Luise Kinseher, Max Schmidt, Brigitte Hobmeier, Johannes Herrschmann, Eva Sixt, Ferdinand Dörfler"
+http://www.wikidata.org/entity/Q56274013,True History of the Kelly Gang,2020,124,Justin Kurzel,"Russell Crowe, Nicholas Hoult, Essie Davis, Charlie Hunnam, George MacKay, Thomasin McKenzie"
+http://www.wikidata.org/entity/Q107358448,November,2022,100,Cédric Jiménez,"Anaïs Demoustier, Jean Dujardin, Marine Vacth, Jérémie Renier, Sandrine Kiberlain, Annabelle Lengronne, Lyna Khoudri, Sofian Khammes, Stéphane Bak, Sami Outalbali"
+http://www.wikidata.org/entity/Q93183143,Suriname,2020,,Danny Leysner,Mariella Kaveo
+http://www.wikidata.org/entity/Q65081437,I See You,2020,98,Adam Randall,"Helen Hunt, Gregory Alan Williams, Libe Barer, Jon Tenney, Judah Lewis, Owen Teague"
+http://www.wikidata.org/entity/Q51093046,Capone,2020,104,Josh Trank,"Kyle MacLachlan, Matt Dillon, Linda Cardellini, Tom Hardy, Kathrine Narducci, Josh Trank, Noel Fisher, Al Sapienza, Jack Lowden, Neal Brennan"
+http://www.wikidata.org/entity/Q16709427,Rhino,2021,101,Oleh Sentsov,Serhii Filimonov
+http://www.wikidata.org/entity/Q106730236,Ferry,2021,106,Cecilia Verheyden,"Monic Hendrickx, Elise Schaap, Raymond Thiry, Juliette van Ardenne, Frank Lammers, Huub Stapel, Tim Linde, Yannick van de Velde, Maarten Heijmans"
+http://www.wikidata.org/entity/Q125622191,The Thursday Murder Club,2025,118,Chris Columbus,"David Tennant, Helen Mirren, Pierce Brosnan, Celia Imrie, Jonathan Pryce, Ben Kingsley, Daniel Mays, Richard E. Grant, Tom Ellis junior, Paul Freeman, Geoff Bell, Henry Lloyd-Hughes, Ingrid Oliver, Naomi Ackie"
+http://www.wikidata.org/entity/Q54868299,Kajillionaire,2020,104,Miranda July,Evan Rachel Wood
+http://www.wikidata.org/entity/Q106943371,Stealing Raden Saleh,2022,154,Angga Dwimas Sasongko,"Dwi Sasono, Rachel Amanda, Andrea Dian, Ganindra Bimo, Tegar Satria, Angga Yunanda, Ari Irham, Atiqah Hasiholan, Iqbaal Ramadhan, Jenny Zhang, Joshua Pandelaki, Tio Pakusadewo, Umay Shahab, Ratna Riantiarno, Aghniny Haque, Muhammad Khan"
+http://www.wikidata.org/entity/Q107199180,24 Hours with Gaspar,2023,98,Yosep Anggi Noen,"Dewi Irawan, Shenina Cinnamon, Landung Simatupang, Reza Rahadian, Laura Basuki, Sal Priadi, Shofia Shireen Assegaf, Ali Fikry, Kristo Immanuel"
+http://www.wikidata.org/entity/Q125952146,The Bookie & the Bruiser,2025,,Steven Craig Zahler,Vince Vaughn
+http://www.wikidata.org/entity/Q126077186,Night Always Comes,2025,,Benjamin Caron,"Jennifer Jason Leigh, Eli Roth, Michael Kelly, Vanessa Kirby, Randall Park, Julia Fox, Zack Gottsagen, Stephan James"
+http://www.wikidata.org/entity/Q125999766,Putin,2024,,Patryk Vega,"Thomas Kretschmann, Marek Kasprzyk, Przemyslaw Bluszcz, Tomasz Dedek, Michal Karmowski"
+http://www.wikidata.org/entity/Q63213933,The Wild Goose Lake,2020,111,Diao Yinan,"Gwei Lun-Mei, Hu Ge, Wan Qian, Huang Jue, Liao Fan, Chloe Maayan"
+http://www.wikidata.org/entity/Q62545029,Masquerade Hotel,2020,133,Masayuki Suzuki,"Masami Nagasawa, Takuya Kimura, Takashi Ukaji, Fumiyo Kohinata, Atsuko Maeda, Sanma Akashiya, Zen Kajiwara, Ryo Ishibashi, Masahiro Takashima, Katsuhisa Namase, Takako Matsu, Shingo Tsurumi, Takashi Sasano, Gaku Hamada, Atsurō Watabe, Ryo Katsuji, Manami Hashimoto, Nanao"
+http://www.wikidata.org/entity/Q126209959,The Plot,2024,99,Lee Yo-sup,"Lee Mi-sook, Gang Dong-won, Lee Moo-saeng"
+http://www.wikidata.org/entity/Q125578089,The Pickup,2025,,Tim Story,"Roman Reigns, Andrew Dice Clay, Keke Palmer, Marshawn Lynch, Pete Davidson, Jack Kesy, Ismaël Cruz Córdova, Eddie Murphy, Eva Longoria"
+http://www.wikidata.org/entity/Q117100789,Invitation to a Murder,2023,,Stephen Shimek,"Mischa Barton, Amy Sloan, Seamus Dever, Alex Hyde-White, James Urbaniak, Giles Matthey, Chris Browning, Bianca A. Santos, Grace Lynn Kung"
+http://www.wikidata.org/entity/Q117049765,Code Name Banshee,2022,93,Jon Keeyes,"Tommy Flanagan, Jaime King, Antonio Banderas, Kim DeLonghi, Aleksander Vayshelboym"
+http://www.wikidata.org/entity/Q117787728,He Went That Way,2023,95,Jeffrey Darling,"Zachary Quinto, Troy Evans, Patrick J. Adams, Jacob Elordi"
+http://www.wikidata.org/entity/Q117085614,One Battle After Another,2025,162,Paul Thomas Anderson,"Sean Penn, Leonardo DiCaprio, Benicio del Toro, Regina Hall, D. W. Moffett, Wood Harris, Alana Haim, Teyana Taylor, Junglepussy, Chase Infiniti"
+http://www.wikidata.org/entity/Q117279005,The Instigators,2024,101,Doug Liman,"Casey Affleck, Ron Perlman, Ving Rhames, Michael Stuhlbarg, Alfred Molina, Matt Damon, Paul Walter Hauser, Hong Chau, Jack Harlow"
+http://www.wikidata.org/entity/Q65061274,Beckett,2021,108,Ferdinando Cito Filomarino,"Alicia Vikander, Boyd Holbrook, John David Washington, Vicky Krieps, Giorgos Pyrpasopoulos, Panos Koronis, Lena Kitsopoulou"
+http://www.wikidata.org/entity/Q117351552,The Dark Girl,2023,106,Enrico Saller,"Philippe Brenninkmeyer, Claudia Plöckl, Katharina Scheuba, Tamara Roming"
+http://www.wikidata.org/entity/Q125986080,Colors of Evil: Red,2024,,Adrian Panek,"Jakub Gierszał, Maja Ostaszewska, Andrzej Zielinski, Przemyslaw Bluszcz, Andrzej Konopka, Wojciech Zielinski, Zofia Jastrzebska"
+http://www.wikidata.org/entity/Q126142548,Bastion 36,2025,124,Olivier Marchal,"Fauve Hautot, Yvan Attal, Estelle Skornik, Nicolas Wanczycki, Erika Sainte, Juliette Dol, Muriel Combeau, Moussa Mansaly, Sabrina Seyvecou, Stéphan Wojtowicz, Tewfik Jallab, Xavier de Moulins, Lydia Andrei, Guillaume Pottier, Adil Dehbi, Sonia Bendhaou, Jean-Michel Correia, Igor Skreblin, Soufiane Guerrab, Victor Belmondo"
+http://www.wikidata.org/entity/Q126417305,The Channel,2023,95,William Kaufman,"Clayne Crawford, Paul Rae, Max Martini"
+http://www.wikidata.org/entity/Q126595889,Maharaja,2024,141,Nithilan Saminathan,"Abhirami, Mohan Raman, Natarajan Subramaniam, Mamta Mohandas, Anurag Kashyap, Bharathiraja, P. L. Thenappan, A. Govindamoorthy, Sreeja Ravi, Vijay Sethupathi, Saravana Subbiah, Singampuli, Aruldoss, Manikandan, Poster Nandakumar, Poovaiyar, Divyabharathi, Munishkanth, Lizzie Antony, Supergood Subramani, Vinod Sagar"
+http://www.wikidata.org/entity/Q117437274,The Thundermans Return,2024,70,Trevor Kirschner,"James Hong, Rosa Blasi, Dana Snyder, Paul F. Tompkins, Jamie Kaler, Jamieson Price, Jake Borelli, Audrey Whitby, Jack Griffo, Kira Kosarin, Chris Tallman, Daniele Gaither, Maya Le Clark, Addison Riecke, Kenny Ridwan, Jason Nash, Harvey Guillén, Jeff Meacham, Helen Hong"
+http://www.wikidata.org/entity/Q48999628,Inherit the Viper,2020,,Anthony Jerjen,"Margarita Levieva, Josh Hartnett, Bruce Dern, Dash Mihok, Chandler Riggs, Valorie Curry, Owen Teague"
+http://www.wikidata.org/entity/Q117456000,Miss Willoughby and the Haunted Bookshop,2021,,Brad Watson,"Kelsey Grammer, Caroline Quentin, Nathalie Cox, Steven Elder, Ruth Horrocks, Bhavna Limbachia"
+http://www.wikidata.org/entity/Q61951916,Hustlers,2020,110,Lorene Scafaria,"Jon Glaser, Brandon Keener, Constance Wu, Lili Reinhart, Wai Ching Ho, Vanessa Aspillaga, Madeline Brewer, Lizzo, Jennifer Lopez, Usher, Mercedes Ruehl, Keke Palmer, Frank Whaley, Julia Stiles, Rhys Coiro"
+http://www.wikidata.org/entity/Q117699115,The Delinquents,2023,180,Rodrigo Moreno,"Fabián Casas, Iair Said, Esteban Bigliardi, Laura Paredes"
+http://www.wikidata.org/entity/Q117811421,The Goldman Trial,2023,115,Cédric Kahn,"Jerzy Radziwilowicz, François Favrat, Nicolas Briançon, Stéphan Guérin-Tillié, Maxime Tshibangu, Arthur Harari, Arieh Worthalter, Xavier Aubert, Aurélien Chaussade, Christian Mazucchini"
+http://www.wikidata.org/entity/Q117771497,"The Eken, Ruddhaswas Rajasthan",2023,121,Joydip Mukherjee,"Rajatava Dutta, Rajesh Sharma, Anirban Chakraborty, Sandipta Sen"
+http://www.wikidata.org/entity/Q126075285,The Kingdom,2024,108,Julien Colonna,"Pascale Mariani, Andrea Cossu, Ghjuvanna Benedetti"
+http://www.wikidata.org/entity/Q117663512,Mad Fate,2023,109,Soi Cheang,"Gordon Lam, Berg Ng, Ng Wing Sze, Lokman Yeung"
+http://www.wikidata.org/entity/Q117321439,La extorsión,2023,105,Martino Zaidelis,"Guillermo Francella, Pablo Rago, Andrea Frigerio, Carlos Portaluppi"
+http://www.wikidata.org/entity/Q117351225,Purusha Pretham,2023,,Krishand,"Jagadish, Prasanth Alexander, Darshana Rajendran, Parvathi T"
+http://www.wikidata.org/entity/Q125768528,Ti Psyhi Tha Paradoseis Mori? – Part 1,2025,,Alexandros Rigas,"Tassos Iordanidis, Vasiliki Andritsou, Kostas Koklas, Maria Lekaki, Alex Rad, Panagiota Vlanti, Eleni Ouzounidou, Meletis Ilias, María Katsandrí, Lazaros Georgakopoulos, Lefteris Eleftheriou, Traiana Anania"
+http://www.wikidata.org/entity/Q126000372,Santosh,2024,128,Sandhya Suri,"Shahana Goswami, Sunita Rajwar"
+http://www.wikidata.org/entity/Q117049250,Americana,2023,110,Tony Tost,"Zahn McClarnon, Paul Walter Hauser, Halsey, Sydney Sweeney, Simon Rex, Toby Huss, Harriet Sansom Harris, Eric Dane, Donald Cerrone"
+http://www.wikidata.org/entity/Q51844664,Dark Figure of Crime,2020,,Tae-Gyun Kim,Kim Yun-seok
+http://www.wikidata.org/entity/Q55106096,Unstoppable,2022,116,Kim Min-Ho,"Song Ji-hyo, Kim Sung-oh, Ma Dong-seok, Bae Nu-ri, Kim Min-jae, Park Ji-hwan"
+http://www.wikidata.org/entity/Q117751557,Black War: Mission Exteme 2,2023,130,,"Arifin Shuvoo, Taskeen Rahman, Jannatul Ferdous Oishee"
+http://www.wikidata.org/entity/Q125985453,Monster,2024,86,Rako Prijanto,"Marsha Timothy, Alex Abbad"
+http://www.wikidata.org/entity/Q85853743,Lansky,2021,,Eytan Rockaway,"Sam Worthington, Harvey Keitel, Mink-Monk Kelly, David James Elliott, Alon Abutbul, Jackie Cruz, John Magaro, Shane McRae"
+http://www.wikidata.org/entity/Q117192621,Infiesto,2023,96,Patxi Amezcúa,"Isak Ferriz, Iria del Río"
+http://www.wikidata.org/entity/Q85806717,The Card Counter,2021,112,Paul Schrader,"Oscar Isaac, Willem Dafoe, Tye Sheridan, Joel Michaely, Tiffany Haddish"
+http://www.wikidata.org/entity/Q85852782,The Stronghold,2021,105,Cédric Jiménez,"Jean-Yves Berteloot, François Civil, Karim Leklou, Michaël Abiteboul, Adèle Exarchopoulos, Gilles Lellouche, Cyril Lecomte, Kenza Fortas, Idir Azougli"
+http://www.wikidata.org/entity/Q85811251,Twist,2021,88,Martin Owen,"David Walliams, Michael Caine, Lena Headey, Franz Drameh, Rita Ora, Sophie Simnett"
+http://www.wikidata.org/entity/Q108913483,Reptile,2023,134,Grant Singer,"Frances Fisher, Alicia Silverstone, Benicio del Toro, Justin Timberlake, Michael Pitt, Eric Bogosian, Sky Ferreira, Thad Luckinbill, Mike Pniewski, Ato Essandoh, Domenick Lombardozzi, Matilda Lutz, Karl Glusman, Owen Teague, Catherine Dyer"
+http://www.wikidata.org/entity/Q109984826,Twilight of the Warriors: Walled In,2024,126,Soi Cheang,"Aaron Kwok, Sammo Hung, Raymond Lam, Louis Koo, Richie Jen, Kenny Wong, Philip Ng, Tony Wu Tsz-tung, German Cheung, Terrance Lau"
+http://www.wikidata.org/entity/Q112261763,Accident Man: Hitman's Holiday,2022,96,"George Kirby, Harry Kirby",Scott Adkins
+http://www.wikidata.org/entity/Q85847274,Sound of Freedom,2023,131,Alejandro Monteverde,"Eduardo Verástegui, Kurt Fuller, José Zúñiga, Mira Sorvino, Valerie Domínguez, Bill Camp, Jim Caviezel, Gary Basaraba, Manny Pérez, Gerardo Taracena, Javier Godino, Gustavo Sánchez Parra, Scott Haze, James Quattrochi, Mauricio Cujar, Kris Avedisian"
+http://www.wikidata.org/entity/Q113562964,Rehragout-Rendezvous,2023,97,Ed Herzog,"Simon Schwarz, Gregor Seberg, Lisa Maria Potthoff, Sigi Zimmerschied, Monika Gruber, Martina Schwarzmann, Sebastian Bezzel, Eva Mattes, Martin Weinek, Michael Ostrowski, Eisi Gulp, Thomas Kügel, Enzi Fuchs, Max Schmidt, Michael Kranz, Stefan Betz, Stephan Zinner, Elisabeth Wasserscheid, Gerhard Wittmann, Tina Keserovic, Castro Dokyi, Daniel Christensen, Ferdinand Hofer"
+http://www.wikidata.org/entity/Q109510942,Marlowe,2022,109,Neil Jordan,"Diane Kruger, Liam Neeson, Jessica Lange, Adewale Akinnuoye-Agbaje, Danny Huston, Colm Meaney, Alan Cumming, Ian Hart, Daniela Melchior"
+http://www.wikidata.org/entity/Q85762670,Gangubai Kathiawadi,2022,152,Sanjay Leela Bhansali,"Vijay Raaz, M. K. Raina, Shantanu Maheshwari, Emraan Hashmi, Alia Bhatt, Seema Bhargav, Katrina Kaif, Ajay Devgn"
+http://www.wikidata.org/entity/Q109973745,Devil's Peak,2023,,Ben Young,"Billy Bob Thornton, Jackie Earle Haley, Robin Wright, Brian d'Arcy James, Emma Booth, Harrison Sloan Gilbertson, Katelyn Nacon"
+http://www.wikidata.org/entity/Q112322474,Thunderbolts*,2025,126,Jake Schreier,"Olga Kurylenko, Julia Louis-Dreyfus, Chris Bauer, David Harbour, Sebastian Stan, Wendell Pierce, Florence Pugh, Wyatt Russell, Hannah John-Kamen, Lewis Pullman, Geraldine Viswanathan"
+http://www.wikidata.org/entity/Q113407742,Project Wolf Hunting,2022,121,Kim Hong-seon,"Lim Ju-hwan, Seo In-guk, Jang Young-nam, Jung So-min, Ko Chang-seok, Choi Gwi-hwa, Sung Dong-il, Park Ho-san, Jung Moon-sung, Kim Kang-hoon, Jang Dong-Yoon, Son Jong-hak, Lee Seong-uk, Hong Ji-yoon"
+http://www.wikidata.org/entity/Q113488690,Love Lies Bleeding,2024,104,Rose Glass,"Dave Franco, Kristen Stewart, Jena Malone, Ed Harris, Keith Jardine, Anna Baryshnikov, Tait Fletcher, Katy O'Brian, Mikandrew, David DeLao, Jerry G. Angelo, Catherine Haun"
+http://www.wikidata.org/entity/Q110010607,Boston Strangler,2023,112,Matt Ruskin,"Keira Knightley, Rory Cochrane, Chris Cooper, Alessandro Nivola, Bill Camp, Robert John Burke, David Dastmalchian, Morgan Spector, Carrie Coon"
+http://www.wikidata.org/entity/Q113300899,The Crow,2024,,Rupert Sanders,"Sami Bouajila, Josette Simon, Danny Huston, Bill Skarsgård, Laura Birn, Jordan Bolger, FKA twigs, Isabella Wei, David Bowles"
+http://www.wikidata.org/entity/Q111972952,The Out-Laws,2023,95,Tyler Spindel,"Ellen Barkin, Pierce Brosnan, Julie Hagerty, Richard Kind, Nina Dobrev, Jackie Sandler, Adam DeVine, Betsy Sodaro, Blake Anderson, Dean Winters, Michael Rooker, Lauren Lapkus, Laci Mosley, Reyn Doi, Poorna Jagannathan, Lil Rel Howery"
+http://www.wikidata.org/entity/Q112114754,God Is a Bullet,2023,156,Nick Cassavetes,"January Jones, Jamie Foxx, Ethan Suplee, Brendan Sexton III, Nikolaj Coster-Waldau, Paul Johansson, Jonathan Tucker, David Thornton, Andrew Dice Clay, Maika Monroe, Garrett Wareing, Karl Glusman"
+http://www.wikidata.org/entity/Q113390817,Goodnight Mommy,2022,92,Matt Sobel,"Naomi Watts, Peter Hermann"
+http://www.wikidata.org/entity/Q113362750,The Killing of a Journalist,2022,,Matt Sarnecki,"Robert Fico, Robert Kaliňák, Andrej Kiska"
+http://www.wikidata.org/entity/Q111983054,Signs of Love,2022,98,Clarence Fuller,"Rosanna Arquette, Dylan Penn"
+http://www.wikidata.org/entity/Q108872432,Hypnotic,2023,93,Robert Rodriguez,"William Fichtner, Jackie Earle Haley, Alice Braga, Jeff Fahey, Dayo Okeniyi, J. D. Pardo, Ben Affleck, Hala Finley"
+http://www.wikidata.org/entity/Q109558145,Luther: The Fallen Sun,2023,129,Jamie Payne,"Andy Serkis, Idris Elba, Jess Liaudin, Dermot Crowley, Henry Hereford, Cynthia Erivo, Lauryn Ajufo"
+http://www.wikidata.org/entity/Q108764447,Enola Holmes 2,2022,129,Harry Bradbeer,"Helena Bonham Carter, Henry Cavill, Millie Bobby Brown, Ramzan Miah, Louis Partridge"
+http://www.wikidata.org/entity/Q111830176,Finestkind,2023,126,Brian Helgeland,"Lolita Davidovich, Tim Daly, Aaron Stanford, Ben Foster, Clayne Crawford, Ismaël Cruz Córdova, Fernanda Andrade, Toby Wallace, Jenna Ortega, Tommy Lee Jones"
+http://www.wikidata.org/entity/Q112133963,Next Sohee,2023,137,July Jung,"Bae Doona, Bahk Woo-young, Jung Hoeryn, Kim Woo-kyum, Kim Si-eun, Shim Hee-sub"
+http://www.wikidata.org/entity/Q113317051,The Roundup: No Way Out,2023,105,Lee Sang-yong,"Ma Dong-seok, Lee Joon-hyuk, Lee Beom-soo, Munetaka Aoki, Ko Kyu-pil, Kim Min-jae, Jun Suk-ho, Bae Nu-ri, Lee Ji-hun, Lee Hye-ji, An Se-ho, Choi Kwang-je, Choi Dong-goo, Kim Do-geon, Choi Woo-jun, Han Kyu-won"
+http://www.wikidata.org/entity/Q113472457,Canailles,2022,86,Christophe Offenstein,"François Cluzet, José Garcia, Doria Tillier, Pascal Demolon, Norbert Ferrer, Louna Espinosa, Tella Kpomahou, Xavier Alcan"
+http://www.wikidata.org/entity/Q124250975,Boneyard,2024,,Asif Akbar,"50 Cent, Mel Gibson, Nora Zehetner, Brian Van Holt, Gabrielle Haugh"
+http://www.wikidata.org/entity/Q124353875,Play Dirty,2025,,Shane Black,"Thomas Jane, Tony Shalhoub, Mark Wahlberg, Dermot Mulroney, Chuk Iwuji, Nat Wolff, Keegan-Michael Key, Rosa Salazar, LaKeith Stanfield"
+http://www.wikidata.org/entity/Q124169125,Two To One,2024,116,Natja Brunckhorst,"Sandra Hüller, Max Riemelt, Ronald Zehrfeld, Martin Brambach, Peter Kurth"
+http://www.wikidata.org/entity/Q109355923,The Roundup,2022,106,Lee Sang-yong,"Ma Dong-seok, Ha Jun, Choi Gwi-hwa, Nam Mun-cheol, Park Ji-young, Son Seok-koo, Heo Dong-won, Park Ji-hwan, Jeong Jaekwang"
+http://www.wikidata.org/entity/Q111946850,Bogota: City of the Lost,2024,108,Kim Seong-je,"Song Joong-ki, Lee Hee-joon, Kwon Hae-hyo, Cho Hyun-chul, Kim Jong-soo, Park Ji-hwan"
+http://www.wikidata.org/entity/Q124352605,Honey Don't!,2025,89,Ethan Coen,"Aubrey Plaza, Charlie Day, Chris Evans, Kristen Connolly, Kale Browne, Don Swayze, Kinna McInroe, Christian Antidormi, Billy Eichner, Talia Ryder, Gabby Beans, Margaret Qualley, Lena Hall, Lera Abova"
+http://www.wikidata.org/entity/Q123941187,Cult Killer,2024,105,Jon Keeyes,"Antonio Banderas, Alice Eve, Shelley Hennig, Paul Reid"
+http://www.wikidata.org/entity/Q124256460,Fountain of Youth,2025,125,Guy Ritchie,"Stanley Tucci, Carmen Ejogo, Natalie Portman, Domhnall Gleeson, John Krasinski, Steve Tran, Eiza Gonzalez, Laz Alonso, Daniel de Bourg, Arian Moayed"
+http://www.wikidata.org/entity/Q123928072,Emilia Pérez,2024,132,Jacques Audiard,"Zoe Saldaña, Selena Gomez, Karla Sofía Gascón, Adriana Paz"
+http://www.wikidata.org/entity/Q109528721,Bull,2021,88,Paul Andrew Williams,"Tamzin Outhwaite, David Hayman, Neil Maskell"
+http://www.wikidata.org/entity/Q111832993,Zillion,2022,138,Robin Pront,"Barbara Sarafian, Matteo Simoni, Frank Vercruyssen, Ella Leyers, Charlotte Timmers, Jonas Vermeulen, Jennifer Heylen"
+http://www.wikidata.org/entity/Q109935139,Overdose,2022,,Olivier Marchal,"Nicolas Cazalé, Alberto Ammann, Assaad Bouab, Sofia Essaïdi"
+http://www.wikidata.org/entity/Q123908641,Inside,2024,,Charles William,"Guy Pearce, Cosmo Jarvis, Tara Morice, Chloé Hayden, Toby Wallace"
+http://www.wikidata.org/entity/Q109726871,The White List,2022,120,Alisa Khazanova,Aleksei Serebryakov
+http://www.wikidata.org/entity/Q112106584,"Franklin, historia de un billete",2022,80,Lucas Vivo García Lagos,"Isabel Macedo, Sofía Gala, Daniel Aráoz, Germán Palacios, Cristian Salguero, Joaquín Ferreira"
+http://www.wikidata.org/entity/Q113269780,Melchior the Apothecary. The Ghost,2022,90,Elmo Nüganen,"Simeoni Sundja, Riina Maidre, Fatme Helge Leevald, Ursel Tilk, Maarja Johanna Mägi, Aleksandr Popov, Ken Rüütel, Kert Mõttus, Margus Roosipuu, Dain Muru, Maris Nõlvak, Eduard Tee, Martin Kork, Märten Metsaviir, Loviise Kapper, Silva Pijon, Tiia Lauring, Marko Matvere, Alo Kurvits, Alo Kõrve, Carmen Mikiver, Eduard Salmistu, Jaan Pehk, Raivo Trass, Mait Malmsten, Egon Nuter, Volli Käro, Rain Simmul, Tiit Palu, Tarmo Männard"
+http://www.wikidata.org/entity/Q113320738,La pena máxima,2022,107,Michel Gomez,Emanuel Soriano
+http://www.wikidata.org/entity/Q112072761,Jana Gana Mana,2022,162,Dijo Jose Antony,"Mamta Mohandas, Prithviraj Sukumaran, Suraj Venjaramoodu, Sri Divya, Shammi Thilakan, Vincy Aloshious"
+http://www.wikidata.org/entity/Q112326962,The Takeover,2022,88,Annemarie van de Mond,"Géza Weisz, Frank Lammers, Walid Benmbarek, Noortje Herlaar, Holly Mae Brood, Susan Radder"
+http://www.wikidata.org/entity/Q75077484,Arkansas,2020,115,Clark Duke,"John Malkovich, Liam Hemsworth, Vince Vaughn, Vivica A. Fox, Brad William Henke, Michael K. Williams, Jeff Chase, Barry Primus, Patrick Muldoon, Clark Duke, Jacob Zachar, Eden Brolin"
+http://www.wikidata.org/entity/Q112502979,We Have Never Been Modern,2023,117,Matěj Chlupáček,"Judita Hansman, Anton Šulík ml., Peter Oszlík, Marián Mitaš, Martha Issová, Eliska Krenková, Ladislav Hampl, Miloslav König, Ivo Gogál, Martin Siničák, Andrea Bučko, Antonín Hardt, Ján Jackuliak, Viktor Zavadil, Luboš Veselý, Milan Ondrík, Dávid Hartl, Albín Medúz, Martin Šalacha, Pavel Moravec, Ivan Kozák, Viktória Petrášová, Richard Langdon, Iveta Dušková, Martin Veliký, Ondřej Dvořák, Zuzana Konečná"
+http://www.wikidata.org/entity/Q108933856,Son of Mercy,2020,120,Amen Imasuen,"Alex Ekubo, Kelvin Ikeduba, Linda Osifo"
+http://www.wikidata.org/entity/Q124257357,Mea Culpa,2024,,Tyler Perry,"Kelly Rowland, RonReaco Lee, Trevante Rhodes, Kerry O'Malley, Angela Robinson, Shannon Thornton, Sean Sagar, Arianna Barron, Connor Weil, Nick Sagar"
+http://www.wikidata.org/entity/Q74560421,The Big Bull,2021,,Kookie V. Gulati,"Abhishek Bachchan, Mahesh Manjrekar, Ileana D'Cruz, Ram Kapoor, Saurabh Shukla, Sumit Vats, Sameer Soni, Nikita Dutta, Sohum Shah, Sanjeev Pandey"
+http://www.wikidata.org/entity/Q124323601,Bhakshak,2024,135,Pulkit,"Aditya Shrivastava, Sai Tamhankar, Sanjay Mishra, Bhumi Pednekar"
+http://www.wikidata.org/entity/Q70373108,The Little Things,2021,128,John Lee Hancock,"Denzel Washington, Rami Malek, Jared Leto"
+http://www.wikidata.org/entity/Q111944684,Unfinished Affairs,2022,103,Juan Miguel del Castillo,"Natalia de Molina, Mona Martínez, Fred Adenis"
+http://www.wikidata.org/entity/Q124324579,Vallan,2022,,,"Chandini Tamilarasan, Kamal Kamaraju, Sundar C, Thalaivasal Vijay, Hebah Patel, Abhirami Venkatachalam, Tanya Hope"
+http://www.wikidata.org/entity/Q105685552,The Goldfinger,2023,126,Felix Chong,"Andy Lau, Simon Yam, Charlene Choi, Tony Leung, Alex Fong"
+http://www.wikidata.org/entity/Q105730524,Silence... Can You Hear It?,2021,,,"Prachi Desai, Manoj Bajpai, Hitha Chandrashekar, Arjun Mathur, Vaquar Shaikh, Shishir Sharma, Denzil Smith, Barkha Singh, Sahil Vaid"
+http://www.wikidata.org/entity/Q73482864,The Day We Died,2020,106,Ole Christian Madsen,"Nikolaj Coster-Waldau, Sonja Richter, Lars Brygmann, Ken Vedsegaard, Jakob Oftebro, Nicolaj Kopernikus, Henrik Birch, Helene Egelund, Gordon Kennedy, Henrik Vestergaard, Kim Bildsøe Lassen, Marie Louise Wille, Martin Greis, Michael Brostrup, Peter Flyvholm, Steffen Gram, Stig Hoffmeyer, Vivienne McKee, Anders Brink Madsen, Aske Bang, Bo Carlsson, Katrine Greis-Rosenthal, Ghita Lehrmann, Mohamed Djeziri, Albert Arthur Amiryan, Afshin Firouzi, Christian ""Krølle"" Pedersen, Sidsel Siem Koch, Amany Turk"
+http://www.wikidata.org/entity/Q123985273,Amsterdamned II,2025,,Dick Maas,"Ruben Brinkman, Tatum Dagelet, Bas Keijzer, Dunya Khayame, Mattijn Hartemink, Pierre Bokma, Huub Stapel, Holly Mae Brood, Tarik Moree"
+http://www.wikidata.org/entity/Q71476363,The Goya Murders,2021,95,Gerardo Herrero,"Roberto Alamo, Maribel Verdú, Ruth Gabriel, Aura Garrido, Daniel Grao, Ginés García Millán"
+http://www.wikidata.org/entity/Q73896894,Cherry,2021,142,"Anthony Russo, Joe Russo","Ciara Bravo, Tom Holland"
+http://www.wikidata.org/entity/Q71954796,Radhe,2020,,Prabhu Deva,"Salman Khan, Jackie Shroff, Zarina Wahab, Randeep Hooda, Gautam Gulati, Bharath, Govind Namdev, Disha Patani, Arjun Kanungo, Megha Akash"
+http://www.wikidata.org/entity/Q114073514,Diabolik: Ginko Attacks,2022,116,"Antonio Manetti, Marco Manetti","Monica Bellucci, Miriam Leone, Valerio Mastandrea, Pier Giorgio Bellocchio, Andrea Roncato, Urbano Barberini, Alessio Lapice, Diodato, G-Max, Simone Leonardi, Giacomo Gianniotti, Linda Caridi, Ester Pantano, Amanda Campana, Bernardo Casertano, Marco Bonadei, Giacomo Giorgio, Pierangelo Menci, Gustavo Frigerio"
+http://www.wikidata.org/entity/Q113696198,The Crime Is Mine,2023,102,François Ozon,"Isabelle Huppert, André Dussollier, Dany Boon, Fabrice Luchini, Myriam Boyer, Daniel Prévost, Jean-Christophe Bouvet, Rebecca Marder, Régis Laspalès, Évelyne Buyle, Nadia Tereszkiewicz, Édouard Sulpice, Suzanne de Baecque, Félix Lefebvre"
+http://www.wikidata.org/entity/Q105319897,See How They Run,2022,98,Tom George,"Adrien Brody, David Oyelowo, Saoirse Ronan, Sam Rockwell, Shirley Henderson, Ruth Wilson, Pippa Bennett-Warner, Harris Dickinson, Charlie Cooper, Lucian Msamati, Paul Chahidi, Tim Key, Jacob Fortune-Lloyd, Pearl Chanda, Sian Clifford"
+http://www.wikidata.org/entity/Q72848555,How I Became a Super Hero,2020,97,Douglas Attal,"Benoît Poelvoorde, Swann Arlaud, Vimala Pons, Pio Marmaï, Cédric Anger, Leïla Bekhti, Benjamin Lavernhe"
+http://www.wikidata.org/entity/Q123708153,Hardcore Never Dies,2023,,Jim Taihuttu,"Joes Brauers, Jim Deddes"
+http://www.wikidata.org/entity/Q124348204,Don't Buy the Seller,2024,102,Park Hee-gon,"Shin Hae-sun, Kim Sung-kyun, Im Chul-soo"
+http://www.wikidata.org/entity/Q105840301,Cocaine Bear,2023,95,Elizabeth Banks,"Ray Liotta, Keri Russell, Matthew Rhys, Jesse Tyler Ferguson, Alden Ehrenreich, Margo Martindale, Hannah Hoekstra, Isiah Whitlock Jr., Kristofer Hivju, O'Shea Jackson Jr., Brooklynn Prince, Scott Seiss, Leo Hanna, Ayoola Smart, Aaron Holliday, J.B. Moore, Shane Connellan, George Kerslake, New York, Christian Convery, Kahyun Kim, Conor Lambert"
+http://www.wikidata.org/entity/Q73549619,I'm Your Woman,2020,120,Julia Hart,"Frankie Faison, Arinze Kene, Marceline Hugot, Marsha Stephanie Blake, Bill Heck, Rachel Brosnahan"
+http://www.wikidata.org/entity/Q113685772,Pain Hustlers,2023,122,David Yates,"Catherine O'Hara, Emily Blunt, Chris Evans, Andy Garcia, Brian d'Arcy James, Jay Duplass, Chloe Coleman"
+http://www.wikidata.org/entity/Q114391601,Lost & Found,2022,100,Jorge Dorado,"Verónica Echegui, María Eugenia Suárez, Álvaro Morte"
+http://www.wikidata.org/entity/Q114142833,Lou,2022,107,Anna Foerster,"Allison Janney, Logan Marshall-Green"
+http://www.wikidata.org/entity/Q114056520,The Boys,2022,124,Chung Ji-young,"Yu Jun-sang, Sul Kyung-gu, Kim Dong-yeong, Jin Kyeong, Yeom Hye-ran, Heo Sung-tae"
+http://www.wikidata.org/entity/Q114414622,Kill Boksoon,2023,137,Byun Sung-hyun,"Hwang Jung-min, Sul Kyung-gu, Jeon Do-yeon, Esom, Koo Kyo-hwan, Kim Si-a, Lee Yeon"
+http://www.wikidata.org/entity/Q124512337,Highest 2 Lowest,2025,133,Spike Lee,"A$AP Rocky, Denzel Washington, Jeffrey Wright, Wendell Pierce, Dean Winters, John Douglas Thompson, Michael Potts, Ice Spice, Aubrey Joseph, Ilfenesh Hadera, LaChanze"
+http://www.wikidata.org/entity/Q105773076,One Way,2022,95,Andrew Baird,"Travis Fimmel, Machine Gun Kelly, Kevin Bacon"
+http://www.wikidata.org/entity/Q123600208,City of Love,2023,81,,"Myron Donley, Daniel Reed Ferrell, Heidi Méndez, Samuel Garnett, Paul Dinh-McCrillis, Taylor Nichols, Bunny Gibson, Robert DeCesare, Mario Tardón, Kathryn Schott"
+http://www.wikidata.org/entity/Q124163908,Uch Qahramon,2023,,Shoxrux Rasulov,"Shoxrux Xamdamov, Mokhlaroy Sobirova, Gayrat Boymirzaev, Ulug’bek Qodirov"
+http://www.wikidata.org/entity/Q105123073,To Catch a Killer,2023,119,Damián Szifron,"Shailene Woodley, Ralph Ineson, Ben Mendelsohn, Rosemary Dunsmore, Arthur Holden, Michael Cram, Jovan Adepo"
+http://www.wikidata.org/entity/Q124439306,Deep Cover,2025,100,Tom Kingsley,"Orlando Bloom, Paddy Considine, Bryce Dallas Howard, Sean Bean, Ian McShane, Nick Mohammed"
+http://www.wikidata.org/entity/Q105165329,Below Zero,2021,106,Lluis Quilez,"Karra Elejalde, Florin Opritescu, Andrés Gertrúdix, Isak Ferriz, Javier Gutiérrez, Patrick Criado, Luis Callejo, Àlex Monner, Miquel Gelabert Bordoy, Édgar Vittorino"
+http://www.wikidata.org/entity/Q105773097,Karen,2022,,Coke Daniels,"Gregory Alan Williams, Taryn Manning, Cory Hardrict, Jasmine Burke, Brandon Sklenar"
+http://www.wikidata.org/entity/Q113681035,Un crimen argentino,2022,113,Lucas Combina,"Darío Grandinetti, Nicolás Francella, Rita Cortese, César Bordón, Luis Luque, Malena Sánchez, Alberto Ajaka, Matías Mayer"
+http://www.wikidata.org/entity/Q114144283,Hell Dogs,2022,138,Masato Harada,"Miyavi, Kazuki Kitamura, Kentaro Sakaguchi, Arisa Nakajima, Mitsuo Yoshihara, Yasumasa Ōba, Ayaka Koyanagi, Kyoko, Shinobu Ōtake, Junichi Okada, Jun Murakami, Ukon Onoe II, Mayu Matsuoka, Mariko Akama, Satoshi Kanada, Yoshi Sakō, Miō Tanaka, Mai Kiryu"
+http://www.wikidata.org/entity/Q113757659,How to Blow Up a Pipeline,2022,103,Daniel Goldhaber,"Irene Bedard, Jake Weary, Kristine Froseth, Ariela Barer, Forrest Goodluck, Marcus Scribner, Sasha Lane, Lukas Gage, Jayme Lawson"
+http://www.wikidata.org/entity/Q124457500,Abudeka Is Back,2024,120,Hiroto Hara,"Tōru Nakamura, Hiroshi Tachi, Atsuko Asano, Kyōhei Shibata"
+http://www.wikidata.org/entity/Q124619219,Doctor Bakshi,2023,,,"Subhashree Ganguly, Akshay Kapoor, Parambrata Chatterjee, Bonny Sengupta"
+http://www.wikidata.org/entity/Q124727078,The Trade,2023,,Jadesola Osiberu,"Rita Dominic, Chiwetalu Agu, Mercy Aigbe Gentry, Kelechi Udegbe, Shawn Faqua, Dénola Grey, Franca Brown, Stan Nze, Gregory Ojefua, Nengi Adoki, Gideon Okeke, Ali Nuhu, Uru Eke, Blossom Chukwujekwu, Calabar Chic"
+http://www.wikidata.org/entity/Q113687992,10 palomas,2021,83,Tamae Garateguy,"Guillermo Pfening, Nancy Dupláa, César Bordón, Alexia Moyano, Alberto Ajaka"
+http://www.wikidata.org/entity/Q124361624,Legítima defensa,2022,97,Andrea Braga,"Violeta Urtizberea, Javier Drolas, Alfonso Tort"
+http://www.wikidata.org/entity/Q114282407,Mistress of the Devil,2022,,Aimar Labaki,"Miriam Mehler, Débora Duboc, Marcos Breda, Marina Mathey, Thaia Perez"
+http://www.wikidata.org/entity/Q124652102,Sada Ronger Prithibi,2024,,,"Arindam Sil, Srabanti Chatterjee, Sauraseni Maitra"
+http://www.wikidata.org/entity/Q105112819,The Vault,2021,118,Jaume Balagueró,"Tomás del Estal, Julio Vélez, Fernando Moraleda, Pino Montesdeoca, Silvia de Pé, Joaquín Molla, Phillip Rogers, Ramón Robles, Josan Grau, Mario Mayo, Robert Crumpton, Juan Dávila, Ferran Terraza, Pepe Carrasco, Juan Pedro Roldán, Josean Guerrero, Ángel López Soto, Vicente Gil, Jacobo Dicenta, Frank Feys, Daniel Holguín, Simon Cohen, James Giblin, Fernando Martín, Bill Dixon, Reg Wilson, Julius Cotter, Craig Stevenson, Chen Lu, Hunter Tremayne, Del Mar Richardson, David Chevers, Ignacio Duran, Juan Capilla, Freddie Highmore, Famke Janssen, Astrid Berges-Frisbey, Axel Stein, Luis Tosar, Emilio Gutiérrez Caba, Liam Cunningham, Sam Riley, José Coronado, Eric Goode"
+http://www.wikidata.org/entity/Q124610230,Martedì e venerdì,2024,105,"Alessio De Leonardis, Fabrizio Moro","Edoardo Pesce, Giorgio Caputo, Adamo Dionisi, Rosa Diletta Rossi, Josafat Vagni"
+http://www.wikidata.org/entity/Q124464617,She Rides Shotgun,2025,120,Nick Rowland,"John Carroll Lynch, David Lyons, Odessa A'zion, Taron Egerton, Rob Yang"
+http://www.wikidata.org/entity/Q73877771,The Fallen,2020,,Lee Cheuk Pan,Irene Wan
+http://www.wikidata.org/entity/Q119892802,Force of Nature: The Dry 2,2024,120,Robert Connolly,Eric Bana
+http://www.wikidata.org/entity/Q120135479,Confidential Informant,2023,88,Michael Oblowitz,"Mel Gibson, Kate Bosworth, Dominic Purcell"
+http://www.wikidata.org/entity/Q73535930,Blue Story,2020,,Rapman,"Khali Best, Jo Martin, Karla-Simone Spence, Richie Campbell, Rohan Nedd, Junior Afolabi Salokun, Eric Kofi-Abrefa, Kadeem Ramsay, Andre Dwayne, Micheal Ward, Stephen Odubola, Duayne Boachie"
+http://www.wikidata.org/entity/Q124622268,The Three Investigators – Carpathian Dog,2025,,Tim Dünschede,"Julius Weckauf, Nevio Wendt, Levi Brandl"
+http://www.wikidata.org/entity/Q120073091,The Good Mother,2023,90,Miles Joris-Peyrafitte,"Hilary Swank, Jack Reynor, Olivia Cooke, Hopper Penn"
+http://www.wikidata.org/entity/Q127324468,Fuze,2025,98,David Mackenzie,"Aaron Taylor-Johnson, Sam Worthington, Theo James, Gugu Mbatha-Raw, Honor Swinton Byrne, Saffron Hocking"
+http://www.wikidata.org/entity/Q127382372,After the Hunt,2025,138,Luca Guadagnino,"Andrew Garfield, Julia Roberts, Chloë Sevigny, Michael Stuhlbarg, Lío Mehiel, Thaddea Graham, Ayo Edebiri"
+http://www.wikidata.org/entity/Q69400860,A Sun,2020,155,Chung Mong-hong,"Liu Kuan-ting, Greg Hsu, Wu Jian-He, Samantha Shu-Chin Ko, Ivy Yin, Wen Chen-ling, Chen Yi Wen"
+http://www.wikidata.org/entity/Q120089662,The Dirty South,2023,,,"Shane West, Dermot Mulroney, Willa Holland"
+http://www.wikidata.org/entity/Q120333467,The Cleaner,2021,93,Erin Elders,"Lynda Carter, Luke Wilson, Shelley Long, Eden Brolin, Shiloh Fernandez"
+http://www.wikidata.org/entity/Q120577065,Wingwomen,2023,114,Mélanie Laurent,"Mélanie Laurent, Adèle Exarchopoulos"
+http://www.wikidata.org/entity/Q126617497,Golam,2024,,,"Sidhique, Dileesh Pothan, Ranjith Sajeev, Sunny Wayne, Alencier Ley Lopez"
+http://www.wikidata.org/entity/Q127118132,Coolie,2025,170,Lokesh Kanagaraj,"Shruti Haasan, Rajinikanth, Aamir Khan, Pooja Hegde, Charle, Shobana, Sathyaraj, Akkineni Nagarjuna, Mahesh Manjrekar, Upendra, Ajay, Baburaj, Soubin Shahir, Reba Monica John, Lollu Sabha Maaran, Kanna Ravi, Monisha Blessy, Rocky Rajesh, Rachita Ram, Kaali Venkat, Kabali Vishwanth, Dileepan, Ravi Raghavendra"
+http://www.wikidata.org/entity/Q110140881,Nürnberg,2023,,Nikolai Lebedev,"Joachim Paul Assböck, Laura Bach, Wolfgang Cerny, Marek Vašut, László I. Kish, Sergey Bezrukov, Alexey Bardukov, Igor Petrenko, Zurab Kipshidze, Pavel Davydov, Aleksandr Kakhun, Jochen Kolenda, Yevgeny Mironov, Ludwig Hollburg, Klaus Schindler, Alain Blazevic, Carsten Norgaard, Dmitry Brauer, Charlotte Harwood, Christian Harting, Tatyana Gubina, Michael Epp, Jindřich Jíra, Marc Fischer, Elizaveta Yuryeva, Sergej Kempo, Georges Devdariani, Thorsten Krohn, Milan Deutsch, Aneta Kernová, Vilma Frantová, Matěj Havelka, Markus Kunze"
+http://www.wikidata.org/entity/Q110473332,Caliber 9,2020,90,Toni D'Angelo,"Kseniya Rappoport, Michele Placido, Barbara Bouchet, Alessio Boni, Marco Bocci"
+http://www.wikidata.org/entity/Q123511612,Riff Raff,2024,103,Dito Montiel,"Bill Murray, Ed Harris, Gabrielle Union, Jennifer Coolidge, Dustin Hoffman, Roger Guenveur Smith, Scott Michael Campbell, Brooke Dillman, Pete Davidson, P. J. Byrne, Lewis Pullman, Emanuela Postacchini, Michael Angelo Covino"
+http://www.wikidata.org/entity/Q110077792,Resurrection,2022,103,Andrew Semans,"Tim Roth, Rebecca Hall, Michael Esper, Grace Kaufman"
+http://www.wikidata.org/entity/Q129906152,No Other Choice,2025,139,Park Chan-wook,"Yoo Yeon-seok, Lee Byung-hun, Son Ye-jin, Park Hee-soon, Cha Seung-won, Lee Sung-min, Yeom Hye-ran, Yoon Gai"
+http://www.wikidata.org/entity/Q127384884,Guns & Moses,2024,,Salvador Litvak,"Christopher Lloyd, Dermot Mulroney, Alona Tal, Craig Sheffer, Jake Busey, Ed Quinn, Neal McDonough, Mercedes Mason, Mark Feuerstein, Gabrielle Ruiz, Zach Villa"
+http://www.wikidata.org/entity/Q120926227,Maria Wern – Vinna eller försvinna,2023,,,"Eva Röse, Erik Johansson, Peter Perski, Lola Zackow"
+http://www.wikidata.org/entity/Q120926248,Maria Wern – Plats 89,2023,,,"Eva Röse, Erik Johansson, Peter Perski, Lola Zackow"
+http://www.wikidata.org/entity/Q120926253,Maria Wern – Jacqueline,2023,,,"Eva Röse, Erik Johansson, Peter Perski, Lola Zackow"
+http://www.wikidata.org/entity/Q120926266,Maria Wern – Ett tidigare Liv,2023,,,"Eva Röse, Erik Johansson, Peter Perski, Lola Zackow"
+http://www.wikidata.org/entity/Q121085761,Den of Thieves 2: Pantera,2025,,Christian Gudegast,"Gerard Butler, Cristian Solimeno, Velibor Topic, O'Shea Jackson Jr., Evin Ahmad, Michael Bisping, Rico Verhoeven, Fortunato Cerlino, Ciryl Gane, Yasen Zates Atour, Salvatore Esposito, Nazmiye Oral, Meadow Williams, Antonio Bustorff, Swen Temmel, Giuseppe Schillaci, Orli Shuka"
+http://www.wikidata.org/entity/Q110039575,Emily the Criminal,2022,97,John Patton Ford,"Gina Gershon, Aubrey Plaza, Megalyn Echikunwoke, Theo Rossi, Rif Hutton, Ben Rodgers, Brandon Sklenar, Jonathan Avigdori, Janice Sonia Lee, Wesley Han, Wyatt Barrios, Lamar Usher, Tomas Pais, Kimiko Singer, Sheila Korsi, Jack Topalian, Bernardo Badillo, Amje Elharden, Ricarlo Flanagan"
+http://www.wikidata.org/entity/Q110208165,Clean,2021,94,Paul Solet,"Adrien Brody, RZA, Mykelti Williamson, Glenn Fleshler"
+http://www.wikidata.org/entity/Q110429067,The Hound of the Baskervilles: Sherlock the Movie,2022,119,Hiroshi Nishitani,"Ryōko Hirosue, Kuranosuke Sasaki, Masahiko Nishimura, Dean Fujioka, Kōtarō Koizumi, Izumi Inamori, Maho Yamada, Takanori Iwata, Yūko Araki, Kippei Shiina, Kiyohiko Shibukawa, Nijirō Murakami"
+http://www.wikidata.org/entity/Q123144592,Clean Up Crew,2024,,Jon Keeyes,"Melissa Leo, Antonio Banderas, Jonathan Rhys Meyers, Andy Kellegher, Laurence Kinlan, Ekaterina Baker"
+http://www.wikidata.org/entity/Q110687185,The Execution,2021,130,Lado Kvataniya,"Victoria Tolstoganova, Yuliya Snigir, Daniil Spivakovsky, Igor Savochkin, Yevgeny Tkachuk, Aglaya Tarasova"
+http://www.wikidata.org/entity/Q123308639,In Love and Deep Water,2023,127,Yûsuke Taki,"Saki Takaoka, Ryo Yoshizawa, Rinko Kikuchi, Yoshimasa Kondo, Aoi Miyazaki, Hatsunori Hasegawa, Yō Yoshida, Ken Yasuda, Tomu Miyazaki, Airi Matsui, Yūki Izumisawa, Hidekazu Mashima, Nahana, Kento Nagayama, Ken Mitsuishi, Miyu Hayashida, Ogai Rumika, Takashi Okabe, Amane Okayama, Aju Makita, Yunho"
+http://www.wikidata.org/entity/Q123565767,Prison in the Andes,2023,105,Felipe Carmona,"Alejandro Trejo, Óscar Hernández, Hugo Medina, Mauricio Pešutić, Bastián Bodenhöfer, Andrew Bargsted"
+http://www.wikidata.org/entity/Q120719533,Within Seconds,2023,121,,"Sidhique, Santhosh Keezhattoor, Indrans, Sarayu, Sunil Sukhada, Sudheer Karamana, Narayanankutty, Seema G. Nair, Thalaivasal Vijay, Neena Kurup, Alencier Ley Lopez"
+http://www.wikidata.org/entity/Q123147712,Fragmentada,2023,103,Facundo Escudero Salinas,"César Bordón, Beatriz Spelzini, Jazmín Stuart"
+http://www.wikidata.org/entity/Q123470934,In for a Murder,2021,,Piotr Mularuk,"Dorota Segda, Szymon Bobrowski, Rafał Królikowski, Piotr Adamczyk, Paweł Domagała, Anna Smołowik, Jacek Knap, Olga Sarzyńska, Przemysław Stippa"
+http://www.wikidata.org/entity/Q123394983,Vela,2023,148,,"Sunny Wayne, Sidharth Bharathan, Shane Nigam, Aditi Balan"
+http://www.wikidata.org/entity/Q119846446,La Usurpadora: The Musical,2023,115,Santiago Limón,"Isabella Castillo, Jesús Ochoa, Alan Estrada, Susana Zabaleta"
+http://www.wikidata.org/entity/Q120965393,Kurukkan,2023,125,Jayalal Divakaran,"Vineeth Sreenivasan, Ansiba Hassan, Sreenivasan, Malavika Menon, Shine Tom Chacko, Sruthy Jayan, Srikanth Murali, Sudheer Karamana, Joji-John, Azees Nedumangad, Aswath Lal, Gowri Nandha, Mareena Michael Kurisingal, Sohan Seenulal"
+http://www.wikidata.org/entity/Q123354370,The Tipping Point,2022,,David Lam,"Eric Tsang, Qin Hailu, Julian Cheung, Ng Man-tat, Ray Lui, Marc Ma, Zhou Yiwei, Cheng Shu Fung, John Ching, Yishang Zhang"
+http://www.wikidata.org/entity/Q123246458,Dados,2023,,,"Rafik Boubker, Majdouline Idrissi, Souad Alaoui, Ibtissam Laaroussi, Sandia Tajdin, El Mehdi Foulane"
+http://www.wikidata.org/entity/Q120914182,Adagio,2023,127,Stefano Sollima,"Pierfrancesco Favino, Toni Servillo, Adriano Giannini, Valerio Mastandrea"
+http://www.wikidata.org/entity/Q110520963,Cato,2021,105,Peta Rivero y Hornos,"Diego Mesaglio, Magela Zanotta, Daniel Aráoz, Alberto Ajaka, Walter Donado, Tiago PZK"
+http://www.wikidata.org/entity/Q127785576,Sicilian Letters,2024,122,"Fabio Grassadonia, Antonio Piazza","Barbora Bobulová, Toni Servillo, Elio Germano"
+http://www.wikidata.org/entity/Q127700776,Kill the Jockey,2024,96,Luis Ortega,"Úrsula Corberó, Daniel Giménez Cacho, Nahuel Pérez Biscayart, Mariana di Girolamo"
+http://www.wikidata.org/entity/Q127602909,Dog 51,2025,106,Cédric Jiménez,"Louis Garrel, Romain Duris, Gilles Lellouche, Adèle Exarchopoulos, Hugo Dillon, Lala &ce, Stéphane Bak"
+http://www.wikidata.org/entity/Q119549900,Juror #2,2024,114,Clint Eastwood,"Francesca Eastwood, Cedric Yarbrough, Gabriel Basso, Adrienne C. Moore, Kiefer Sutherland, Zoey Deutch, Toni Collette, J. K. Simmons, Nicholas Hoult, Leslie Bibb, Chris Messina, Amy Aquino"
+http://www.wikidata.org/entity/Q123354297,Dust to Dust,2023,112,Jonathan Li Tsz-Chun,"Qi Xi, Dong Chengpeng, Gordon Lam, Sunny Sun, Zhang Songwen"
+http://www.wikidata.org/entity/Q119625136,Marmalade,2024,99,Keir O'Donnell,"Aldis Hodge, Joe Keery, Camila Morrone"
+http://www.wikidata.org/entity/Q110237375,No Looking Back,2021,101,Kirill Sokolov,"Aleksandr Yatsenko, Anna Mikhalkova"
+http://www.wikidata.org/entity/Q110609227,The Crime,2022,,Sherif Arafa,"Ahmed Ezz, Maged el-Kedwany, Sayed Ragab, Hajjaj Abdul Azim, Ryad El Khouly, Menna Shalabi, Mohamed Goma"
+http://www.wikidata.org/entity/Q127271260,Aranyar Prachin Probad,2024,,,"Silajit Majumder, Jeetu Kamal, Rafiath Rashid Mithila"
+http://www.wikidata.org/entity/Q127596335,Green Bones,2024,96,Zig Madamba Dulay,"Kylie Padilla, Michael de Mesa, Dennis Trillo, Ronnie Lazaro, Iza Calzado, Alessandra De Rossi, Royce Cabrera, Sienna Stevens, Ruru Madrid, Pauline Mendoza, Sofia Pablo"
+http://www.wikidata.org/entity/Q123110536,Garudan,2023,138,,"Dileesh Pothan, Dinesh Prabhakar, Arjun Nandhakumar, Jayan Cherthala, Divya Pillai, Jagadish, Major Ravi, Abhirami, Biju Menon, Midhun Manuel Thomas, Thalaivasal Vijay, Sidhique, Prem Prakash, Sadiq, Suresh Gopi, Nishanth Sagar"
+http://www.wikidata.org/entity/Q120749752,Blaga’s Lessons,2023,114,Stephan Komandarev,"Ivan Barnev, Eli Skorcheva, Stefan Denolyubov"
+http://www.wikidata.org/entity/Q128799592,Simbaa,2024,,,"Jagapati Babu, Anasuya"
+http://www.wikidata.org/entity/Q129497832,In Her Place,2024,89,Maite Alberdi,"Elisa Zulueta, Francisca Lewin"
+http://www.wikidata.org/entity/Q128153011,Bound in Heaven,2024,105,,"Ni Ni, Liao Fan"
+http://www.wikidata.org/entity/Q120993191,Touch,2022,8,Justin Burquist,"Nick Young, Ron Christopher Jones, Eva Ceja, Steve Froehlich, Randy Davison, Jayce Venditti"
+http://www.wikidata.org/entity/Q123354208,Troll Factory,2024,,Ahn Gooc-jin,"Kim Sung-cheol, Hong Kyung, Son Seok-koo, Kim Dong-hwi"
+http://www.wikidata.org/entity/Q110638001,Amandla,2022,106,Nerina De Jager,"Lemogang Tsipa, Thabo Rametsi, Paballo Koza, Charles Bouguenon"
+http://www.wikidata.org/entity/Q119893109,Hounds,2023,94,Kamal Lazraq,Salah Bensalah
+http://www.wikidata.org/entity/Q123116154,White Punjab,2023,,,"Kartar Cheema, Samuel John, Kaka"
+http://www.wikidata.org/entity/Q117842470,Maggie Moore(s),2023,99,John Slattery,"Tina Fey, Jon Hamm, Nick Mohammed"
+http://www.wikidata.org/entity/Q120495641,Nahir,2024,122,Hernán Guerschuny,Valentina Zenere
+http://www.wikidata.org/entity/Q104830968,Amsterdam,2022,134,David O. Russell,"Taylor Swift, Robert De Niro, Christian Bale, Michael Shannon, Chris Rock, Zoe Saldaña, Mike Myers, Timothy Olyphant, Matthias Schoenaerts, Rami Malek, Dey Young, Leland Orser, Alessandro Nivola, Margot Robbie, John David Washington, Andrea Riseborough, Anya Taylor-Joy, Bonnie Hellman"
+http://www.wikidata.org/entity/Q116470707,Wolfs,2024,108,Jon Watts,"George Clooney, Amy Ryan, Brad Pitt, Austin Abrams, Poorna Jagannathan"
+http://www.wikidata.org/entity/Q130742503,Roofman,2025,126,Derek Cianfrance,"Channing Tatum, Kirsten Dunst, Juno Temple, Ben Mendelsohn, Melonie Diaz, Molly Price, Peter Dinklage, Tony Revolori, LaKeith Stanfield, Jimmy O. Yang, Punkie Johnson, Emory Cohen, Uzo Aduba, Lily Collias"
+http://www.wikidata.org/entity/Q117842585,Blood for Dust,2023,,,"Ethan Suplee, Scoot McNairy, Kit Harington, Nora Zehetner"
+http://www.wikidata.org/entity/Q118042843,AKA,2023,122,,"Eric Cantona, Philippe Résimont, Thibault de Montalembert, Alban Lenoir, Sveva Alviti"
+http://www.wikidata.org/entity/Q117842570,The Retirement Plan,2023,103,Tim Brown,"Nicolas Cage, Ashley Greene, Jackie Earle Haley, Ron Perlman, Joel David Moore"
+http://www.wikidata.org/entity/Q126720842,A Green Fever,2023,86,,Deyemi Okanlawon
+http://www.wikidata.org/entity/Q118188701,Dangerous Gentlemen,2023,,Maciej Kawalski,"Andrzej Seweryn, Jacek Koman, Anna Seniuk, Łukasz Simlat, Andrzej Bienias, Grzegorz Mielczarek, Modest Ruciński, Rafał Maćkowiak, Wojciech Mecwaldowski, Tomasz Kot, Joanna Banasik, Joanna Drozda, Klaudiusz Kaufmann, Ludwik Borkowski, Marcin Dorociński, Michał Czernecki, Mirosław Neinert, Sasza Reznikow, Joanna Gryga, Michał Baran, Sebastian Stankiewicz, Wiktoria Gorodeckaja, Anna Terpiłowska, Anna Smołowik, Marta Ojrzyńska, Paulina Kondrak"
+http://www.wikidata.org/entity/Q115805392,The Alto Knights,2025,123,Barry Levinson,"Robert De Niro, Debra Messing, Louis Mustillo, Kathrine Narducci, Cosmo Jarvis, Bob Glouberman, Matt Servitto, Wallace Langham, Michael Rispoli, Ed Amatrudo, Belmont Cameli, James Ciccone, Carrie Lazar"
+http://www.wikidata.org/entity/Q130123022,Eenie Meanie,2025,94,,"Chris Bauer, Andy Garcia, Mike O'Malley, Marshawn Lynch, Steve Zahn, Randall Park, Samara Weaving, Jermaine Fowler, Elle Graham, Karl Glusman"
+http://www.wikidata.org/entity/Q101245207,The Wolf of Snow Hollow,2020,83,Jim Cummings,"Riki Lindhome, Robert Forster, Marshall Allman, Jimmy Tatro, Jim Cummings, Chloe East"
+http://www.wikidata.org/entity/Q102227477,Hannes,2021,91,Hans Steinbichler,"Jeanette Hain, Hannelore Elsner, Heiner Lauterbach, Lisa Vicari, Leonard Scheicher, Verena Altenberger, Carlo Kalajzic, Johannes Nussbaum"
+http://www.wikidata.org/entity/Q101229556,Orphan: First Kill,2022,98,William Brent Bell,"Julia Stiles, Isabelle Fuhrman, Rossif Sutherland, Hiro Kanagawa"
+http://www.wikidata.org/entity/Q104374134,The Dry,2020,117,Robert Connolly,"John Polson, Eric Bana, Bruce Spence, Jeremy Lindsay Taylor, Julia Blake, Genevieve O'Reilly, James Frecheville, Martin Dingle-Wall, Matthew Nable, Keir O'Donnell, Daniel Frederiksen, Jane Harper, Miranda Tapsell"
+http://www.wikidata.org/entity/Q130569520,The Mastermind,2025,,Kelly Reichardt,"Amanda Plummer, Gaby Hoffmann, Hope Davis, Bill Camp, John Magaro, Matthew Maher, Alana Haim, Rhenzy Feliz, Cole Doman, Josh O'Connor"
+http://www.wikidata.org/entity/Q117816797,"LaRoy, Texas",2023,110,Shane Atkinson,"Bob Clendenin, Steve Zahn, Brad Leland, John Magaro, Dylan Baker, Galadriel Stineman, Matthew Del Negro, Alaina Warren Zachary, Alex Knight, Megan Stevenson, Rio Alexander, Darcy Shean, Vic Browder, Emily Pendergast"
+http://www.wikidata.org/entity/Q104723006,American Night,2021,124,,"Emile Hirsch, Jonathan Rhys Meyers, Maria Grazia Cucinotta, Jeremy Piven, Paz Vega, Marco Leonardi, Mara Lane, Fortunato Cerlino"
+http://www.wikidata.org/entity/Q117843062,Are You Lonesome Tonight?,2021,95,Shipei Wen,"Sylvia Chang, Eddie Peng, Wang Yanhui, Zhang Yu"
+http://www.wikidata.org/entity/Q116431968,Lift,2024,104,F. Gary Gray,"Jean Reno, Sam Worthington, Vincent D'Onofrio, Kevin Hart, Billy Magnussen, Kim Yoon-ji, Jess Liaudin, David Proud, Gugu Mbatha-Raw, Úrsula Corberó, Burn Gorman, Paul Anderson, Jacob Batalon, Viveik Kalra"
+http://www.wikidata.org/entity/Q130248726,Caught Stealing,2025,107,Darren Aronofsky,"Zoë Kravitz, Regina King, Carol Kane, Liev Schreiber, Matt Smith, Griffin Dunne, Vincent D'Onofrio, Austin Butler, Tenoch Huerta, Yuri Kolokolnikov, Action Bronson, Will Brill, D'Pharaoh Woon-A-Tai, Bad Bunny, George Abud"
+http://www.wikidata.org/entity/Q130284176,Carolina Caroline,2025,,,"Kyra Sedgwick, Jon Gries, Kyle Gallner, Samara Weaving"
+http://www.wikidata.org/entity/Q116257424,Woman of the Hour,2023,94,Anna Kendrick,"Anna Kendrick, Pete Holmes, Kelley Jakle, Tony Hale, Nicolette Robinson, Daniel Zovatto, Jedidiah Goodacre, Kathryn Gallagher"
+http://www.wikidata.org/entity/Q116029515,Absolution,2024,112,Hans Petter Moland,"Ron Perlman, Liam Neeson, Yolonda Ross, Daniel Diemer"
+http://www.wikidata.org/entity/Q130569705,The Perfect Gamble,2025,,Danny A. Abeckaser,"David Arquette, Eli Danker, Daniella Pick"
+http://www.wikidata.org/entity/Q116316729,Limbo,2023,109,Ivan Sen,"Simon Baker, Rob Collins, Nicholas Hope, Natasha Wanganeen"
+http://www.wikidata.org/entity/Q116442876,Smugglers,2023,129,Ryoo Seung-wan,"Zo In-sung, Kim Hye-soo, Yum Jung-ah, Go Min-si, Kim Jong-soo, Park Jeong-min"
+http://www.wikidata.org/entity/Q117826145,Natalia Natalia,2022,90,Juan Bautista Stagnaro,"Valentina Bassi, Sofía Gala, Tony Lestingi, Diego Velázquez"
+http://www.wikidata.org/entity/Q100889636,Decision to Leave,2022,138,Park Chan-wook,"Kim Shin-young, Park Hae-il, Tang Wei, Lee Jeong-hyeon, Park Yong-woo, Ko Kyung-pyo, Yoo Seung-mok, Jeong E-suh"
+http://www.wikidata.org/entity/Q104714221,Wild Indian,2021,,Lyle Mitchell Corbine Jr.,"Chaske Spencer, Kate Bosworth, Michael Greyeyes, Scott Haze"
+http://www.wikidata.org/entity/Q116498761,The Actor,2025,98,Duke Johnson,"Tracey Ullman, Toby Jones, Simon McBurney, Joe Cole, André Holland, Gemma Chan, Edward Hogg, Olwen Fouéré, Asim Chaudhry, Tanya Reynolds, Fabien Frankel, Youssef Kerkour, May Calamawy"
+http://www.wikidata.org/entity/Q130484589,Stealing Pulp Fiction,2024,,,"Jason Alexander, Oliver Cooper, Taylor Marie Hill, Jon Rudnitsky, Karan Soni, Cazzie David"
+http://www.wikidata.org/entity/Q104829824,How to Deter a Robber,2020,,,"Gabrielle Carteris, Abbie Cobb, Chris Mulkey, Vanessa Marano, Benjamin Papac"
+http://www.wikidata.org/entity/Q116178439,Unlocked,2023,117,Kim Tae-joon,"Im Si-wan, Park Ho-san, Chun Woo-hee, Kim Hee-won, Jeon Jin-oh, Kim Ye-won"
+http://www.wikidata.org/entity/Q104830609,Into the Deep: The Submarine Murder Case,2020,87,Emma Sullivan,"Peter Madsen, Kim Wall, Emma Sullivan"
+http://www.wikidata.org/entity/Q116232217,Believer 2,2023,,Baik Jong-yul,"Cho Jin-woong, Han Hyo-joo, Cha Seung-won, Oh Seung-hoon, Lee Joo-young, Kim Dong-yeong"
+http://www.wikidata.org/entity/Q102036246,Drishyam 2,2021,140,Jeethu Joseph,"Joy Mathew, Sidhique, Mohanlal, Meena, K. B. Ganesh Kumar, Saikumar, Antony Perumbavoor, Aneesh G. Menon, Dennis Paul, Pauly Valsan, Dinesh Prabhakar, Murali Gopy, Krishna Praba, Anjali Nair, Asha Sarath, Kozhikode Narayanan Nair, Shobha Mohan, Krishna, Esther Anil, Ansiba Hassan"
+http://www.wikidata.org/entity/Q130138166,Broken Rage,2025,62,,"Tadanobu Asano, Nao Ōmori, Nakamura Shidō II, Hakuryu"
+http://www.wikidata.org/entity/Q130598232,The Old Woman with the Knife,2025,120,Min Kyu-dong,"Kim Mu-yeol, Yeon Woo-jin, Kim Kang-woo, Lee Haeyoung, Ok Ja-yeon, Shin Sia, Kim Sung-cheol, Choi Moo-sung"
+http://www.wikidata.org/entity/Q130396871,The Embers,2024,162,Chung Mong-hong,"Chang Chen, Tiffany Hsu, Chin Shih-Chieh, Wang Po-chieh, Mo Tzu-Yi, Frederick Lee, Liu Kuan-ting"
+http://www.wikidata.org/entity/Q100945934,Collectors,2020,,Park Jung-bae,"Lee Je-hoon, Song Yeong-chang, Joo Jin-mo, Lee Jun-hyeok, Lee Seong-uk, Jo Woo-jin, Im Won-hee, Shin Hae-sun, Park Se-wan, Yoon Byung-hee, Park Jin-woo"
+http://www.wikidata.org/entity/Q130553766,Eleven,2025,135,,"Abhirami, Naveen Chandra"
+http://www.wikidata.org/entity/Q130435589,Los justos,2024,80,Martín Piñeiro,"Arturo Puig, Claudia Lapacó, Claudio Rissi"
+http://www.wikidata.org/entity/Q130421430,Silvio (movie),2024,114,,"Paulo Gorgulho, Oscar Filho, Chris Couto, Rodrigo Faro, Adriana Londoño, Duda Mamberti, João Bourbonnais, Johnnas Oliva, Adriano Bolshi, Nilton Bicudo, Norival Rizzo, Polliana Aleixo, Suzy Rêgo"
+http://www.wikidata.org/entity/Q116192946,Last Night of Amore,2023,124,Andrea Di Stefano,"Pierfrancesco Favino, Antonio Gerardi, Francesco Di Leva, Linda Caridi"
+http://www.wikidata.org/entity/Q116465881,Major Grom: The Game,2024,168,Oleg Trofim,"Konstantin Khabensky, Tikhon Zhiznevsky, Matvey Lykov, Tatyana Gubina, Sergey Goroshko, Dmitry Chebotaryov, Aleksei Maklakov, Olga Sutulova, Alexander Seteykin, Andrei Trushin"
+http://www.wikidata.org/entity/Q130299125,Loverboy: Emoties uit,2024,,Cyriel Guds,"Julia Batelaan, Mohammed Azaay, Olaf Ait Tami, Skaffa"
+http://www.wikidata.org/entity/Q113650759,Beverly Hills Cop: Axel F,2024,157,Mark Molloy,"Joseph Gordon-Levitt, Judge Reinhold, Mark Pellegrino, Kevin Bacon, Paul Reiser, Eddie Murphy, John Ashton, Bronson Pinchot, Taylour Paige"
+http://www.wikidata.org/entity/Q115917655,Carry-On,2024,119,Jaume Collet-Serra,Taron Egerton
+http://www.wikidata.org/entity/Q130379726,Shadow,2024,,Jaak Kilmi,Pääru Oja
+http://www.wikidata.org/entity/Q116432477,A Woman in the Shadow,2022,,Jamal Belmejdoub,"Nadia Kounda, Abdellatif Chaouqi, Saida Baaddi, Younes Bouab, Mohamed Khouyi"
+http://www.wikidata.org/entity/Q113668560,The Bikeriders,2023,116,Jeff Nichols,"Mike Faist, Toby Wallace, Michael Shannon, Emory Cohen, Jodie Comer, Damon Herriman, Tom Hardy, Austin Butler, Norman Reedus, Boyd Holbrook, Beau Knapp, Karl Glusman, Happy Anderson"
+http://www.wikidata.org/entity/Q125371155,Another Simple Favor,2025,120,Paul Feig,"Blake Lively, Anna Kendrick, Allison Janney, Alex Newell, Elena Sofia Ricci, Andrew Rannells, Elizabeth Perkins, Aparna Nancherla, Kelly McCormack, Bashir Salahuddin, Henry Golding, Michele Morrone, Chelsea Holmes, Lorenzo de Moor"
+http://www.wikidata.org/entity/Q115804919,Mukundan Unni Associates,2022,128,Abhinav Sunder Nayak,"Tanvi Ram, Noble Babu Thomas, Aarsha Chandini Baiju, Althaf Salim, Arun Kurian, Biju Sopanam, George Kora, Ranjith, Vineeth Sreenivasan, Jagadish, Riya Saira, Sudheesh, Basil Joseph, Suraj Venjaramoodu, Manikandan Pattambi, Sudhi Koppa, Salim Kumar, Sreejith Ravi"
+http://www.wikidata.org/entity/Q124737122,Sovereign,2025,,,"Dennis Quaid, Thomas Mann, Nancy Travis, Martha Plimpton, Nick Offerman, Jacob Tremblay"
+http://www.wikidata.org/entity/Q61117344,The Batman,2022,176,Matt Reeves,"Robert Pattinson, Colin Farrell, Zoë Kravitz, Andy Serkis, Peter Sarsgaard, John Turturro, Rupert Penry-Jones, Charlie Carver, Paul Dano, Luke Roberts, Alex Ferns, Jeffrey Wright, Todd Boyce, Max Carver, Con O'Neill, Barry Keoghan, Will Rowlands, Jimmy Star, Elijah Baker, Zoltan Rencsar, Jay Lycurgo, Janine Harouni, Ed Kear, Elliot Warren, Archie Barnes, Mark Killeen, Joseph Balderrama, Rodrig Andrisan, Jayme Lawson, Bern Collaco, Daniel Eghan, Elena Saurel, Ruth Horrocks"
+http://www.wikidata.org/entity/Q117007959,Sleeping Dogs,2024,110,Adam Cooper,"Karen Gillan, Tommy Flanagan, Russell Crowe, Marton Csokas, Thomas M. Wright, Pacharo Mzembe, Paula Arundell, Elizabeth Blackmore, Lynn Gilmartin, Harry Greenwood"
+http://www.wikidata.org/entity/Q61939510,Last Looks,2022,110,Tim Kirkby,"Mel Gibson, Clancy Brown, Dominic Monaghan, Morena Baccarin, Rupert Friend, Charlie Hunnam, Paul Ben-Victor, Eiza Gonzalez, Lucy Fry, Steve Coulter, Jacob Scipio, Sophie Fatu, Deacon Randle, David Michael-Smith, Rachel Hendrix"
+http://www.wikidata.org/entity/Q60737566,The Burnt Orange Heresy,2020,99,Giuseppe Capotondi,"Mick Jagger, Donald Sutherland, Elizabeth Debicki, Claes Bang"
+http://www.wikidata.org/entity/Q132456674,A Private Life,2025,100,Rebecca Zlotowski,"Daniel Auteuil, Mathieu Amalric, Jodie Foster, Vincent Lacoste, Luàna Bajrami, Virginie Efira"
+http://www.wikidata.org/entity/Q125265183,Love Hurts,2025,83,Jonathan Eusebio,"Cam Gigandet, Daniel Wu, Ke Huy Quan, Lio Tipton, Sean Astin, Rhys Darby, Marshawn Lynch, Drew Scott, Ariana DeBose, André Eriksen, Mustafa Shakir"
+http://www.wikidata.org/entity/Q132814143,Last Bullet,2025,,Guillaume Pierret,"Pascale Arbillot, Julie Engelbrecht, Diego Martín, Gérard Lanvin, Nicolas Duvauchelle, Alban Lenoir, Sébastien Lalanne, Ramzy Bedia, Stéfi Celma, Christèle Tual, Jochen Hägele, Joël Ravon, Anne Serra, Quentin d'Hainaut"
+http://www.wikidata.org/entity/Q125295778,Deva,2025,,Rosshan Andrrews,"Shahid Kapoor, Pooja Hegde, Kishori Shahane, Pravesh Rana, Girish Kulkarni, Upendra Limaye, Pavail Gulati, Kubra Sait, Charu Shankar"
+http://www.wikidata.org/entity/Q59238943,Honest Thief,2020,99,Mark Williams,"Liam Neeson, Kate Walsh, Robert Patrick, Jeffrey Donovan, Jai Courtney, Anthony Ramos"
+http://www.wikidata.org/entity/Q60533190,Asura Guru,2020,,,Vikram Prabhu
+http://www.wikidata.org/entity/Q130907516,Normal,2025,,Ben Wheatley,"Lena Headey, Henry Winkler, Billy MacLellan, Bob Odenkirk, Brendan Fletcher, Peter Shinkoda, Jess McLeod"
+http://www.wikidata.org/entity/Q131839811,No Beast. So Fierce,2025,,Burhan Qurbani,"Hiam Abbass, Mehdi Nebbou, Verena Altenberger, Kenda Hmeidan"
+http://www.wikidata.org/entity/Q58411015,21 Bridges,2020,99,Brian Kirk,"J. K. Simmons, Sienna Miller, Alexander Siddig, Taylor Kitsch, Keith David, Toby Hemingway, Chadwick Boseman, Gary Carr, Stephan James"
+http://www.wikidata.org/entity/Q132731541,Mantis,2025,113,,"Im Si-wan, Jeon Do-yeon, Sul Kyung-gu, Choi Hyun-wook, Jo Woo-jin, Park Gyu-young"
+http://www.wikidata.org/entity/Q131760057,Dead Man's Wire,2025,,Gus Van Sant,"Al Pacino, Kelly Lynch, Cary Elwes, John Robinson, Bill Skarsgård, Dacre Montgomery, Colman Domingo, Myha'la Herrold"
+http://www.wikidata.org/entity/Q116771180,The Kill Room,2023,98,Nicol Paone,"Uma Thurman, Samuel L. Jackson, Debi Mazar, Larry Pine, Dree Hemingway, Joe Manganiello, Matthew Maher, Mike Doyle, Maya Hawke, Marianne Rendón, Liv Morgan"
+http://www.wikidata.org/entity/Q116952939,The Peacock,2023,106,Lutz Heineking jr.,"Tom Schilling, David Kross, Annette Frier, Philip Jackson, Jürgen Vogel, Lavinia Wilson, Serkan Kaya, Victoria Carling, Svenja Jung"
+http://www.wikidata.org/entity/Q131545925,Nocturnal,2025,,Kim Jin-hwang,"Kim Nam-gil, Ha Jung-woo, Yoo Da-in"
+http://www.wikidata.org/entity/Q57246586,Project Power,2020,111,"Henry Joost, Ariel Schulman","Jamie Foxx, Joseph Gordon-Levitt, Rodrigo Santoro, Dominique Fishback"
+http://www.wikidata.org/entity/Q57986045,Ava,2020,96,Tate Taylor,"Colin Farrell, Jessica Chastain, John Malkovich, Joan Chen, Common, Geena Davis, Ioan Gruffudd"
+http://www.wikidata.org/entity/Q132083442,She Walks in Darkness,2025,,Agustín Díaz Yanes,"Ariadna Gil, Raúl Arévalo, Andrés Gertrúdix, Susana Abaitua, Iraia Elias"
+http://www.wikidata.org/entity/Q131360679,Case 137,2025,115,Dominik Moll,"Léa Drucker, Florence Viala, Mathilde Roehrich, Mathilde Riu, Guslagie Malanda, Solàn Machado-Graner, Théo Navarro-Mussy, Jonathan Turnbull"
+http://www.wikidata.org/entity/Q116645385,Debris of Desire,2023,,,"Chandrayee Ghosh, Kamalika Banerjee, Ritwick Chakraborty, Aupee Karim, Bratya Basu, Paran Bandopadhyay"
+http://www.wikidata.org/entity/Q116995996,Restore Point,2023,113,Robert Hloz,"Matěj Hádek, Karel Dobrý, Jan Vlasák, Lucie Štěpánková, Lech Dyblik, Václav Neužil, Helena Dvořáková, Kristýna Boková, Richard Stanke, Petr Kleňha, Daniel Rouha, Barbora Dragounová, Piotr Strzyżewski, Michał Pluskota, Michał Burdan, Ctibor Pouba, Katarzyna Zawadzka, Marek Němec, Jan Plouhar, Radovan Vaculík, Radovan Klucka, Tereza Gübelová, Terezie Holá, Claudia Eftimiadisová, Tereza Richtrová, Filip Minařík, David Voráček, Milan Ondrík, Andrea Mohylová, Zdeňka Goričev Hrdličková, Jan Jankovský, Iveta Dušková, Agáta Červinková, Adam Vacula"
+http://www.wikidata.org/entity/Q125469653,She's Got No Name,2024,150,Peter Chan,"Zhang Ziyi, Yang Mi, Mei Ting, Lin Yongjian, Fan Wei, Jackson Yee, Eric Wang, Zhang Zifeng, Zhao Liying, Dong Chengpeng, Xie Na, Zhang Xueying, Lei Jiayin, Peng Yuchang, Zhao Shuzhen, Ci Sha, Li Xian"
+http://www.wikidata.org/entity/Q125013249,The Thawing of Ice,2024,106,François Péloquin,"Lothaire Bluteau, Marc Béland, Christine Beaulieu, Abdelghafour Elaaziz, Étienne Lou, Pierre-Paul Alain, Jean-Luc Kanapé, Ayana O'Shun"
+http://www.wikidata.org/entity/Q125453590,Lucky Baskhar,2024,151,Venky Atluri,"Dulquer Salmaan, Raghu Babu, Ramki, Sachin Khedekar, Sai Kumar, Sarvadaman D. Banerjee, Y. Kasi Viswanath, Sivannarayana Naripeddi, Tinnu Anand, Sudha, Hyper Aadi, Surya Sreenivas, Rithvik, Rithvik Jothi Raj, Rajkumar Kasireddy, Prabhas Sreenu, Meenakshi Chaudhary"
+http://www.wikidata.org/entity/Q116600504,The Alleys,2021,116,,"Monther Rayahneh, Nadira Emran, Maisa Abd Elhadi"
+http://www.wikidata.org/entity/Q117037697,Anatomy of a Fall,2023,150,Justine Triet,"Jehnny Beth, Sandra Hüller, Anne Rotger, Antoine Reinartz, Samuel Theis, Sophie Fillières, Swann Arlaud, Camille Rutherford, Saadia Bentaïeb, Milo Machado-Graner, Messi"
+http://www.wikidata.org/entity/Q131858968,Revelations,2025,122,Yeon Sang-ho,"Shin Hyun-been, Ryu Jun-yeol, Han Ji-hyun, Shin Min-jae"
+http://www.wikidata.org/entity/Q116736286,The Accidental Getaway Driver,2023,102,Sing J. Lee,"Dustin Nguyen, Phi Vu, Dali Benssalah"
+http://www.wikidata.org/entity/Q125536940,To a Land Unknown,2024,105,Mahdi Fleifel,"Monther Rayahneh, Angeliki Papoulia"
+http://www.wikidata.org/entity/Q125390242,Borgo,2023,117,Stéphane Demoustier,"Hafsia Herzi, Florence Loiret Caille, Michel Fau, Pablo Pauly, Moussa Mansaly, Henri-Noël Tabary, Cédric Appietto"
+http://www.wikidata.org/entity/Q125457384,Misericordia,2024,103,Alain Guiraudie,"Catherine Frot, Jacques Develay, Jean-Baptiste Durand, David Ayala, Félix Kysyl"
+http://www.wikidata.org/entity/Q131056367,Gangstas,2025,,"Bilall Fallah, Adil El Arbi","Matteo Simoni, Ward Kerremans, Soundos El Ahmadi, Ruben van der Meer, Greg Timmermans, Gers Pardoel, Tania Kloek, Louis Talpe, Pommelien Thijs, Nora Gharib, Joey Kwan, Jeroen Van der Ven, Geert Van Rampelberg, Saïd Boumazoughe, Florence Vos Weeda, Jennifer Heylen, Joes Brauers, Nawfel Bardad-Daidj, Junes Lazaar, Ferre Van Den Broeck, Samba Thiam"
+http://www.wikidata.org/entity/Q131242484,Praznik praznine,2022,110,Jasmin Duraković,"Senad Bašić, Vanessa Glodjo, Izudin Bajrović, Haris Burina, Slaven Knezović, Tihomir Stanić, Jusuf Hadžifejzović, Mirsad Tuka"
+http://www.wikidata.org/entity/Q131756265,Una muerte silenciosa,2025,90,Sebastián Schindel,"Soledad Villamil, Joaquín Furriel, Alejandro Awada"
+http://www.wikidata.org/entity/Q125256467,First Shift,2024,,Uwe Boll,"Kristen Renton, Gino Anthony Pesi"
+http://www.wikidata.org/entity/Q58313468,The Last Days of American Crime,2020,149,Olivier Megaton,"Édgar Ramírez, Michael Pitt, Patrick Bergin, Sharlto Copley, Anna Brewster, Sean Michael, Brandon Auret"
+http://www.wikidata.org/entity/Q112980292,Bandit,2022,,Allan Ungar,"Josh Duhamel, Elisha Cuthbert, Mel Gibson, Nestor Carbonell"
+http://www.wikidata.org/entity/Q112623320,Miranda's Victim,2023,127,Michelle Danner,"Donald Sutherland, Andy Garcia, Mireille Enos, Taryn Manning, Luke Wilson, Kyle MacLachlan, Ryan Phillippe, Abigail Breslin, Enrique Murciano, Emily VanCamp, Brent Sexton, Josh Bowman, Sebastian Quinn"
+http://www.wikidata.org/entity/Q80322358,John Wick: Chapter 4,2023,169,Chad Stahelski,"Scott Adkins, Keanu Reeves, Clancy Brown, Natalia Tena, Donnie Yen, Ian McShane, Laurence Fishburne, Lance Reddick, Marko Zaror, Hiroyuki Sanada, Bridget Moynahan, Bill Skarsgård, Sven Marquardt, George Georgiou, Shamier Anderson"
+http://www.wikidata.org/entity/Q133939157,Henry Johnson,2025,85,David Mamet,"Shia LaBeouf, Chris Bauer, Dominic Hoffman, Evan Jonigkeit"
+http://www.wikidata.org/entity/Q134385489,Prison,2025,128,Ekrem Engizek,"Xenia Georgia Assenza, Arnel Taci, Anna Stieblich, Constantin von Jascheroff, Michael Lott, Milton Welsh, Kais Setti, Leonard Kunz, Korkmaz Arslan, Imad Mardnli"
+http://www.wikidata.org/entity/Q116972275,In the Name of God: A Holy Betrayal,2023,,,"Maple Yip, Do-Hyung Kim"
+http://www.wikidata.org/entity/Q75941398,The Case of the Dead Deadman,2020,95,Miloslav Šmídmajer,"Lenka Krobotová, Klára Issová, Martin Myšička, Eva Holubová, Hana Vagnerová, Miroslav Táborský, Milan Šteindler, Anna Polívková, David Novotný, Pavla Beretová, Petra Jungmanová, Radek Zima, Michal Zelenka, Filip Kaňkovský, Luboš Veselý, Tereza Srbová, Martin Pechlát, Ivan Lupták, Lukáš Příkazký, Michael Foret, Pavel Rímský, Arnošt Goldflam, Michal Čoudek, Pavel Krumpár, Pavlína Šmídmajerová, Josef Humpolec, Dušan Kiš, Ladislav Dostál, Tomáš Rotnágl, Jaroslav Kravka, Radan Holásek, Zdeněk Godla, Denisa Pfauserová, Ivana Plíhalová, Henrieta Hornáčková, Pavel Lagner, Jakub Štáfek"
+http://www.wikidata.org/entity/Q76488932,Die in a Gunfight,2021,,Collin Schiffli,"Alexandra Daddario, Billy Crudup, Justin Chatwin, Travis Fimmel, Emmanuelle Chriqui, Diego Boneta, Michelle Nolden, John Ralston, Stuart Hughes, Nicola Correia-Damude, Renée Willett"
+http://www.wikidata.org/entity/Q112609197,Limit,2022,,Lee Seung-jun,"Lee Jeong-hyeon, Moon Jeong-hee"
+http://www.wikidata.org/entity/Q61672496,The Reports on Sarah and Saleem,2020,127,Muayad Alayan,"Maisa Abd Elhadi, Hanan Hillo, Sivane Kretchner, Ishai Golan, Jan Kühne, Adeeb Safadi"
+http://www.wikidata.org/entity/Q133885792,A Widow's Game,2025,,Carlos Sedes,"Carmen Machi, Ivana Baquero, Joel Sánchez, Pedro Casablanc, Pepe Ocio, Álex Gadea, Tristán Ulloa, Pablo Molinero, Pau Durà, Ramón Ródenas"
+http://www.wikidata.org/entity/Q134300783,Straw,2025,105,Tyler Perry,"Rockmond Dunbar, Sherri Shepherd, Sinbad, Glynn Turman, Taraji P. Henson, Teyana Taylor, Tilky Jones"
+http://www.wikidata.org/entity/Q79246949,Mama Weed,2020,104,Jean-Paul Salomé,"Isabelle Huppert, Yann Sundberg, Rebecca Marder, Hippolyte Girardot, Abbes Zahmani, Liliane Rovère, Iris Bry, Léonore Confino, Farida Ouchani, Rachid Guellaz"
+http://www.wikidata.org/entity/Q113005247,DogMan,2023,113,Luc Besson,"Marisa Berenson, Caleb Landry Jones, Christopher Denham, Clemens Schick, James Payton, Michael Garza, Avant Strangel, Iris Bry"
+http://www.wikidata.org/entity/Q133284146,iHostage,2025,100,Bobby Boermans,"Marcel Hensema, Eric Corton, Louis Talpe, Loes Haverkort, Hylke van Sprundel, Fockeline Ouwerkerk, Matteo van der Grijn, Everon Jackson Hooi, Tara Hetharia, Reinier Demeijer, Yasmin Karssing, Thijs Boermans, Jasmine Sendar, Robin Boissevain, Zahra Lfil, Emmanuel Ohene Boafo, Ahlaam Teghadouini, Jouman Fattal, Keja Kwestro, Guilly Koster, Soufiane Moussouli, Dionne Verwey, Jolanda van den Berg, Roosmarijn van der Hoek"
+http://www.wikidata.org/entity/Q134142841,Colours of Time,2025,124,Cédric Klapisch,"Cécile de France, Julia Piaton, Philippine Leroy-Beaulieu, Vincent Macaigne, Zinedine Soualem, Olivier Gourmet, Sara Giraudeau, François Berléand, Pomme, Vassili Schneider, Suzanne Lindon, Raïka Hazanavicius, Paul Kircher, Abraham Wapler"
+http://www.wikidata.org/entity/Q133808367,Neighborhood Watch,2025,,Duncan Skiles,"Jeffrey Dean Morgan, Malin Akerman, Jack Quaid"
+http://www.wikidata.org/entity/Q133268738,Trauma (2025 film),2025,,,"Chandini Tamilarasan, Vivek Prasanna, Poornima Ravi"
+http://www.wikidata.org/entity/Q112584985,The Night of the 12th,2022,114,Dominik Moll,"Bouli Lanners, Anouk Grinberg, Johann Dionnet, Thibaut Evrard, Pierre Lottin, Nathy Boss, Matthieu Rozé, Julien Frison, David Murgia, Bastien Bouillon, Camille Rutherford, Théo Cholbi, Pauline Serieys, Mouna Soualem, Jules Porier, Lula Cotton-Frapier"
+http://www.wikidata.org/entity/Q79821532,Bunty Aur Babli 2,2020,,Varun V. Sharma,"Saif Ali Khan, Rani Mukerji, Siddhant Chaturvedi"
+http://www.wikidata.org/entity/Q112872156,L'année du requin,2022,87,"Zoran Boukherma, Ludovic Boukherma","Marina Foïs, Kad Merad, Jean-Pascal Zadi"
+http://www.wikidata.org/entity/Q80753329,The Marco Effect,2021,125,Martin Zandvliet,"Ulrich Thomsen, Thomas W. Gabrielsson, Shanti Roney, Caspar Phillipson, Joen Bille, Anders Matthesen, Cecilie Beck, Henrik Noél Olesen, Mikkel Arndt, Zaki, Lisa Carlehed, Zdeněk Godla, Mads Reuther, Sofie Torp"
+http://www.wikidata.org/entity/Q78956838,Free Country,2020,124,Christian Alvart,"Felix Kramer, Uwe-Dag Berlin, Marc Limpach, Trystan Pütter, Michael Specht, Leonard Kunz, Ludwig Simon"
+http://www.wikidata.org/entity/Q113148229,Goddamned Asura,2021,114,Lou Yi-an,"Mo Tzu-Yi, Peijia Huang, Ding Ning, Winnie Chang, Chih-Ju Lin, Joseph Huang, Wang Yu-xuan, Lai Hao-Zhe, Chen Chia-Kuei"
+http://www.wikidata.org/entity/Q79998779,The Point Men,2023,108,Im Sun-rye,"Hwang Jung-min, Hyun Bin, Jeon Seong-woo, Kang Ki-young"
+http://www.wikidata.org/entity/Q112671916,Hummus Full Trailer,2022,92,,"Michael Moshonov, Yaniv Biton, Poly Reshef, Moni Moshonov, Menashe Noy"
+http://www.wikidata.org/entity/Q118851332,Bad Lands,2023,143,Masato Harada,"Ryudo Uzaki, Sakura Andō, Katsuhisa Namase, Ryosuke Yamada, Yoshimi Tendo, Noriko Eguchi, Kōki Maeda, Mitsuo Yoshihara, Yasumasa Ōba, Canon Nawata, Yasushi Fuchikami, saringROCK"
+http://www.wikidata.org/entity/Q118214971,Fresh Kills,2023,120,Jennifer Esposito,"Jennifer Esposito, Stelio Savante, Annabella Sciorra, Domenick Lombardozzi, Odessa A'zion, Emily Bader"
+http://www.wikidata.org/entity/Q118237176,Johnny & Clyde,2023,100,Tom DeNucci,"Megan Fox, Vanessa Angel, Fred Sullivan, Avan Jogia, Bai Ling, Tyson Ritter, Robert LaSardo, Sean Ringgold, Nick Principe, Ajani Russell"
+http://www.wikidata.org/entity/Q118371910,Khitrovka,2023,129,Karen Shakhnazarov,"Mikhail Porechenkov, Alexander Oleshko, Konstantin Kryukov, Anfisa Chernykh"
+http://www.wikidata.org/entity/Q112977211,Skazka dlya starykh,2022,80,"Roman Mikhaylov, Fyodor Lavrov","Fyodor Lavrov, Kirill Polukhin, Roman Mikhaylov"
+http://www.wikidata.org/entity/Q118287624,The Order,2024,144,Justin Kurzel,"Jude Law, Nicholas Hoult, Marc Maron, Tye Sheridan, Odessa Young, Alison Oliver"
+http://www.wikidata.org/entity/Q133917515,Yadang: The Snitch,2025,122,Hwang Byeong-guk,"Yoo Hai-Jin, Ryu Kyung-soo, Kang Ha-neul, Chae Won-bin, You Seong-joo, Park Hae-joon, Kim Kum-soon"
+http://www.wikidata.org/entity/Q118593017,Magnificat,2023,97,Virginie Sauveur,"François Berléand, Karin Viard, Nicolas Cazalé, Benoît Allemane, Patrick Catalifo, Patrick d'Assumçao, Stéphanie Michelini, Anaïde Rozam"
+http://www.wikidata.org/entity/Q75329806,Casino,2023,,Saikat Nasir,"Taskeen Rahman, Nirab Hossain, Shabnom Bubly"
+http://www.wikidata.org/entity/Q118877515,The Settlers,2023,97,Felipe Gálvez Haberle,"Sam Spruell, Marcelo Alonso, Luis Machin, Alfredo Castro, Mark Stanley"
+http://www.wikidata.org/entity/Q105986042,The Pale Blue Eye,2022,128,Scott Cooper,"Christian Bale, Robert Duvall, Harry Melling, Toby Jones, Charlotte Gainsbourg, Gillian Anderson, Simon McBurney, Charlie Tahan, Lucy Boynton, Gideon Glick, Fred Hechinger, Hadley Robinson, Harry Lawtey"
+http://www.wikidata.org/entity/Q106680669,Masquerade,2022,134,Nicolas Bedos,"Isabelle Adjani, Emmanuelle Devos, Laura Morante, François Cluzet, Charles Berling, Pierre Niney, Marine Vacth"
+http://www.wikidata.org/entity/Q118253328,Melchior The Apothecary: The Executioner's Daughter,2023,100,Elmo Nüganen,"Jaan Pehk, Hele Kõrve, Simeoni Sundja, Markus Luik, Karl Robert Saaremäe, Margus Prangel, Martin Veinmann, Kristjan Lüüs, Alo Kõrve, Andres Mähar, Jan Uuspõld, Tarmo Männard, Martin Mill, Jaan Rekkor, Märten Metsaviir, Maarja Johanna Mägi, Ken Rüütel, Margus Roosipuu, Dain Muru, Ott Raidmets, Liis-Maria Kaabel, Noah Franz Loss, Roco Lüll, Tomi Lüll, Kädi Metsoja, Faustus Bolichenko, Gabriele Amine Ahwazian, Oskar Punga, Karl Jakob Bartels, Johan Kristjan Aimla"
+http://www.wikidata.org/entity/Q106590131,The Good Nurse,2022,,Tobias Lindholm,"Eddie Redmayne, Kim Dickens, Jessica Chastain, Noah Emmerich, Nnamdi Asomugha"
+http://www.wikidata.org/entity/Q105962799,The Outfit,2022,106,Graham Moore,"Zoey Deutch, Mark Rylance, Nikki Amuka-Bird, Dylan O'Brien, Simon Russell Beale, Johnny Flynn, Alan Mehdizadeh"
+http://www.wikidata.org/entity/Q106363032,Kimi,2022,,Steven Soderbergh,"Zoë Kravitz, Robin Givens, Rita Wilson, Emily Kuroda, Erika Christensen, Devin Ratray, India de Beaufort, Andrew Daly, Jacob Vargas, Derek DelGaudio, Charles Halford, Jaime Camil, Byron Bowers"
+http://www.wikidata.org/entity/Q106506417,Funny Face,2020,,,"Jonny Lee Miller, Rhea Perlman, Dan Hedaya, Cosmo Jarvis"
+http://www.wikidata.org/entity/Q135454891,Little Lorraine,2025,,Andy Hines,"J Balvin, Mike Dopud, Sean Astin, Stephen Amell, Joshua Close, Matt Walsh, Sugar Lyn Beard, Stephen McHattie, Rhys Darby, Hugh Thompson, Steve Lund, Auden Thornton"
+http://www.wikidata.org/entity/Q134571186,Kalamkaval,2025,,,"Vinayakan, Biju Pappan, Kunchan, Mammootty, Rajisha Vijayan, Malavika Menon, Gayatri Arun, Dhanya Ananya, Azees Nedumangad, Shruthi Ramachandran, Gibin Gopinath"
+http://www.wikidata.org/entity/Q135454890,Nika and Madison,2025,,Eva Thomas,"Jennifer Podemski, David Reale, Gail Maurice, Billy Merasty, Shawn Doyle, Amanda Brugel, Ellyn Jade"
+http://www.wikidata.org/entity/Q135685264,Wraak,2025,,Jonathan Elbers,"Waldemar Torenstra, Marisa van Eyle, Margreet Spijker, Raymond Thiry, Matteo van der Grijn, Tijn Docter, Jeroen Pauw, Teun Stokkel, Leafs, Noortje Herlaar, Cynthia Abma, Omar Ahaddaf, Sanne Langelaar, Bodil de la Parra, Nizar El Manouzi, Mingus Claessen, Asma El Mouden, Olaf Ait Tami, Yassine Ouaich, Daniël Kolf, Hamza Othman"
+http://www.wikidata.org/entity/Q135681021,Mocro Maffia: Taxi,2024,,Nasrdin Dchar,"Fockeline Ouwerkerk, Iliass Ojja, Saïd Boumazoughe, Zineb Fallouk, Khalid Alterch"
+http://www.wikidata.org/entity/Q84712797,Glass Onion: A Knives Out Mystery,2022,140,Rian Johnson,"Daniel Craig, Joseph Gordon-Levitt, Kareem Abdul-Jabbar, Serena Williams, Dallas Roberts, Dave Bautista, Edward Norton, Stephen Sondheim, Hugh Grant, Angela Lansbury, Janelle Monáe, Yo-Yo Ma, Kathryn Hahn, Kate Hudson, Natasha Lyonne, Noah Segan, Ethan Hawke, Leslie Odom Jr., Jessica Henwick, Jackie Hoffman, Madelyn Cline"
+http://www.wikidata.org/entity/Q118287235,Surongo,2023,150,Raihan Rafi,"Afran Nisho, Shahiduzzaman Selim, Toma Mirza, Mostafa Monwar"
+http://www.wikidata.org/entity/Q135682251,Mocro Maffia: Tatta,2023,,Victor Ponten,"Mads Wittermans, Robert de Hoog, Marieke Westenenk, Saïd Boumazoughe, Zineb Fallouk, Khalid Alterch"
+http://www.wikidata.org/entity/Q106707239,Aileen Wuornos: American Boogeywoman,2021,85,Daniel Farrands,"Tobin Bell, Lydia Hearst-Shaw, Nick Vallelonga, Meadow Williams"
+http://www.wikidata.org/entity/Q135220009,Maayakoothu,2025,,,"Delhi Ganesh, Mu Ramaswamy"
+http://www.wikidata.org/entity/Q106622657,No Man of God,2021,,Amber Sealey,"Robert Patrick, Aleksa Palladino, Elijah Wood, Christian Clemenson, Luke Kirby, W. Earl Brown, Tom Virtue, Mac Brandt"
+http://www.wikidata.org/entity/Q118921851,Red Rooms,2023,118,Pascal Plante,"Maxwell McCabe-Lokos, Elisabeth Locas, Laurie Babin, Juliette Gariepy"
+http://www.wikidata.org/entity/Q106290706,The Takedown,2022,119,Louis Leterrier,"Omar Sy, Izïa, Laurent Lafitte, Dimitri Storoge"
+http://www.wikidata.org/entity/Q134562013,Azadi,2025,129,,"Boban Samuel, Lal, Saiju Kurup, Parvathi T, T. G. Ravi, Sreenath Bhasi, Vani Viswanath, Gilu Joseph, Raveena Ravi, Vijayakumar, Rajesh Sharma, Shobi Thilakan, Abhiram Radhakrishnan"
+http://www.wikidata.org/entity/Q134431362,The Gospel of the Beast,2023,,Sheron Dayoc,Ronnie Lazaro
+http://www.wikidata.org/entity/Q80958471,Kaiserschmarrndrama,2021,96,Ed Herzog,"Simon Schwarz, Lisa Maria Potthoff, Sebastian Bezzel"
+http://www.wikidata.org/entity/Q83965418,Nobody,2021,92,Ilya Naishuller,"RZA, Connie Nielsen, Daniel Bernhardt, Christopher Lloyd, Sergey Shnurov, Bob Odenkirk, J. P. Manoux, Michael Ironside, Sharon Bajer, Aleksei Serebryakov, Paul Essiembre, Colin Salmon, Neven Pajkić, Stéphane Julien, Erik Athavale, Stephen Eric McIntyre, Araya Mengesha, Gage Munroe, Volodymyr Yamnenko, Alain Moussi, Aleksandr Pal, Paisley Cadorath, Volodymyr Yatsenko, Boris Gulyarin, Rick Dobran"
+http://www.wikidata.org/entity/Q106616302,Ted K,2021,122,Tony Stone,"Sharlto Copley, Drew Powell"
+http://www.wikidata.org/entity/Q118520286,Only the River Flows,2023,101,Wei Shujun,"Chloe Maayan, Zhu Yilong"
+http://www.wikidata.org/entity/Q110833859,Murder Mystery 2,2023,89,Jeremy Garelick,"Adam Sandler, Jennifer Aniston, Tony Goldwyn, Mark Strong, Dany Boon, Mélanie Laurent, Wilmer Valderrama, John Kani, Carlos Ponce, Adeel Akhtar, Annie Mumolo, Lundon Knighten, Enrique Arce, Sitara Attaie, Jodie Turner-Smith, Hélène Cardona, Anouar H. Smaine, Darny Chau"
+http://www.wikidata.org/entity/Q83692125,Effigy: Poison and the City,2022,,,"Suzan Anbeh, Elisa Thiemann"
+http://www.wikidata.org/entity/Q111039206,Cop Goes Missing,2022,111,Frédéric Videau,"Laetitia Casta, Simon Abkarian, Jean-François Stévenin, Émile Berling, Éric Collado, Alban Lenoir, Sofia Lesaffre, Patrick d'Assumçao"
+http://www.wikidata.org/entity/Q111325385,Vanishing,2021,,Denis Dercourt,"Yoo Yeon-seok, Olga Kurylenko, Ye Ji-won, Choi Moo-sung, Lee Seung-jun, Park So-yi"
+http://www.wikidata.org/entity/Q83726435,The Mauritanian,2021,129,Kevin Macdonald,"Jodie Foster, Shailene Woodley, Denis Ménochet, Tahar Rahim, Benedict Cumberbatch, Alaa Safi"
+http://www.wikidata.org/entity/Q135682902,Mocro Maffia: Meltem,2021,,Mustafa Duygulu,"Iliass Ojja, Mandela Wee Wee, Sinem Kavus, Moeman, Khalid Alterch, Sezgin Güleç, Carré Albers"
+http://www.wikidata.org/entity/Q134999778,The Young Hoodlum,2023,,,"Shih Ming-shuai, Wu Jian-He, Joseph Huang, Queenie Chen"
+http://www.wikidata.org/entity/Q110942315,A Thursday,2022,128,,"Dimple Kapadia, Atul Kulkarni, Neha Dhupia, Adi Irani, Karanvir Sharma, Yami Gautam, Boloram Das, Shubhangi Latkar"
+http://www.wikidata.org/entity/Q134756421,Durgapur Junction,2025,,,"Swastika Mukherjee, Ekavali Khanna, Vikram Chatterjee"
+http://www.wikidata.org/entity/Q106568223,Maria Wern – En orättvis rättvisa,2021,,Lisa Ohlin,"Eva Röse, Peter Perski, Allan Svensson, Erik Johansson"
+http://www.wikidata.org/entity/Q111568797,Girl in the Basement,2021,,Elisabeth Röhm,"Joely Fisher, Stefanie Scott, Judd Nelson, Emma Myers, Braxton Bjerken"
+http://www.wikidata.org/entity/Q135437367,Project Y,2025,110,Lee Hwan,"Han So-hee, Yooa, Kim Sung-cheol, Kim Sin-rock, Jeon Jong-seo"
+http://www.wikidata.org/entity/Q111672402,Silverton Siege,2022,100,Mandla Dube,"Arnold Vosloo, Deon Coetzee, Tumisho K. Masha, Michelle Mosalakae, Thabo Rametsi, Justin Strydom, Elani Dekker, Noxolo Dlamini"
+http://www.wikidata.org/entity/Q135434696,Blind Spot (2025 film),2025,89,,"Naveen Chandra, Rashi Singh"
+http://www.wikidata.org/entity/Q135484611,Hijacked,2025,,Trần Hàm,"Thái Hòa, Thanh Sơn, Kaity Nguyễn"
+http://www.wikidata.org/entity/Q136686899,Aontas,2025,,Damian McCann,"Bríd Brennan, Carrie Crowley, Eva-Jane Gaffney, Marcus Lamb, Seán T. Ó Meallaigh"
+http://www.wikidata.org/entity/Q135685436,Avgust,2025,,Nikita Vysotsky,"Roman Madyanov, Vera Shpak, Daniil Vorobyov, Aleksey Vertkov, Ilya Isayev, Ivan Kolesnikov, Sergey Bezrukov, Nikita Kologrivyy, Pavel Tabakov"
+http://www.wikidata.org/entity/Q111029849,Echoes of a Crime,2022,84,Cristian Bernard,"Diego Peretti, Carola Reyna, Julieta Cardinali, Carla Quevedo, Diego Cremonesi"
+http://www.wikidata.org/entity/Q111396554,Rheingold,2022,138,Fatih Akin,"Karim Günes, Emilio Sakraya, Mona Pirzad, Eno, Kardo Razzazi, Hussein Eliraqui, Ilyes Moutaoukkil"
+http://www.wikidata.org/entity/Q82204068,Ancham Pathira,2020,144,Midhun Manuel Thomas,"Remya Nambeesan, Kunchacko Boban, Priyanandanan, Sreenath Bhasi, Sudheesh, Assim Jamal, Indrans, Unnimaya Prasad, Jaffar Idukki, Sadiq, Nikhila Vimal, Arjun Nandhakumar, Gilu Joseph, Jinu Joseph, Dileesh Nair, Arun Cherukavil, Harikrishnan, Sharafudheen, Nandhana Varma, Abhiram Radhakrishnan, Divya Gopinath, Shaju Sreedhar, Mathew Thomas"
+http://www.wikidata.org/entity/Q85705850,Curveball,2020,108,Johannes Naber,"Thorsten Merten, Sebastian Blomberg, Michael Wittenborn, Dar Salim, Virginia Kull, Franziska Brandmeier"
+http://www.wikidata.org/entity/Q106019215,Get the Goat,2021,98,Vitor Brandt,"Juliano Cazarré, Letícia Lima, Matheus Nachtergaele, Falcão, Evelyn Castro, Edmilson Filho, Marianna Armellini, Søren Hellerup"
+http://www.wikidata.org/entity/Q106715562,JerryMaya’s Detective Agency – The Riddle of the Scorpion,2022,,Tina Mačkić,"Suzanne Reuter, Henrik Hjelt, Nils Kendle, Polly Stjärne"
+http://www.wikidata.org/entity/Q111600223,Holy Spider,2022,117,Ali Abbasi,"Mehdi Bajestani, Zar Amir-Ebrahimi, Sara Fazilat, Nima Akbarpour, Arash Ashtiani, Forouzan Jamshidnejad"
+http://www.wikidata.org/entity/Q111678098,Melchior the Apothecary,2022,90,Elmo Nüganen,"Marko Matvere, Juris Strenga, Martin Mill, Sten Zupping, Volli Käro, Mait Malmsten, Jaan Pehk, Andero Ermel, Hendrik Toompere, Kristjan Sarv, Alo Kõrve, Gatis Gāga, Franz Malmsten, Amanda Hermiine Künnapas, Siim Kelner, Aleksandr Popov, Helgur Rosental, Ken Rüütel, Henessi Schmidt, Martin Kork, Märten Metsaviir, Maarja Johanna Mägi"
+http://www.wikidata.org/entity/Q122529703,Once Upon a Crime,2023,107,Yūichi Fukuda,"Natsuna Watanabe, Miki Maya, Mirei Kiritani, Jirō Satō, Atsuhiro Inukai, Takanori Iwata, Yūko Araki, Midoriko Kimura, Murotsuyoshi, Mizuki Yamamoto, Masaki Kaji, Yumi Wakatsuki, Tomoharu Hasegawa, Kanna Hashimoto"
+http://www.wikidata.org/entity/Q136083891,Inferno,2025,,Brandon Gotto,"Cédric Vaes, Margaux Colarusso, Michel Angely, Élisabeth Caulier, Annick Cornette, Natalie Gilbert"
+http://www.wikidata.org/entity/Q121268638,Boundless,2024,126,Ole Christian Madsen,"Søren Malling, Peter Mygind, Ulrich Thomsen, Lisa Carlehed, Helle Fagralid, Hedda Stiernstedt, Ken Vedsegaard, Marina Bouras, Rasmus Bjerg, Mads Reuther, Joachim Fjelstrup, Henrik Noél Olesen, Mette Lysdahl, Rasmus Hammerich, Sofie Torp, Afshin Firouzi"
+http://www.wikidata.org/entity/Q121270308,Future Is a Lonely Place,2021,,"Laura Harwarth, Martin Hawie","Denis Moschitto, Katharina Schüttler, Lucas Gregorowicz, Ronald Kukulies"
+http://www.wikidata.org/entity/Q121433282,Eddington,2025,148,Ari Aster,"Emma Stone, Deirdre O'Connell, Clifton Collins, Joaquin Phoenix, Austin Butler, Luke Grimes, David Midthunder, Keith Jardine, Pedro Pascal, William Belleau, Amélie Hoeferle, Micheal Ward"
+http://www.wikidata.org/entity/Q104854877,Army of Thieves,2021,129,Matthias Schweighöfer,"Barbara Meier, Matthias Schweighöfer, Ruby O. Fee, Christian Steyer, Dunja Hayali, Jonathan Cohen, Trent Garrett, Guz Khan, Frank Kusche, Stuart Martin, Nathalie Emmanuel, Peter Hosking, Hana Frejková, Noemie Nakai, Tigran Hovakimyan, Tonya Graves, Lukas Duy Anh Tran, Jan Nemejovský"
+http://www.wikidata.org/entity/Q111398696,Sun and Concrete,2023,,David Wnendt,"Gülseren Erkut, NNOC"
+http://www.wikidata.org/entity/Q122830670,The Heist Before Christmas,2023,77,Edward Hall,"James Nesbitt, Bronagh Waugh, Laura Donnelly, Pat Shortt"
+http://www.wikidata.org/entity/Q105070632,The Commando,2022,93,Asif Akbar,"Mickey Rourke, Jeff Fahey, Michael Jai White, Brendan Fehr, Donald Cerrone"
+http://www.wikidata.org/entity/Q121350163,Upon Open Sky,2023,117,"Mariana Arriaga, Santiago Arriaga","Manolo Cardona, Julio Cedillo, Cecilia Suárez, Julio Bracho"
+http://www.wikidata.org/entity/Q121991068,Failure!,2023,,Alex Kahuam,"Ted Raimi, Merrick McCartha"
+http://www.wikidata.org/entity/Q105095144,Ambulance,2022,136,Michael Bay,"A Martinez, Jake Gyllenhaal, Garret Dillahunt, Eiza Gonzalez, Keir O'Donnell, Wale, Yahya Abdul-Mateen II, Victor Gojcaj, Colin Woodell, Jesse Garcia, Chelsea Harris, Moses Ingram"
+http://www.wikidata.org/entity/Q104903195,The Stranger,2022,117,Thomas M. Wright,"Joel Edgerton, Sean Harris, Steve Mouzakis, Matthew Sunderland, Fletcher Humphrys, Jada Alberts"
+http://www.wikidata.org/entity/Q122308612,Kannur Squad,2023,161,Roby Varghese Raj,"Shabareesh Varma, Kishore Kumar, Mammootty, Vijayaraghavan, Sunny Wayne, Shebin Benson, Rony David, Azees Nedumangad"
+http://www.wikidata.org/entity/Q122830674,The Black Book,2023,124,Editi Effiong,"Iretiola Doyle, Shaffy Bello, Richard Mofe Damijo, Sam Dede, Ade Laoye"
+http://www.wikidata.org/entity/Q111210203,Le mystère Daval,2022,95,Christophe Lamotte,Liam Baty
+http://www.wikidata.org/entity/Q121438250,No More Bets,2023,130,Ao Shen,"Gilbert Lam, Gina Gin, Carmen Tong, Eric Wang, Sheren Tang, Yong Mei, Lam Wai, Lay, Darren Wang, Zhou Ye"
+http://www.wikidata.org/entity/Q121556990,Borfi,2023,,,"Chandrayee Ghosh, Kaushik Sen"
+http://www.wikidata.org/entity/Q122329458,Resurrection,2025,,Bi Gan,"Jackson Yee, Shu Qi"
+http://www.wikidata.org/entity/Q105102350,Kurup,2021,155,Srinath Rajendran,"Indrajith Sukumaran, Dulquer Salmaan, Sudheesh, Bharath, Tovino Thomas, Sobhita Dhulipala, Hareesh Perumanna, P. Balachandran, Saiju Kurup, Sunny Wayne, Vijayaraghavan, M. R. Gopakumar, Sadiq, Anupama Parameswaran, Kunchan, Surabhi Lakshmi, Shine Tom Chacko, Walid Riachy, Krrish Menon, Shivajith Padmanabhan"
+http://www.wikidata.org/entity/Q82792225,Darkroom - Drops of Death,2020,89,Rosa von Praunheim,Božidar Kocevski
+http://www.wikidata.org/entity/Q65146722,Now You See Me: Now You Don't,2025,113,Ruben Fleischer,"Mark Ruffalo, Rosamund Pike, Morgan Freeman, Isla Fisher, Dave Franco, Woody Harrelson, Lizzy Caplan, Justice Smith, Dominic Sessa, Ariana Greenblatt, Andrew Santino"
+http://www.wikidata.org/entity/Q105080380,The Soul,2021,124,Cheng Wei-hao,"Chang Chen, Ning Chang, Samuel Koo, Lü Hsueh-feng, Hui-Min Lin, Sun Anke, Christopher Lee"
+http://www.wikidata.org/entity/Q65648534,Army of the Dead,2021,148,Zack Snyder,"Dave Bautista, Theo Rossi, Matthias Schweighöfer, Hiroyuki Sanada, Garret Dillahunt, Nora Arnezeder, Ana de la Reguera, Omari Hardwick, Samantha Win, Tig Notaro, Ella Purnell, Chris D'Elia, Raúl Castillo, Huma Qureshi"
+http://www.wikidata.org/entity/Q66688968,I Care a Lot,2020,118,J Blakeson,"Rosamund Pike, Peter Dinklage, Eiza Gonzalez, Chris Messina, Alicia Witt, Dianne Wiest, Ava Gaudet, Damian Young, Isiah Whitlock Jr., Jose Guns Alves, Macon Blair"
+http://www.wikidata.org/entity/Q104834805,Quam's Money,2020,120,Kayode Kasum,"Michelle Dede, Nse Ikpe Etim, Toni Tones, Jemima Osunde, Blossom Chukwujekwu, Falz"
+http://www.wikidata.org/entity/Q66316924,Killers of the Flower Moon,2023,206,Martin Scorsese,"Tantoo Cardinal, Brendan Fraser, Robert De Niro, Leonardo DiCaprio, Lily Gladstone, Jesse Plemons, Tatanka Means, Cara Jade Myers"
+http://www.wikidata.org/entity/Q66828714,Body Brokers,2021,,John Swab,"Melissa Leo, Peter Greene, Thomas Dekker, Frank Grillo, Jack Kilmer, Michael K. Williams, Alice Englert, Renée Willett, Jessica Rothe"
+http://www.wikidata.org/entity/Q114589148,A Haunting in Venice,2023,103,Kenneth Branagh,"Kenneth Branagh, Michelle Yeoh, Tina Fey, Riccardo Scamarcio, Jamie Dornan, Kelly Reilly, Camille Cottin, Jude Hill, Emma Laird, Kyle Allen"
+http://www.wikidata.org/entity/Q121792074,Toll,2023,102,Carolina Markowicz,"Thomás Aquino, Maeve Jinkings"
+http://www.wikidata.org/entity/Q114669762,The Perfumier,2022,96,Nils Willbrandt,"August Diehl, Emilia Schüle, Sólveig Arnarsdóttir, Anne Müller, Cornelia Heyse, Sina Martens, Ludwig Simon, Robert Finster, Josephine Thiesen"
+http://www.wikidata.org/entity/Q115734942,Saw X,2023,118,Kevin Greutert,"Costas Mandylor, Shawnee Smith, Tobin Bell, Steven Brand, Michael Beach, Renata Vaca, Synnøve Macody Lund"
+http://www.wikidata.org/entity/Q65924999,Only the Animals,2020,117,Dominik Moll,"Valeria Bruni-Tedeschi, Fred Ulysse, Laure Calamy, Denis Ménochet, Damien Bonnard, Bastien Bouillon, Nadia Tereszkiewicz"
+http://www.wikidata.org/entity/Q115749471,Little Dixie,2023,105,John Swab,"Annabeth Gish, Thomas Dekker, Eric Dane, Frank Grillo, Mercedes Mason, Peter Greene, Beau Knapp, Maurice Compte"
+http://www.wikidata.org/entity/Q114642553,Lost Bullet 2: Back for More,2022,98,Guillaume Pierret,"Alban Lenoir, Stéfi Celma"
+http://www.wikidata.org/entity/Q66619990,Heist of the Century,2020,114,Ariel Winograd,"Pablo Rago, Guillermo Francella, Luis Luque, Mariano Argento, Rafael Ferro, Diego Peretti"
+http://www.wikidata.org/entity/Q114818951,The Equalizer 3,2023,109,Antoine Fuqua,"Remo Girone, Dakota Fanning, Denzel Washington, Sonia Ben Ammar"
+http://www.wikidata.org/entity/Q65257311,The Beast,2020,131,,"Yoo Jae-myung, Lee Sung-min, Jeon Hye-jin, Daniel Choi"
+http://www.wikidata.org/entity/Q65294195,Beasts Clawing at Straws,2020,109,Kim Yong-hoon,"Bae Seong-woo, Jeon Do-yeon, Youn Yuh-jung, Shin Hyun-been, Jung Woo-sung"
+http://www.wikidata.org/entity/Q115283311,The Roundup: Punishment,2024,109,Heo Myeong-haeng,"Kim Mu-yeol, Lee Beom-soo, Ma Dong-seok, Park Ji-hwan, Lee Joo-bin, Kim Min-jae, Lee Dong-hwi"
+http://www.wikidata.org/entity/Q115629929,Gentleman,2022,123,Kim Kyung-won,"Ju Ji-hoon, Park Seong-ung, Kang Hong-seok, Lee Dal, Park Hae-eun, Choi Sung-eun, Kwon Han-sol"
+http://www.wikidata.org/entity/Q115654457,Maarrich,2022,,Dhruv Lather,"Naseeruddin Shah, Tusshar Kapoor, Rahul Dev, Dipannita Sharma, Anita Hassanandani, Seerat Kapoor"
+http://www.wikidata.org/entity/Q115608945,El Hombre Inconcluso,2022,81,Matías Bertilotti,"Víctor Laplace, Carlos Santamaría, Gastón Ricaud, Paula Sartor, Nicolás Pauls, Ernesto Claudio"
+http://www.wikidata.org/entity/Q115687310,Rotting in the Sun,2023,109,Sebastián Silva,"Catalina Saavedra, Sebastián Silva, Jordan Firstman"
+http://www.wikidata.org/entity/Q67508279,Brother 3,2022,100,Valery Pereverzev,"Ptakha, Vladimir Torsuyev, Yury Torsuyev"
+http://www.wikidata.org/entity/Q115707569,Reality,2023,82,Tina Satter,"Josh Hamilton, Sydney Sweeney, Marchánt Davis"
+http://www.wikidata.org/entity/Q65322259,Kidnapping Inc.,2024,,Bruno Mourral,"Manfred Marcelin, Jasmuel Andri, Rolaphton Mercure, Ashley Laraque, Anabel Lopez, Marcus Boereau, Patrick Joseph, Gessica Généus"
+http://www.wikidata.org/entity/Q115261049,THE FALLEN BRIDGE,2022,,Li Yu,"Fan Wei, Wang Junkai, Ma Sichun"
+http://www.wikidata.org/entity/Q115040861,Fortune,2022,,Muhiddin Muzaffar,"Abdulmumin Sharifi, Esfandiyar Gholamzadeh, Salahuddin Shukurzade, Firuza Rahmanova"
+http://www.wikidata.org/entity/Q115614206,1744 White Alto,2022,,Senna Hegde,"Sharafudheen, Arun Kurian, Rajesh Madhavan, Sajin Cherukayil, Vincy Aloshious, Arya Salim"
+http://www.wikidata.org/entity/Q30599096,Stockholm,2020,92,Robert Budreau,
+http://www.wikidata.org/entity/Q55080133,The Night Clerk,2020,90,Michael Cristofer,
+http://www.wikidata.org/entity/Q59726716,Maha,2022,,,
+http://www.wikidata.org/entity/Q60738078,Walter,2020,,,
+http://www.wikidata.org/entity/Q62595377,Cut Throat City,2020,123,RZA,
+http://www.wikidata.org/entity/Q64521216,Brothers by Blood,2020,,Jérémie Guez,
+http://www.wikidata.org/entity/Q86752539,Popcorn Monkey Tiger,2020,,Duniya Soori,
+http://www.wikidata.org/entity/Q91880246,Schemes in Antiques,2021,123,Derek Kwok,
+http://www.wikidata.org/entity/Q93739105,Hot Blooded: Once Upon a Time in Korea,2022,,Cheon Myeong-kwan,
+http://www.wikidata.org/entity/Q96393967,Target Number One,2020,125,Daniel Roby,
+http://www.wikidata.org/entity/Q97112068,Max und die wilde 7,2020,87,Winfried Oelsner,
+http://www.wikidata.org/entity/Q97126802,Nemesis,2020,131,Thomas Imbach,
+http://www.wikidata.org/entity/Q97728862,Algo con una mujer,2020,89,"Mariano Turek, Luján Loioco",
+http://www.wikidata.org/entity/Q98931235,Santana,2020,,"Chris Roland, Maradona Dias Dos Santos",
+http://www.wikidata.org/entity/Q99519749,Class Action Park,2020,90,Seth Porges,
+http://www.wikidata.org/entity/Q100097551,American Murder: The Family Next Door,2020,82,Jenny Popplewell,
+http://www.wikidata.org/entity/Q100716557,Maestros del Renacer,2020,124,Albert Muns,
+http://www.wikidata.org/entity/Q101765864,The Three Deaths of Marisela Escobedo,2020,109,Carlos Perez Osorio,
+http://www.wikidata.org/entity/Q102050442,Blackmail Note,2020,112,,
+http://www.wikidata.org/entity/Q104776293,Tallukh,2020,83,Anurag Jha,
+http://www.wikidata.org/entity/Q104830640,Murder,2020,,Ram Gopal Varma,
+http://www.wikidata.org/entity/Q104848991,Break,2020,107,,
+http://www.wikidata.org/entity/Q104858854,Ida Red,2021,,John Swab,
+http://www.wikidata.org/entity/Q105443375,South Wind 2: Speed Up,2021,125,,
+http://www.wikidata.org/entity/Q105501900,A Writer's Odyssey,2021,,Lu Yang,
+http://www.wikidata.org/entity/Q106149446,The Longest Night,2020,80,Moroco Colman,
+http://www.wikidata.org/entity/Q106149470,Secret Voices,2020,85,Rodolfo Carnevale,
+http://www.wikidata.org/entity/Q106238180,South of Heaven,2021,120,Aharon Keshales,
+http://www.wikidata.org/entity/Q106321036,Dente por Dente,2021,85,,
+http://www.wikidata.org/entity/Q106348963,Ghost,2020,85,Anthony Z. James,
+http://www.wikidata.org/entity/Q106414302,La noche mágica,2021,98,Gastón Portal,
+http://www.wikidata.org/entity/Q106457470,L’ennemi,2022,104,Stephan Streker,
+http://www.wikidata.org/entity/Q106574429,Carmen Vidal Female Detective,2020,71,Eva Dans,
+http://www.wikidata.org/entity/Q106817675,A Storm Was Coming,2020,87,Javier Fernández Vázquez,
+http://www.wikidata.org/entity/Q107296280,Khel Ayushyacha,2020,,,
+http://www.wikidata.org/entity/Q107452640,Batman: The Long Halloween,2021,,Chris Palmer,
+http://www.wikidata.org/entity/Q107696252,Other People,2021,106,Aleksandra Terpińska,
+http://www.wikidata.org/entity/Q107740866,The Getaway King,2021,100,Mateusz Rakowicz,
+http://www.wikidata.org/entity/Q108760194,One Lagos Night,2021,,Ekene Som Mekwunye,
+http://www.wikidata.org/entity/Q109114882,Last Three Days,2020,86,Brian Tyrannus Ulrich,
+http://www.wikidata.org/entity/Q109438737,Senzano Savana,2021,,Rako Prijanto,
+http://www.wikidata.org/entity/Q110096811,The Last Ride of the Wolves,2022,,Alberto de Michele,
+http://www.wikidata.org/entity/Q110726468,Northern Skies Over Empty Space,2022,117,Alejandra Márquez Abella,
+http://www.wikidata.org/entity/Q110910146,Dry Ground Burning,2022,153,"Joana Pimenta, Adirley Queirós",
+http://www.wikidata.org/entity/Q111647968,Zanox,2022,86,Gábor Benő Baranyi,
+http://www.wikidata.org/entity/Q111720963,The Turning Point,2021,90,,
+http://www.wikidata.org/entity/Q111810418,The Photographer: Murder in Pinamar,2022,106,Alejandro Hartmann,
+http://www.wikidata.org/entity/Q111816404,Apache Junction,2021,94,Justin Lee,
+http://www.wikidata.org/entity/Q111972301,Bluff,2022,,,
+http://www.wikidata.org/entity/Q112055226,C'era una volta il crimine,2022,100,Massimiliano Bruno,
+http://www.wikidata.org/entity/Q112131938,Our Father,2022,97,Lucie Jourdan,
+http://www.wikidata.org/entity/Q112188915,Kerosene,2022,,,
+http://www.wikidata.org/entity/Q113670169,I Came By,2022,,Babak Anvari,
+http://www.wikidata.org/entity/Q113946953,Odela Railway Station,2022,,,
+http://www.wikidata.org/entity/Q114043864,Men of Deeds,2022,105,Paul Negoescu,
+http://www.wikidata.org/entity/Q114246571,Lost,2021,,Driss Roukhe,
+http://www.wikidata.org/entity/Q114365421,Love Story at Police Headquarters ~Wedding Eve~,2022,95,,
+http://www.wikidata.org/entity/Q114764499,Dopolnitelnyy urok,2022,97,,
+http://www.wikidata.org/entity/Q114797113,Jailbird,2022,,Andrea Magnani,
+http://www.wikidata.org/entity/Q115176012,Wild Is the Wind,2022,123,,
+http://www.wikidata.org/entity/Q115203862,Sons and Heirs,2022,39,,
+http://www.wikidata.org/entity/Q115439877,Stem Cell,2020,,Giuseppe Di Giorgio,
+http://www.wikidata.org/entity/Q115805549,A Man of Action,2022,111,Javier Ruiz Caldera,
+http://www.wikidata.org/entity/Q115857683,Black,2022,,,
+http://www.wikidata.org/entity/Q116197045,The Squad: Home Run,2023,,Benjamin Rocher,
+http://www.wikidata.org/entity/Q116199731,Transfariana,2023,,Joris Lachaise,
+http://www.wikidata.org/entity/Q116392456,Cattivo sangue,2022,90,,
+http://www.wikidata.org/entity/Q116764712,Zootopia 2,2025,108,"Byron Howard, Jared Bush",
+http://www.wikidata.org/entity/Q116766405,Lesson in Murder,2022,128,Kazuya Shiraishi,
+http://www.wikidata.org/entity/Q116814629,What We Do Next,2022,77,Stephen Belber,
+http://www.wikidata.org/entity/Q116881183,The Year of the Tiger,2023,,Yasser Michelén,
+http://www.wikidata.org/entity/Q116952809,Only the Good Survive,2023,92,,
+http://www.wikidata.org/entity/Q117068120,Little Bone Lodge,2023,93,Matthias Hoene,
+http://www.wikidata.org/entity/Q117742965,Oras de Peligro,2023,104,Joel Lamangan,
+http://www.wikidata.org/entity/Q117843138,The Black Minutes,2021,96,Mario Muñoz Espinosa,
+http://www.wikidata.org/entity/Q118113154,Ghost,2023,,Srini,
+http://www.wikidata.org/entity/Q118175432,The Horse Tail,2022,75,,
+http://www.wikidata.org/entity/Q119411011,The Pink Unicorn,2022,,Tabaré Blanchard,
+http://www.wikidata.org/entity/Q119852884,A Mystery on the Cattle Hill Express,2023,90,Will Ashurst,
+http://www.wikidata.org/entity/Q120197127,Alter Ego,2021,74,Ezio Massa,
+http://www.wikidata.org/entity/Q122462923,10 Days of a Curious Man,2024,110,Uluç Bayraktar,
+http://www.wikidata.org/entity/Q123012969,Breakout,2023,86,Brandon Slagle,
+http://www.wikidata.org/entity/Q123095066,Sleep Call,2023,100,,
+http://www.wikidata.org/entity/Q123119913,A Deadly Invitation,2023,92,José Manuel Cravioto,
+http://www.wikidata.org/entity/Q123259395,Prisons,2024,100,Esa Jussila,
+http://www.wikidata.org/entity/Q123270071,The Mole Song: Final,2021,129,Takashi Miike,
+http://www.wikidata.org/entity/Q123284951,Damaged,2024,,Terry McDonough,
+http://www.wikidata.org/entity/Q123992043,Reas,2024,90,Lola Arias,
+http://www.wikidata.org/entity/Q124176386,Killer Babes,2024,94,Magaby García,
+http://www.wikidata.org/entity/Q124307065,Scorched Earth,2024,101,Thomas Arslan,
+http://www.wikidata.org/entity/Q124308183,The Worst Man in London,2024,127,Rodrigo Areias,
+http://www.wikidata.org/entity/Q124580305,The Good Neighbor,2022,,Stephan Rick,
+http://www.wikidata.org/entity/Q124655319,The Domestic,2022,28,,
+http://www.wikidata.org/entity/Q124852877,Dead Mail,2024,,"Kyle McConaghy, Joe DeBoer",
+http://www.wikidata.org/entity/Q125019430,All Through the Hall,2022,74,,
+http://www.wikidata.org/entity/Q125542347,El Fantasma,2023,,Martín Duplaquet,
+http://www.wikidata.org/entity/Q125825859,Krishnamma,2024,,,
+http://www.wikidata.org/entity/Q125850387,Jezabel,2022,,Hernán Jabes,
+http://www.wikidata.org/entity/Q126603999,How to Rob a Bank,2024,88,"Stephen Robert Morse, Seth Porges",
+http://www.wikidata.org/entity/Q127602598,Delfino's Journey,2025,100,Arthur Allan Seidelman,
+http://www.wikidata.org/entity/Q127663735,Togo,2022,92,Adrián Caetano,
+http://www.wikidata.org/entity/Q127960853,Yahoo+ (film),2022,84,Ebuka Njoku,
+http://www.wikidata.org/entity/Q128341035,The Infallibles,2024,99,Frédéric Forestier,
+http://www.wikidata.org/entity/Q130191924,The Shadow Strays,2024,144,Timo Tjahjanto,
+http://www.wikidata.org/entity/Q130216143,Killing of a Nation,2025,,Carlos Bolado,
+http://www.wikidata.org/entity/Q130323322,Night Courier,2023,110,,
+http://www.wikidata.org/entity/Q130388421,Hide N Seek,2024,136,,
+http://www.wikidata.org/entity/Q130642119,Vitória,2025,112,Andrucha Waddington,
+http://www.wikidata.org/entity/Q131294565,Fresh,2024,,,
+http://www.wikidata.org/entity/Q131338272,Ad Vitam,2025,,Rodolphe Lauga,
+http://www.wikidata.org/entity/Q131689437,Fabula,2025,,,
+http://www.wikidata.org/entity/Q133824178,Gridlocked,2024,,,
+http://www.wikidata.org/entity/Q134273707,The Secret Floor,2025,,Norbert Lechner,
+http://www.wikidata.org/entity/Q134562012,Sebastian,2023,90,Mann Robinson,
+http://www.wikidata.org/entity/Q136036338,Unknown Number: The High School Catfish,2025,94,Skye Borgman,
+http://www.wikidata.org/entity/Q136326374,Thin Blood,2020,,Mehrdad Taheri,
+http://www.wikidata.org/entity/Q136410073,Guxim,2024,,Drilon Hoxha,
+http://www.wikidata.org/entity/Q136652736,Detective Kien: The Headless Horror,2025,,Victor Vu,
+http://www.wikidata.org/entity/Q136675042,Zwijgrecht,2025,,,
+http://www.wikidata.org/entity/Q136680554,Jujji,2025,,Habib Shahzad,
