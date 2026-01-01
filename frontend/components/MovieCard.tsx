@@ -34,9 +34,9 @@ export const MovieCard = ({ movie, index }: MovieCardProps) => {
                             <span>{movie.runtime} min</span>
                         </div>
                     )}
-                    <div className="flex items-center gap-1.5 col-span-2">
-                        <Film className="w-3 h-3 flex-shrink-0" />
-                        <span className="line-clamp-1">{movie.genres.join(', ') || 'Unknown Genre'}</span>
+                    <div className="flex items-start gap-1.5 col-span-2">
+                        <Film className="w-3 h-3 flex-shrink-0 mt-1" />
+                        <span className="max-h-16 overflow-y-auto block">{movie.genres.join(', ') || 'Unknown Genre'}</span>
                     </div>
                 </div>
 
@@ -44,14 +44,14 @@ export const MovieCard = ({ movie, index }: MovieCardProps) => {
                 {movie.directors.length > 0 && (
                     <div className="text-sm">
                         <span className="text-zinc-500 text-xs uppercase tracking-wider block mb-0.5">Director</span>
-                        <span className="text-gray-300">{movie.directors.join(', ')}</span>
+                        <span className="text-gray-300 max-h-16 overflow-y-auto block">{movie.directors.join(', ')}</span>
                     </div>
                 )}
 
                 {movie.actors.length > 0 && (
                     <div className="text-sm">
                         <span className="text-zinc-500 text-xs uppercase tracking-wider block mb-0.5">Starring</span>
-                        <p className="text-gray-300 line-clamp-2 leading-relaxed">
+                        <p className="text-gray-300 max-h-24 overflow-y-auto leading-relaxed">
                             {movie.actors.join(', ')}
                         </p>
                     </div>
