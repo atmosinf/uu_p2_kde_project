@@ -22,7 +22,7 @@ export const MovieCard = ({ movie, index }: MovieCardProps) => {
                         {movie.title}
                     </h3>
                     <span className="bg-yellow-500/10 text-yellow-500 text-xs px-2 py-1 rounded font-mono">
-                        {movie.index !== undefined ? `#${movie.index}` : ''} {movie.year || 'N/A'}
+                        {movie.year || 'N/A'}
                     </span>
                 </div>
 
@@ -65,6 +65,6 @@ export const MovieCard = ({ movie, index }: MovieCardProps) => {
                     </div>
                 )}
             </div>
-        </motion.div>
+        </motion.div >
     );
 };
