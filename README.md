@@ -51,3 +51,16 @@ npm start -- -p 3000
 - **Frontend**: Next.js 15, React 19, Tailwind CSS (Premium Dark Theme)
 - **Backend**: Python FastAPI, rdflib (SPARQL Query Engine)
 - **Data**: RDF Turtle file (`data/wiki_db_cleaned.ttl`)
+## 🔧 Troubleshooting
+
+### Changes not verified? (Docker Caching)
+
+If you modify configuration or code but don't see the changes in Docker, the build cache might be stale. Force a clean rebuild:
+
+```bash
+# Rebuild the frontend without cache
+docker-compose build --no-cache frontend
+
+# Recreate the containers to pick up the new image
+docker-compose up -d --force-recreate
+```
