@@ -37,7 +37,7 @@ export const Sidebar = ({ options, filters, setFilters, onSearch, loading }: Sid
                             type="text"
                             value={filters.title || ''}
                             onChange={(e) => handleChange('title', e.target.value)}
-                            placeholder="The Lord of the Rings..."
+                            placeholder="Title..."
                             className="w-full bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg py-2.5 pl-10 pr-4 text-sm text-zinc-900 dark:text-white focus:outline-none focus:border-yellow-500 transition-colors placeholder:text-zinc-400 dark:placeholder:text-zinc-600"
                         />
                     </div>
