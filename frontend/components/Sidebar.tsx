@@ -1,5 +1,6 @@
 import { FilterOptions } from '@/types';
 import { Search, Filter, X } from 'lucide-react';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 interface SidebarProps {
     options: FilterOptions;
@@ -15,12 +16,15 @@ export const Sidebar = ({ options, filters, setFilters, onSearch, loading }: Sid
     };
 
     return (
-        <aside className="w-80 h-screen overflow-y-auto bg-zinc-950 border-r border-zinc-800 p-6 flex flex-col gap-8 fixed left-0 top-0 z-10 font-sans">
-            <div className="flex items-center gap-3 text-yellow-500">
-                <div className="p-2 bg-yellow-500/10 rounded-lg">
-                    <Filter className="w-6 h-6" />
+        <aside className="w-80 h-screen overflow-y-auto bg-zinc-50 dark:bg-zinc-950 border-r border-zinc-200 dark:border-zinc-800 p-6 flex flex-col gap-8 fixed left-0 top-0 z-10 font-sans transition-colors duration-300">
+            <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3 text-yellow-500">
+                    <div className="p-2 bg-yellow-500/10 rounded-lg">
+                        <Filter className="w-6 h-6" />
+                    </div>
+                    <h1 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-white">Movie Finder</h1>
                 </div>
-                <h1 className="text-2xl font-bold tracking-tight text-white">Movie Finder</h1>
+                <ThemeToggle />
             </div>
 
             <div className="space-y-6 flex-1">
@@ -34,7 +38,7 @@ export const Sidebar = ({ options, filters, setFilters, onSearch, loading }: Sid
                             value={filters.title || ''}
                             onChange={(e) => handleChange('title', e.target.value)}
                             placeholder="The Lord of the Rings..."
-                            className="w-full bg-zinc-900 border border-zinc-800 rounded-lg py-2.5 pl-10 pr-4 text-sm text-white focus:outline-none focus:border-yellow-500 transition-colors placeholder:text-zinc-600"
+                            className="w-full bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg py-2.5 pl-10 pr-4 text-sm text-zinc-900 dark:text-white focus:outline-none focus:border-yellow-500 transition-colors placeholder:text-zinc-400 dark:placeholder:text-zinc-600"
                         />
                     </div>
                 </div>
@@ -44,7 +48,7 @@ export const Sidebar = ({ options, filters, setFilters, onSearch, loading }: Sid
                     <div key={field} className="space-y-2">
                         <label className="text-xs uppercase text-zinc-500 font-semibold tracking-wider capitalize">{field}</label>
                         <select
-                            className="w-full bg-zinc-900 border border-zinc-800 rounded-lg py-2.5 px-3 text-sm text-white focus:outline-none focus:border-yellow-500 transition-colors appearance-none cursor-pointer"
+                            className="w-full bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg py-2.5 px-3 text-sm text-zinc-900 dark:text-white focus:outline-none focus:border-yellow-500 transition-colors appearance-none cursor-pointer"
                             value={filters[field] || ''}
                             onChange={(e) => handleChange(field, e.target.value)}
                         >
@@ -68,14 +72,14 @@ export const Sidebar = ({ options, filters, setFilters, onSearch, loading }: Sid
                         <input
                             type="number"
                             placeholder="1900"
-                            className="w-full bg-zinc-900 border border-zinc-800 rounded-lg py-2 px-3 text-sm text-white focus:border-yellow-500 outline-none"
+                            className="w-full bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg py-2 px-3 text-sm text-zinc-900 dark:text-white focus:border-yellow-500 outline-none placeholder:text-zinc-400 dark:placeholder:text-zinc-600"
                             onChange={(e) => handleChange('year_start', e.target.value)}
                         />
-                        <span className="text-zinc-600 self-center">-</span>
+                        <span className="text-zinc-400 dark:text-zinc-600 self-center">-</span>
                         <input
                             type="number"
                             placeholder="2025"
-                            className="w-full bg-zinc-900 border border-zinc-800 rounded-lg py-2 px-3 text-sm text-white focus:border-yellow-500 outline-none"
+                            className="w-full bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg py-2 px-3 text-sm text-zinc-900 dark:text-white focus:border-yellow-500 outline-none placeholder:text-zinc-400 dark:placeholder:text-zinc-600"
                             onChange={(e) => handleChange('year_end', e.target.value)}
                         />
                     </div>
