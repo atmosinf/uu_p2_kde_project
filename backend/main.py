@@ -36,9 +36,9 @@ def search_movies(
     director: Optional[str] = None,
     year_start: Optional[int] = None,
     year_end: Optional[int] = None,
-    print(f"DEBUG: Received search request - Title: {title}, Genre: {genre}", flush=True)
     limit: int = 50
 ):
+    print(f"DEBUG: Received search request - Title: {title}, Genre: {genre}", flush=True)
     return engine.search_movies(
         title=title,
         genre=genre,
