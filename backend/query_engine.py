@@ -166,6 +166,8 @@ class QueryEngine:
              m["directors"].sort()
              m["actors"].sort()
         
+        return results
+
     def get_movie_details(self, uris):
         """Fetches full movie details for a list of URIs."""
         if not uris:
