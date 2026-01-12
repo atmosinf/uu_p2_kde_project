@@ -18,11 +18,21 @@ ex:Genre    a owl:Class .
 # Object
 ex:actor a owl:ObjectProperty ;
   rdfs:domain ex:Movie ;
-  rdfs:range  ex:Actor .
+  rdfs:range  ex:Actor ;
+  owl:inverseOf ex:actedIn .
+
+ex:actedIn a owl:ObjectProperty ;
+  rdfs:domain ex:Actor ;
+  rdfs:range ex:Movie .
 
 ex:director a owl:ObjectProperty ;
   rdfs:domain ex:Movie ;
-  rdfs:range  ex:Director .
+  rdfs:range  ex:Director ;
+  owl:inverseOf ex:directedBy .
+
+ex:directedBy a owl:ObjectProperty ;
+  rdfs:domain ex:Director ;
+  rdfs:range ex:Movie .
 
 ex:genre a owl:ObjectProperty ;
   rdfs:domain ex:Movie ;

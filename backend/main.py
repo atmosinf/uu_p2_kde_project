@@ -16,17 +16,73 @@ app.add_middleware(
 )
 
 # Initialize Query Engine
-# Adjust path if running from root or backend folder. Assuming running from root.
-RDF_PATH = os.path.join(os.path.dirname(__file__), "../data/wiki_db_cleaned.ttl")
-engine = QueryEngine(RDF_PATH)
+BLAZEGRAPH_URL = os.getenv("BLAZEGRAPH_URL", "http://blazegraph:9999/blazegraph/sparql")
+engine = QueryEngine(BLAZEGRAPH_URL)
+
+try:
+    from backend.semantic_search import SemanticSearch
+    semantic_search = SemanticSearch()
+except Exception as e:
+    print(f"WARNING: Semantic Search failed to initialize: {e}")
+    semantic_search = None
+
+@app.on_event("startup")
+def startup_event():
+    from backend.loader import init_db
+    
+    # Paths to data files
+    base_dir = os.path.dirname(__file__)
+    data_files = [
+        os.path.join(base_dir, "../data/wiki_db_cleaned.ttl"),
+        os.path.join(base_dir, "../ontology/ontology.ttl")
+    ]
+    
+    print("DEBUG: Initializing Database...", flush=True)
+    try:
+        init_db(data_files)
+    except Exception as e:
+        print(f"WARNING: Database initialization failed: {e}", flush=True)
+
+    # Initialize Embeddings
+    if semantic_search:
+        print("DEBUG: Checking Embeddings Index...", flush=True)
+        try:
+            if semantic_search.count() == 0:
+                print("DEBUG: Index empty. Fetching movies from Blazegraph...", flush=True)
+                movies = engine.get_all_movies()
+                if movies:
+                     semantic_search.index_movies(movies)
+                else:
+                     print("WARNING: No movies found in Blazegraph to index.", flush=True)
+            else:
+                print(f"DEBUG: Embeddings index has {semantic_search.count()} items.", flush=True)
+        except Exception as e:
+            print(f"WARNING: Embedding indexing failed: {e}", flush=True)
 
 @app.get("/")
 def read_root():
-    return {"message": "Movie Explorer API is running"}
+    return {"message": "Movie Explorer API is running with Blazegraph & Semantic Search"}
 
 @app.get("/options")
 def get_filter_options():
     return engine.get_options()
+
+@app.get("/search/semantic")
+def search_semantic(query: str, limit: int = 10):
+    if not semantic_search:
+        return []
+        
+    print(f"DEBUG: Semantic search for '{query}'", flush=True)
+    results = semantic_search.search(query, n_results=limit)
+    
+    if not results:
+        return []
+
+    # Get URIs
+    uris = [r['id'] for r in results]
+    
+    # Enrich with details
+    return engine.get_movie_details(uris)
 
 @app.get("/search")
 def search_movies(

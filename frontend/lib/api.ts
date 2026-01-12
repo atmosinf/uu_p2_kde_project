@@ -23,3 +23,14 @@ export const searchMovies = async (params: any): Promise<Movie[]> => {
         return [];
     }
 };
+
+export const searchSemantic = async (query: string): Promise<Movie[]> => {
+    console.log("DEBUG: Semantic search query:", query);
+    try {
+        const response = await api.get('/search/semantic', { params: { query } });
+        return response.data;
+    } catch (error) {
+        console.error("DEBUG: Semantic search error:", error);
+        return [];
+    }
+};

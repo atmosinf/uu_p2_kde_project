@@ -30,14 +30,30 @@ export const Sidebar = ({ options, filters, setFilters, onSearch, loading }: Sid
             <div className="space-y-6 flex-1">
                 {/* Search Input */}
                 <div className="space-y-2">
-                    <label className="text-xs uppercase text-zinc-500 font-semibold tracking-wider">Title</label>
+                    <label className="text-xs uppercase text-zinc-500 font-semibold tracking-wider">Semantic Search</label>
+                    <div className="relative group">
+                        <Search className="absolute left-3 top-3 w-4 h-4 text-purple-500 group-focus-within:text-purple-600 transition-colors" />
+                        <input
+                            type="text"
+                            value={filters.semanticQuery || ''}
+                            onChange={(e) => handleChange('semanticQuery', e.target.value)}
+                            placeholder="e.g. Space wars..."
+                            className="w-full bg-white dark:bg-zinc-900 border border-purple-200 dark:border-purple-900/30 rounded-lg py-2.5 pl-10 pr-4 text-sm text-zinc-900 dark:text-white focus:outline-none focus:border-purple-500 transition-colors placeholder:text-zinc-400 dark:placeholder:text-zinc-600"
+                        />
+                    </div>
+                </div>
+
+                <div className="border-t border-zinc-200 dark:border-zinc-800 my-4" />
+
+                <div className="space-y-2">
+                    <label className="text-xs uppercase text-zinc-500 font-semibold tracking-wider">Filter by Title</label>
                     <div className="relative group">
                         <Search className="absolute left-3 top-3 w-4 h-4 text-zinc-500 group-focus-within:text-yellow-500 transition-colors" />
                         <input
                             type="text"
                             value={filters.title || ''}
                             onChange={(e) => handleChange('title', e.target.value)}
-                            placeholder="Title..."
+                            placeholder="Exact Title..."
                             className="w-full bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-lg py-2.5 pl-10 pr-4 text-sm text-zinc-900 dark:text-white focus:outline-none focus:border-yellow-500 transition-colors placeholder:text-zinc-400 dark:placeholder:text-zinc-600"
                         />
                     </div>
