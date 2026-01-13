@@ -10,7 +10,7 @@ services:
     volumes:
       - ./data:/app/data
       # Optional: sync backend code for dev without rebuild
-      # - ./backend:/app/backend
+      - ./backend:/app/backend
 
   frontend:
     build:
@@ -22,3 +22,13 @@ services:
       - BACKEND_URL=http://backend:8000
     depends_on:
       - backend
+
+  blazegraph:
+    image: lyrasis/blazegraph:2.1.5
+    ports:
+      - "9999:8080"
+    volumes:
+      - blazegraph-data:/var/lib/blazegraph/data
+
+volumes:
+  blazegraph-data:

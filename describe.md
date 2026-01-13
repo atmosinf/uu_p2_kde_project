@@ -8,7 +8,7 @@ The application is a "Semantic Web" movie explorer. Unlike traditional apps that
 
 The app consists of three main parts:
 1.  **Data Pipeline (Root Scripts):** A set of Python scripts that collect, clean, and convert raw movie data into the graph format (`.ttl`).
-2.  **Backend (Python/FastAPI):** A server that loads the graph data and answers questions (queries) from the frontend.
+2.  **Backend (Python/FastAPI):** A server that connects to the **Blazegraph** graph database to answer questions (queries) from the frontend.
 3.  **Frontend (Next.js/React):** The website you see in your browser. It allows you to select filters and displays the movie results.
 
 ---
@@ -77,7 +77,7 @@ The visual interface of the application.
 *   `search_movies(...)`: The main search endpoint. It accepts parameters (title, genre, actor, etc.) from the frontend and passes them to the `QueryEngine`.
 
 #### `backend/query_engine.py`
-*   `__init__`: Loads the `.ttl` file (the graph database) into memory when the server starts.
+*   `__init__`: Connects to the **Blazegraph** SPARQL endpoint. It also includes logic to automatically upload the `.ttl` file to the database on startup if it's empty.
 *   `get_options()`:
     *   Runs three separate queries to find every unique genre, director, and the most popular actors in the database.
     *   Returns these lists to the frontend.
