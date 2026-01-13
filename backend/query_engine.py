@@ -7,15 +7,19 @@ import requests
 class QueryEngine:
     def __init__(self, blazegraph_url: str = "http://blazegraph:9999/bigdata/namespace/kb/sparql"):
         self.endpoint = blazegraph_url
-        self.sparql = SPARQLWrapper(self.endpoint)
-        self.sparql.setReturnFormat(JSON)
+
+    def _get_sparql(self):
+        """Creates a new SPARQLWrapper instance."""
+        sparql = SPARQLWrapper(self.endpoint)
+        sparql.setReturnFormat(JSON)
+        return sparql
 
     def is_connected(self):
         """Checks if Blazegraph is reachable."""
         try:
-            # Simple query to check connection
-            self.sparql.setQuery("ASK { ?s ?p ?o }")
-            self.sparql.query()
+            sparql = self._get_sparql()
+            sparql.setQuery("ASK { ?s ?p ?o }")
+            sparql.query()
             return True
         except Exception:
             return False
@@ -23,8 +27,9 @@ class QueryEngine:
     def has_movies(self):
         """Checks if movie data is loaded."""
         try:
-            self.sparql.setQuery("PREFIX ex: <http://example.org/movie/> ASK { ?s ex:title ?o }")
-            ret = self.sparql.query().convert()
+            sparql = self._get_sparql()
+            sparql.setQuery("PREFIX ex: <http://example.org/movie/> ASK { ?s ex:title ?o }")
+            ret = sparql.query().convert()
             # SPARQLWrapper JSON result for ASK is boolean
             return ret["boolean"]
         except Exception:
@@ -32,13 +37,7 @@ class QueryEngine:
 
     def upload_ttl(self, file_path: str):
         """Uploads a TTL file to Blazegraph via HTTP POST."""
-        url = self.endpoint # The SPARQL endpoint can often accept data via POST with correct headers, but the standard REST API is better.
-        # Blazegraph REST API for data loading: /blazegraph/dataloader or just POST to the endpoint with Content-Type.
-        # Efficient way for Blazegraph: POST to /blazegraph/sparql with UPDATE or using the proper DataLoader.
-        # Actually, simpler way: POST body to the endpoint with correct content-type for insertion.
-        
-        # Let's use the REST API approach for 'File Upload' style or just a raw post.
-        # Docs: https://github.com/blazegraph/database/wiki/REST_API#insert
+        url = self.endpoint 
         
         logging.info(f"Starting upload of {file_path} to {self.endpoint}...")
         
@@ -49,8 +48,6 @@ class QueryEngine:
             "Content-Type": "application/x-turtle",
         }
         
-        # Blazegraph endpoint usually allows POSTing data directly to .../sparql for some setups, 
-        # but the standard way is often just POST /blazegraph/namespace/kb/sparql
         response = requests.post(self.endpoint, data=data, headers=headers)
         
         if response.status_code != 200:
@@ -62,41 +59,50 @@ class QueryEngine:
     def get_options(self):
         """Returns unique genres, actors, directors for dropdowns."""
         # Query Genres
+        logging.info("Fetching options...")
         q_genre = """
         PREFIX ex: <http://example.org/movie/>
-        SELECT DISTINCT ?label WHERE {
+        SELECT DISTINCT ?g WHERE {
             ?m ex:genre ?g .
-            BIND(REPLACE(STR(?g), "^.*\\\\/", "") AS ?label)
-        } ORDER BY ?label
+        } ORDER BY ?g
         """
-        genres = self._execute_query_list(q_genre, "label")
+        genres_uris = self._execute_query_list(q_genre, "g")
+        genres = [uri.split("/")[-1] for uri in genres_uris]
+        genres = sorted(list(set(genres))) # Ensure unique and sorted
+        logging.info(f"Fetched {len(genres)} genres")
 
         # Query Actors (limit to top 200 most frequent)
+        logging.info("Fetching actors...")
         q_actor = """
         PREFIX ex: <http://example.org/movie/>
-        SELECT ?label (COUNT(?m) as ?count) WHERE {
+        SELECT ?a (COUNT(?m) as ?count) WHERE {
             ?m ex:actor ?a .
-            BIND(REPLACE(STR(?a), "^.*\\\\/", "") AS ?label)
-        } GROUP BY ?label ORDER BY DESC(?count) LIMIT 200
+        } GROUP BY ?a ORDER BY DESC(?count) LIMIT 200
         """
-        actors = self._execute_query_list(q_actor, "label")
+        actors_uris = self._execute_query_list(q_actor, "a")
+        actors = [uri.split("/")[-1] for uri in actors_uris]
+        logging.info(f"Fetched {len(actors)} actors")
 
         # Query Directors
+        logging.info("Fetching directors...")
         q_director = """
         PREFIX ex: <http://example.org/movie/>
-        SELECT DISTINCT ?label WHERE {
+        SELECT DISTINCT ?d WHERE {
             ?m ex:director ?d .
-            BIND(REPLACE(STR(?d), "^.*\\\\/", "") AS ?label)
-        } ORDER BY ?label
+        } ORDER BY ?d
         """
-        directors = self._execute_query_list(q_director, "label")
+        directors_uris = self._execute_query_list(q_director, "d")
+        directors = [uri.split("/")[-1] for uri in directors_uris]
+        directors = sorted(list(set(directors)))
+        logging.info(f"Fetched {len(directors)} directors")
 
         return {"genres": genres, "actors": actors, "directors": directors}
 
     def _execute_query_list(self, query, var_name):
         try:
-            self.sparql.setQuery(query)
-            results = self.sparql.query().convert()
+            sparql = self._get_sparql()
+            sparql.setQuery(query)
+            results = sparql.query().convert()
             return [r[var_name]["value"] for r in results["results"]["bindings"]]
         except Exception as e:
             logging.error(f"SPARQL Error: {e}")
@@ -145,8 +151,9 @@ class QueryEngine:
         
         try:
             logging.info(f"Query Step 1: {query_body}")
-            self.sparql.setQuery(query_body)
-            results = self.sparql.query().convert()
+            sparql = self._get_sparql()
+            sparql.setQuery(query_body)
+            results = sparql.query().convert()
             
             for row in results["results"]["bindings"]:
                 m_uri = row["movie"]["value"]
@@ -179,8 +186,9 @@ class QueryEngine:
             }}
             """
             try:
-                self.sparql.setQuery(q_attr)
-                res = self.sparql.query().convert()
+                sparql = self._get_sparql()
+                sparql.setQuery(q_attr)
+                res = sparql.query().convert()
                 for row in res["results"]["bindings"]:
                     m_uri = row["movie"]["value"]
                     if m_uri in movies_map:
