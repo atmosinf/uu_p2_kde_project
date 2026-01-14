@@ -1,50 +1,68 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix ex: <http://example.org/movie/> .
 
-# --- Classes ---
-ex:Movie a rdfs:Class ;
-    rdfs:label "Movie" .
+# --- Ontology Header ---
+ex:MovieRecOntology a owl:Ontology ;
+    rdfs:label "Movie Recommendation Ontology" .
 
-ex:Person a rdfs:Class ;
+# --- Classes ---
+ex:Person a owl:Class ;
     rdfs:label "Person" .
 
-ex:Genre a rdfs:Class ;
+ex:Actor a owl:Class ;
+    rdfs:subClassOf ex:Person ;
+    rdfs:label "Actor" .
+
+ex:Director a owl:Class ;
+    rdfs:subClassOf ex:Person ;
+    rdfs:label "Director" .
+
+ex:Genre a owl:Class ;
     rdfs:label "Genre" .
 
+ex:Movie a owl:Class ;
+    rdfs:label "Movie" ;
+    # Constraint: Every Movie MUST have a title
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty ex:title ;
+        owl:minCardinality "1"^^xsd:nonNegativeInteger
+    ] .
+
 # --- Properties ---
-ex:title a rdf:Property ;
+ex:title a owl:DatatypeProperty ;
     rdfs:domain ex:Movie ;
     rdfs:range xsd:string .
 
-ex:year a rdf:Property ;
+ex:year a owl:DatatypeProperty ;
     rdfs:domain ex:Movie ;
     rdfs:range xsd:gYear .
 
-ex:director a rdf:Property ;
+ex:runtime a owl:DatatypeProperty ;
     rdfs:domain ex:Movie ;
-    rdfs:range ex:Person .
+    rdfs:range xsd:float .
 
-ex:actor a rdf:Property ;
+ex:director a owl:ObjectProperty ;
     rdfs:domain ex:Movie ;
-    rdfs:range ex:Person .
+    rdfs:range ex:Director .
 
-ex:genre a rdf:Property ;
+ex:actor a owl:ObjectProperty ;
+    rdfs:domain ex:Movie ;
+    rdfs:range ex:Actor .
+
+ex:genre a owl:ObjectProperty ;
     rdfs:domain ex:Movie ;
     rdfs:range ex:Genre .
 
-# --- Genre Hierarchy (for Inference Demo) ---
-# Check data/wiki_db_cleaned.csv to match actual values
-# Found: "adventure", "fantasy", "science fiction", "crime", "drama" ...
-
-# Top level genres
+# --- Genre Hierarchy (From RDFS version, valid in OWL) ---
 ex:Fiction a ex:Genre .
 ex:SpeculativeFiction a ex:Genre ;
     rdfs:subClassOf ex:Fiction .
 
-# Specific Mapping
-# "science_fiction" -> SpeculativeFiction
+# Specific Mappings
 ex:science_fiction a ex:Genre ;
     rdfs:subClassOf ex:SpeculativeFiction ;
     rdfs:label "Science Fiction" .
@@ -53,7 +71,6 @@ ex:fantasy a ex:Genre ;
     rdfs:subClassOf ex:SpeculativeFiction ;
     rdfs:label "Fantasy" .
 
-# "adventure" -> Action/Adventure
 ex:ActionAdventure a ex:Genre ;
     rdfs:subClassOf ex:Fiction .
 
@@ -65,10 +82,9 @@ ex:action a ex:Genre ;
     rdfs:subClassOf ex:ActionAdventure ;
     rdfs:label "Action" .
 
-# "crime" -> Thriller
+ex:Thriller a ex:Genre ;
+    rdfs:subClassOf ex:Fiction .
+
 ex:crime a ex:Genre ;
     rdfs:subClassOf ex:Thriller ;
     rdfs:label "Crime" .
-
-ex:Thriller a ex:Genre ;
-    rdfs:subClassOf ex:Fiction .

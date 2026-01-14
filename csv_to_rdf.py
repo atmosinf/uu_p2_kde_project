@@ -54,7 +54,7 @@ with open(CSV_FILE, newline="", encoding="utf-8") as f:
                 d = d.strip()
                 if d:
                     director_uri = to_uri(d)
-                    g.add((director_uri, RDF.type, ex.Person))
+                    g.add((director_uri, RDF.type, ex.Director))
                     g.add((movie_uri, ex.director, director_uri))
 
         genres = row.get("genre", "").strip()
@@ -73,7 +73,7 @@ with open(CSV_FILE, newline="", encoding="utf-8") as f:
                 a = a.strip()
                 if a:
                     actor_uri = to_uri(a)
-                    g.add((actor_uri, RDF.type, ex.Person))
+                    g.add((actor_uri, RDF.type, ex.Actor))
                     g.add((movie_uri, ex.actor, actor_uri))
 
 # ---------- Serialize RDF to Turtle ----------
