@@ -1,5 +1,5 @@
 import csv
-from rdflib import Graph, Namespace, Literal, URIRef
+from rdflib import Graph, Namespace, Literal, URIRef, RDF
 from rdflib.namespace import XSD
 import re
 
@@ -34,6 +34,7 @@ with open(CSV_FILE, newline="", encoding="utf-8") as f:
         movie_uri = to_uri(row["title"])
 
         # title (mandatory)
+        g.add((movie_uri, RDF.type, ex.Movie))
         g.add((movie_uri, ex.title, Literal(row["title"])))
 
         # year (check empty and numeric)
@@ -52,14 +53,18 @@ with open(CSV_FILE, newline="", encoding="utf-8") as f:
             for d in re.split(r"[|,]", directors):
                 d = d.strip()
                 if d:
-                    g.add((movie_uri, ex.director, to_uri(d)))
+                    director_uri = to_uri(d)
+                    g.add((director_uri, RDF.type, ex.Person))
+                    g.add((movie_uri, ex.director, director_uri))
 
         genres = row.get("genre", "").strip()
         if genres:
             for d in re.split(r"[|,]", genres):
                 d = d.strip()
                 if d:
-                    g.add((movie_uri, ex.genre, to_uri(d)))
+                    genre_uri = to_uri(d)
+                    g.add((genre_uri, RDF.type, ex.Genre))
+                    g.add((movie_uri, ex.genre, genre_uri))
 
         # actors (multiple allowed, skip empty)
         actors = row.get("actors", "").strip()
@@ -67,7 +72,9 @@ with open(CSV_FILE, newline="", encoding="utf-8") as f:
             for a in re.split(r"[|,]", actors):
                 a = a.strip()
                 if a:
-                    g.add((movie_uri, ex.actor, to_uri(a)))
+                    actor_uri = to_uri(a)
+                    g.add((actor_uri, RDF.type, ex.Person))
+                    g.add((movie_uri, ex.actor, actor_uri))
 
 # ---------- Serialize RDF to Turtle ----------
 g.serialize(OUTPUT_FILE, format="turtle")

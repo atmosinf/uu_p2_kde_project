@@ -19,6 +19,7 @@ app.add_middleware(
 
 # Initialize Query Engine
 RDF_PATH = os.path.join(os.path.dirname(__file__), "../data/wiki_db_cleaned.ttl")
+ONTOLOGY_PATH = os.path.join(os.path.dirname(__file__), "../ontology/schema.ttl")
 BLAZEGRAPH_URL = os.getenv("BLAZEGRAPH_URL", "http://blazegraph:8080/bigdata/namespace/kb/sparql")
 engine = QueryEngine(BLAZEGRAPH_URL)
 
@@ -77,6 +78,17 @@ if running_in_docker:
                 logging.info("Data loaded successfully!")
             except Exception as e:
                 logging.error(f"Failed to load data: {e}")
+        
+        # 3. Always try to load Ontology (it's small and idempotent usually, or we check if Exists)
+        # For simplicity, we just upload it. If it fails (duplicates), it might be fine depending on Blazegraph config,
+        # but Blazegraph doesn't error on duplicate triples, just ignores them.
+        try:
+             logging.info("Uploading Ontology...")
+             engine.upload_ttl(ONTOLOGY_PATH)
+             logging.info("Ontology uploaded!")
+        except Exception as e:
+             logging.error(f"Failed to load ontology: {e}")
+        
         else:
             logging.info("Blazegraph already has data.")
 

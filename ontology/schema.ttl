@@ -1,0 +1,74 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/movie/> .
+
+# --- Classes ---
+ex:Movie a rdfs:Class ;
+    rdfs:label "Movie" .
+
+ex:Person a rdfs:Class ;
+    rdfs:label "Person" .
+
+ex:Genre a rdfs:Class ;
+    rdfs:label "Genre" .
+
+# --- Properties ---
+ex:title a rdf:Property ;
+    rdfs:domain ex:Movie ;
+    rdfs:range xsd:string .
+
+ex:year a rdf:Property ;
+    rdfs:domain ex:Movie ;
+    rdfs:range xsd:gYear .
+
+ex:director a rdf:Property ;
+    rdfs:domain ex:Movie ;
+    rdfs:range ex:Person .
+
+ex:actor a rdf:Property ;
+    rdfs:domain ex:Movie ;
+    rdfs:range ex:Person .
+
+ex:genre a rdf:Property ;
+    rdfs:domain ex:Movie ;
+    rdfs:range ex:Genre .
+
+# --- Genre Hierarchy (for Inference Demo) ---
+# Check data/wiki_db_cleaned.csv to match actual values
+# Found: "adventure", "fantasy", "science fiction", "crime", "drama" ...
+
+# Top level genres
+ex:Fiction a ex:Genre .
+ex:SpeculativeFiction a ex:Genre ;
+    rdfs:subClassOf ex:Fiction .
+
+# Specific Mapping
+# "science_fiction" -> SpeculativeFiction
+ex:science_fiction a ex:Genre ;
+    rdfs:subClassOf ex:SpeculativeFiction ;
+    rdfs:label "Science Fiction" .
+
+ex:fantasy a ex:Genre ;
+    rdfs:subClassOf ex:SpeculativeFiction ;
+    rdfs:label "Fantasy" .
+
+# "adventure" -> Action/Adventure
+ex:ActionAdventure a ex:Genre ;
+    rdfs:subClassOf ex:Fiction .
+
+ex:adventure a ex:Genre ;
+    rdfs:subClassOf ex:ActionAdventure ;
+    rdfs:label "Adventure" .
+
+ex:action a ex:Genre ;
+    rdfs:subClassOf ex:ActionAdventure ;
+    rdfs:label "Action" .
+
+# "crime" -> Thriller
+ex:crime a ex:Genre ;
+    rdfs:subClassOf ex:Thriller ;
+    rdfs:label "Crime" .
+
+ex:Thriller a ex:Genre ;
+    rdfs:subClassOf ex:Fiction .

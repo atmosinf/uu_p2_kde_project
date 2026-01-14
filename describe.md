@@ -13,33 +13,104 @@ The app consists of three main parts:
 
 ---
 
+## Example Workflow: Searching for "Dune"
+
+Here is exactly what happens, step-by-step, when you search for "Dune":
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Frontend (Browser)
+    participant Backend (Python)
+    participant Database (Blazegraph)
+
+    User->>Frontend: Types "Dune" & Clicks Search
+    Frontend->>Backend: GET /search?title=Dune
+    Backend->>Backend: Build SPARQL Query
+    Backend->>Database: Execute SPARQL (Find Movies)
+    Database-->>Backend: Return Movie URIs (e.g., ex:Dune)
+    Backend->>Database: Execute SPARQL (Fetch Details)
+    Database-->>Backend: Return Actors, Genres, etc.
+    Backend-->>Frontend: Return JSON List of Movies
+    Frontend-->>User: Display Movie Cards
+```
+
+### 1. User Interaction (Frontend)
+*   **File:** [`frontend/components/Sidebar.tsx`](frontend/components/Sidebar.tsx)
+*   **Action:** You type "Dune" into the input box. The React state updates via [`handleChange`](frontend/components/Sidebar.tsx#L14-L16). When you click "Search", it triggers the `onSearch` event.
+*   **File:** [`frontend/app/page.tsx`](frontend/app/page.tsx)
+*   **Action:** The [`handleSearch`](frontend/app/page.tsx#L30-L41) function is called. It sets `loading` to `true` (showing the spinner) and calls the API function.
+
+### 2. Sending the Request (Frontend -> Backend)
+*   **File:** [`frontend/lib/api.ts`](frontend/lib/api.ts)
+*   **Action:** The [`searchMovies({ title: "Dune" })`](frontend/lib/api.ts#L15-L25) function sends an HTTP GET request to the backend:
+    `http://localhost:8000/search?title=Dune`
+
+### 3. Processing the Request (Backend)
+*   **File:** [`backend/main.py`](backend/main.py)
+*   **Action:** The server receives the request at the [`/search`](backend/main.py#L91-L110) endpoint. It extracts `title="Dune"` and passes it to the `engine`.
+    ```python
+    # main.py
+    results = engine.search_movies(title="Dune", ...)
+    ```
+
+### 4. Querying the Graph (Backend -> Database)
+*   **File:** [`backend/query_engine.py`](backend/query_engine.py)
+*   **Action:** The [`search_movies`](backend/query_engine.py#L111-L211) method converts your "Dune" search into a **SPARQL Query** (the language of graph databases).
+    *   **Query 1 (Find Matches):** "Find all movies where the title contains 'Dune' (case-insensitive)."
+    *   **Execution:** It sends this query to **Blazegraph** running on port 8080.
+    *   **Result:** Blazegraph returns the IDs (URIs) of matching movies, e.g., `<http://example.org/movie/Dune>` and `<http://example.org/movie/Dune_Part_Two>`.
+
+### 5. Fetching Details (Backend -> Database)
+*   **File:** [`backend/query_engine.py`](backend/query_engine.py)
+*   **Action:** Now that the backend knows *which* movies matched, it needs their details (Actors, Genres, Directors). It runs a **second SPARQL query** specifically for those movie IDs to get that info.
+*   **Reason:** This is often faster than doing one giant complex query.
+
+### 6. Sending Response (Backend -> Frontend)
+*   **File:** [`backend/main.py`](backend/main.py)
+*   **Action:** The `engine` bundles all this data into a nice list of dictionaries (JSON format) and sends it back to the browser.
+    ```json
+    [
+      { "title": "Dune", "year": "2021", "genres": ["Science Fiction"], ... },
+      { "title": "Dune: Part Two", "year": "2024", ... }
+    ]
+    ```
+
+### 7. Displaying Results (Frontend)
+*   **File:** [`frontend/app/page.tsx`](frontend/app/page.tsx)
+*   **Action:** The `handleSearch` function receives the data. It updates the `movies` state variable.
+*   **File:** [`frontend/components/MovieCard.tsx`](frontend/components/MovieCard.tsx)
+*   **Action:** React sees the new data and draws a [`MovieCard`](frontend/components/MovieCard.tsx#L10-L70) component for each movie in the list, showing the poster, title, and actors.
+
+---
+
 ## File Descriptions
 
 ### 1. Data Pipeline (Root Directory)
 These scripts are responsible for creating the database used by the app.
 
-*   `csv_to_rdf.py`: Converts cleaned spreadsheet data (CSV) into the final graph database format (Turtle/RDF).
-*   `data_preprocessing.py`: Cleans raw data, fixes errors (like converting minutes to hours), and merges data from different sources.
-*   `merge_csv_files.py`: Combines multiple small data files into one large file.
-*   `wikidata_to_dbpedia_movies.py`: Connects to online databases (Wikidata and DBpedia) to get more details about movies.
-*   `run_sparql.py`: A testing script to run example queries against the database.
-*   `debug_sparql.py`: A simple script to help fix issues with queries.
+*   [`csv_to_rdf.py`](csv_to_rdf.py): Converts cleaned spreadsheet data (CSV) into the final graph database format (Turtle/RDF).
+*   [`data_preprocessing.py`](data_preprocessing.py): Cleans raw data, fixes errors (like converting minutes to hours), and merges data from different sources.
+*   [`merge_csv_files.py`](merge_csv_files.py): Combines multiple small data files into one large file.
+*   [`wikidata_to_dbpedia_movies.py`](wikidata_to_dbpedia_movies.py): Connects to online databases (Wikidata and DBpedia) to get more details about movies.
+*   [`run_sparql.py`](run_sparql.py): A testing script to run example queries against the database.
+*   [`debug_sparql.py`](debug_sparql.py): A simple script to help fix issues with queries.
 
 ### 2. Backend (`backend/`)
 The "brain" of the application that processes search requests.
 
-*   `main.py`: The entry point of the server. It receives requests from the internet.
-*   `query_engine.py`: The logic for searching the graph database.
-*   `vocab.py`: Defines the specific "language" (vocabulary) used to label data in the graph.
+*   [`main.py`](backend/main.py): The entry point of the server. It receives requests from the internet.
+*   [`query_engine.py`](backend/query_engine.py): The logic for searching the graph database.
+*   [`vocab.py`](backend/vocab.py): Defines the specific "language" (vocabulary) used to label data in the graph.
 
 ### 3. Frontend (`frontend/`)
 The visual interface of the application.
 
-*   `app/page.tsx`: The main homepage file. It coordinates the sidebar and the movie list.
-*   `app/layout.tsx`: Defines the global structure (fonts, themes) shared by all pages.
-*   `components/Sidebar.tsx`: The left panel with search filters (Title, Genre, etc.).
-*   `components/MovieCard.tsx`: A component that displays a single movie's poster and details.
-*   `lib/api.ts`: A helper file that handles communication with the Backend.
+*   [`app/page.tsx`](frontend/app/page.tsx): The main homepage file. It coordinates the sidebar and the movie list.
+*   [`app/layout.tsx`](frontend/app/layout.tsx): Defines the global structure (fonts, themes) shared by all pages.
+*   [`components/Sidebar.tsx`](frontend/components/Sidebar.tsx): The left panel with search filters (Title, Genre, etc.).
+*   [`components/MovieCard.tsx`](frontend/components/MovieCard.tsx): A component that displays a single movie's poster and details.
+*   [`lib/api.ts`](frontend/lib/api.ts): A helper file that handles communication with the Backend.
 
 ---
 
