@@ -22,7 +22,7 @@ The easiest way to run the application is with Docker Compose. This starts the *
 
 2.  **Access the Application**:
     *   **Frontend**: [http://localhost:3000](http://localhost:3000)
-    *   **Blazegraph Admin**: [http://localhost:9999/blazegraph](http://localhost:9999/blazegraph)
+    *   **Blazegraph Admin**: [http://localhost:9999/bigdata](http://localhost:9999/bigdata)
     *   **API Documentation**: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 3.  **Stop**:
