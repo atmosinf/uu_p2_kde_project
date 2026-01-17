@@ -30,6 +30,12 @@ ex:Movie a owl:Class ;
         a owl:Restriction ;
         owl:onProperty ex:title ;
         owl:minCardinality "1"^^xsd:nonNegativeInteger
+    ] ;
+    # Constraint: Every Movie should have a year
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty ex:year ;
+        owl:someValuesFrom rdfs:Literal
     ] .
 
 # --- Properties ---
@@ -57,7 +63,7 @@ ex:genre a owl:ObjectProperty ;
     rdfs:domain ex:Movie ;
     rdfs:range ex:Genre .
 
-# --- Genre Hierarchy (From RDFS version, valid in OWL) ---
+# --- Genre Hierarchy ---
 ex:Fiction a ex:Genre .
 ex:SpeculativeFiction a ex:Genre ;
     rdfs:subClassOf ex:Fiction .

@@ -24,7 +24,7 @@ app.add_middleware(
 
 # Initialize Query Engine
 RDF_PATH = os.path.join(os.path.dirname(__file__), "../data/wiki_db_cleaned.ttl")
-ONTOLOGY_PATH = os.path.join(os.path.dirname(__file__), "../ontology/schema.ttl")
+ONTOLOGY_PATH = os.path.join(os.path.dirname(__file__), "../ontology/ontology.ttl")
 EMBEDDING_PATH = os.path.join(os.path.dirname(__file__), "../data/movie_embeddings.csv")
 
 BLAZEGRAPH_URL = os.getenv("BLAZEGRAPH_URL", "http://blazegraph:8080/bigdata/namespace/kb/sparql")

@@ -4,20 +4,43 @@ A semantic web application illustrating relationships between movies, actors, di
 
 ## 🚀 Quick Start (Docker)
 
-The easiest way to run the application is with Docker Compose.
+The easiest way to run the application is with Docker Compose. This starts the **Frontend** (Next.js), **Backend** (FastAPI), and **Knowledge Graph** (Blazegraph).
+
+### Prerequisites
+1.  **Docker & Docker Compose** installed.
+2.  **Data Files**: Ensure the `data/` directory contains:
+    *   `movie_embeddings.csv` (Required for "Find Similar" AI features)
+    *   `wiki_db_cleaned.ttl` (Main dataset, loaded automatically on first run)
+
+### Steps
 
 1.  **Build and Start**:
     ```bash
     docker-compose up --build -d
     ```
+    *Note: The first run might take a minute to initialize the graph database.*
 
-2.  **Access the App**:
-    Open [http://localhost:3000](http://localhost:3000)
+2.  **Access the Application**:
+    *   **Frontend**: [http://localhost:3000](http://localhost:3000)
+    *   **Blazegraph Admin**: [http://localhost:9999/blazegraph](http://localhost:9999/blazegraph)
+    *   **API Documentation**: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 3.  **Stop**:
     ```bash
     docker-compose down
     ```
+
+### 🧹 Heavy Reset (Clearing Database)
+
+If you modify the ontology or `ttl` data files and need to reload them, you must clear the database volume:
+
+```bash
+# Stop and remove volumes (Deletes persistent database)
+docker-compose down -v
+
+# Start again (Data will be re-uploaded)
+docker-compose up --build -d
+```
 
 ## 🛠 Manual Setup
 
