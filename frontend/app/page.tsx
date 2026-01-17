@@ -40,6 +40,23 @@ export default function Home() {
     }
   };
 
+  const handleQuickSearch = async (key: string, value: string) => {
+    // Clear other filters to focus on this person/genre
+    const newFilters = { [key]: value };
+    setFilters(newFilters);
+
+    setLoading(true);
+    try {
+      const results = await searchMovies(newFilters);
+      setMovies(results);
+    } catch (e) {
+      console.error("Search failed", e);
+    } finally {
+      setLoading(false);
+      setInitialLoad(false);
+    }
+  };
+
   return (
     <main className="min-h-screen pl-80 bg-zinc-50 dark:bg-black text-zinc-900 dark:text-white selection:bg-yellow-500 selection:text-black transition-colors duration-300">
       <Sidebar
@@ -70,7 +87,12 @@ export default function Home() {
         ) : movies.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {movies.map((movie, idx) => (
-              <MovieCard key={movie.id} movie={movie} index={idx} />
+              <MovieCard
+                key={movie.id}
+                movie={movie}
+                index={idx}
+                onQuickSearch={handleQuickSearch}
+              />
             ))}
           </div>
         ) : !initialLoad ? (

@@ -20,38 +20,34 @@ class EmbeddingEngine:
                     vec_data.append(complex(x_clean))
 
                 #The rest are vectors
-                vec = np.array(vec_data, dtype=np.complex64)
+                # specific strategy for RotatE/Complex embeddings:
+                # We flatten the complex vector into a real vector of 2x dimensions
+                # [Re(z1), Im(z1), Re(z2), Im(z2)...]
+                # This allows standard cosine similarity to work effectively for clustering.
+                c_vec = np.array(vec_data, dtype=np.complex64)
+                real_vec = np.concatenate([c_vec.real, c_vec.imag])
+                
+                self.embeddings[uri] = real_vec.astype(np.float32)
 
-                #Adds vector with the URI as key
-                self.embeddings[uri] = vec
-
-    #Retrieve similar movies
     def get_similar_movies(self, target_movie_uri: str, top_n: int = 10):
-        #Returns an empty list if the movie URI does not exist in embeddings
         if target_movie_uri not in self.embeddings:
             return []
 
         target_vec = self.embeddings[target_movie_uri]
         sims = []
 
-        #Compare target movie to all other movies
         for movie_uri, vec in self.embeddings.items():
             if movie_uri == target_movie_uri:
-                continue #Skip itself
+                continue 
 
-            #Using cosine similarity
-            # For complex vectors, we take the magnitude of the dot product
-            # or just the real part. Let's use magnitude of the cosine.
-            dot_product = np.dot(target_vec, vec)
-            norm_product = np.linalg.norm(target_vec) * np.linalg.norm(vec)
+            # RotatE is a distance-based model. 
+            # Entities near each other in the vector space are similar.
+            # We use Euclidean Distance (L2 norm) to measure this.
+            dist = np.linalg.norm(target_vec - vec)
             
-            # Semantic similarity should be a real number
-            # We take the absolute value of the complex cosine
-            sim = np.abs(dot_product / norm_product)
-            
-            sims.append((movie_uri, float(sim)))
+            sims.append((movie_uri, float(dist)))
 
-        #Sort movies by descending similarity score
-        sims.sort(key=lambda x: x[1], reverse=True)
+        # Sort by ASCENDING distance (smaller is more similar)
+        sims.sort(key=lambda x: x[1])
         print(sims[:top_n])
         return sims[:top_n]

@@ -77,7 +77,7 @@ class QueryEngine:
         PREFIX ex: <http://example.org/movie/>
         SELECT ?a (COUNT(?m) as ?count) WHERE {
             ?m ex:actor ?a .
-        } GROUP BY ?a ORDER BY DESC(?count) LIMIT 200
+        } GROUP BY ?a ORDER BY DESC(?count) LIMIT 5000
         """
         actors_uris = self._execute_query_list(q_actor, "a")
         actors = [uri.split("/")[-1] for uri in actors_uris]
