@@ -1,6 +1,10 @@
 fastapi
 uvicorn
 rdflib
+requests
+numpy
+uvicorn
+rdflib
 pydantic
 SPARQLWrapper
 requests

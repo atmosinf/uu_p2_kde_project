@@ -23,3 +23,13 @@ export const searchMovies = async (params: any): Promise<Movie[]> => {
         return [];
     }
 };
+
+export const getSimilarMovies = async (uri: string): Promise<Movie[]> => {
+    try {
+        const response = await api.get('/similar', { params: { uri } });
+        return response.data;
+    } catch (error) {
+        console.error("Error fetching similar movies:", error);
+        return [];
+    }
+};

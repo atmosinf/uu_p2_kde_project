@@ -2,9 +2,14 @@ print("BACKEND STARTING...", flush=True)
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from backend.query_engine import QueryEngine
+from backend.embedding_engine import EmbeddingEngine
 from typing import Optional
 import requests
 import os
+import logging
+import time
+
+logging.basicConfig(level=logging.INFO)
 
 app = FastAPI(title="Movie Explorer API")
 
@@ -20,13 +25,23 @@ app.add_middleware(
 # Initialize Query Engine
 RDF_PATH = os.path.join(os.path.dirname(__file__), "../data/wiki_db_cleaned.ttl")
 ONTOLOGY_PATH = os.path.join(os.path.dirname(__file__), "../ontology/schema.ttl")
+EMBEDDING_PATH = os.path.join(os.path.dirname(__file__), "../data/movie_embeddings.csv")
+
 BLAZEGRAPH_URL = os.getenv("BLAZEGRAPH_URL", "http://blazegraph:8080/bigdata/namespace/kb/sparql")
 engine = QueryEngine(BLAZEGRAPH_URL)
 
-import time
-import logging
+# Initialize Embedding Engine (Lazy or try-except to avoid crash if not trained)
+embedding_engine = None
+if os.path.exists(EMBEDDING_PATH):
+    try:
+        logging.info(f"Loading embeddings from {EMBEDDING_PATH}...")
+        embedding_engine = EmbeddingEngine(EMBEDDING_PATH)
+        logging.info("Embeddings loaded!")
+    except Exception as e:
+        logging.error(f"Failed to load embeddings: {e}")
+else:
+    logging.warning(f"Embedding file not found at {EMBEDDING_PATH}. Similarity search will be disabled.")
 
-logging.basicConfig(level=logging.INFO)
 
 # Startup logic to wait for Blazegraph and load data
 def wait_for_blazegraph():
@@ -120,3 +135,22 @@ def search_movies(
         year_end=year_end,
         limit=limit
     )
+
+@app.get("/similar")
+def get_similar_movies(uri: str):
+    if not embedding_engine:
+        return []
+    
+    # 1. Get similar URIs
+    # returns list of (uri, score)
+    similar_pairs = embedding_engine.get_similar_movies(uri, top_n=5)
+    
+    if not similar_pairs:
+        return []
+        
+    top_uris = [p[0] for p in similar_pairs]
+    
+    # 2. Fetch details for these URIs
+    movies = engine.get_movies_by_uris(top_uris)
+    
+    return movies

@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import { Movie } from '@/types';
-import { User, Film, Clock, Star } from 'lucide-react';
+import { User, Film, Clock, Star, Sparkles } from 'lucide-react';
+import { useState } from 'react';
+import { getSimilarMovies } from '@/lib/api';
 
 interface MovieCardProps {
     movie: Movie;
@@ -8,6 +10,28 @@ interface MovieCardProps {
 }
 
 export const MovieCard = ({ movie, index }: MovieCardProps) => {
+    const [similarMovies, setSimilarMovies] = useState<Movie[]>([]);
+    const [loadingSimilar, setLoadingSimilar] = useState(false);
+    const [showSimilar, setShowSimilar] = useState(false);
+
+    const handleFindSimilar = async () => {
+        if (showSimilar) {
+            setShowSimilar(false);
+            return;
+        }
+
+        if (similarMovies.length > 0) {
+            setShowSimilar(true);
+            return;
+        }
+
+        setLoadingSimilar(true);
+        const results = await getSimilarMovies(movie.id);
+        setSimilarMovies(results);
+        setLoadingSimilar(false);
+        setShowSimilar(true);
+    };
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -62,6 +86,33 @@ export const MovieCard = ({ movie, index }: MovieCardProps) => {
                     <div className="pt-2 border-t border-zinc-200 dark:border-zinc-800 mt-2 flex items-center gap-2 text-yellow-500">
                         <Star className="w-4 h-4 fill-yellow-500" />
                         <span className="text-sm font-bold">Similarity: {movie.similarity}</span>
+                    </div>
+                )}
+
+                {/* Similarity Button */}
+                <button
+                    onClick={handleFindSimilar}
+                    disabled={loadingSimilar}
+                    className="w-full mt-4 flex items-center justify-center gap-2 py-2 px-3 bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 rounded-md text-sm font-medium transition-colors text-zinc-700 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-700"
+                >
+                    <Sparkles className={`w-4 h-4 ${loadingSimilar ? 'animate-spin' : 'text-purple-500'}`} />
+                    {loadingSimilar ? 'Finding...' : (showSimilar ? 'Hide Similar' : 'Find Similar (AI)')}
+                </button>
+
+                {/* Similar Movies List */}
+                {showSimilar && (
+                    <div className="mt-3 space-y-2 border-t border-zinc-200 dark:border-zinc-800 pt-3 animate-in fade-in slide-in-from-top-2">
+                        <h4 className="text-xs font-bold uppercase text-zinc-400">Recommended for you</h4>
+                        {similarMovies.length === 0 ? (
+                            <p className="text-xs text-zinc-500 italic">No recommendations found.</p>
+                        ) : (
+                            similarMovies.map((sim, i) => (
+                                <div key={i} className="flex justify-between items-center text-sm p-2 rounded bg-zinc-50 dark:bg-zinc-800/50 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors">
+                                    <span className="font-medium text-zinc-800 dark:text-zinc-200">{sim.title}</span>
+                                    <span className="text-xs text-zinc-500">{sim.year}</span>
+                                </div>
+                            ))
+                        )}
                     </div>
                 )}
             </div>

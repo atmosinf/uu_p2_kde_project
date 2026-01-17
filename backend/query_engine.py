@@ -209,3 +209,79 @@ class QueryEngine:
         
         logging.info(f"Search returned {len(results)} results")
         return results
+
+    def get_movies_by_uris(self, movie_uris):
+        """Fetches details for a specific list of movie URIs."""
+        if not movie_uris:
+            return []
+            
+        uris_str = " ".join([f"<{uri}>" for uri in movie_uris])
+        
+        # Query basic info
+        q_basic = f"""
+        PREFIX ex: <http://example.org/movie/>
+        SELECT DISTINCT ?movie ?title ?year ?runtime
+        WHERE {{
+            VALUES ?movie {{ {uris_str} }}
+            ?movie ex:title ?title .
+            OPTIONAL {{ ?movie ex:year ?year }}
+            OPTIONAL {{ ?movie ex:runtime ?runtime }}
+        }}
+        """
+        
+        movies_map = {}
+        try:
+            sparql = self._get_sparql()
+            sparql.setQuery(q_basic)
+            results = sparql.query().convert()
+            
+            for row in results["results"]["bindings"]:
+                m_uri = row["movie"]["value"]
+                movies_map[m_uri] = {
+                    "id": m_uri,
+                    "title": row["title"]["value"],
+                    "year": row["year"]["value"] if "year" in row else None,
+                    "runtime": row["runtime"]["value"] if "runtime" in row else None,
+                    "genres": [],
+                    "directors": [],
+                    "actors": [],
+                }
+        except Exception as e:
+            logging.exception(f"Error fetching movie basics: {e}")
+            return []
+
+        # Re-use the batch fetch logic for details
+        # (This is a simplified version of what is in search_movies - could be DRYed further)
+        details_uris_str = " ".join([f"<{uri}>" for uri in movies_map.keys()])
+        
+        def fetch_attribute(attr_name, target_list):
+            q_attr = f"""
+            PREFIX ex: <http://example.org/movie/>
+            SELECT ?movie ?val WHERE {{
+                VALUES ?movie {{ {details_uris_str} }}
+                ?movie ex:{attr_name} ?val .
+            }}
+            """
+            try:
+                sparql = self._get_sparql()
+                sparql.setQuery(q_attr)
+                res = sparql.query().convert()
+                for row in res["results"]["bindings"]:
+                    m_uri = row["movie"]["value"]
+                    if m_uri in movies_map:
+                        val = row["val"]["value"].split('/')[-1]
+                        movies_map[m_uri][target_list].append(val)
+            except Exception as e:
+                 logging.error(f"Error fetching {attr_name}: {e}")
+
+        fetch_attribute("genre", "genres")
+        fetch_attribute("director", "directors")
+        fetch_attribute("actor", "actors")
+        
+        # Return in the order of the input URIs to maintain similarity ranking
+        ordered_results = []
+        for uri in movie_uris:
+            if uri in movies_map:
+                ordered_results.append(movies_map[uri])
+                
+        return ordered_results
