@@ -63,7 +63,7 @@ class QueryEngine:
         q_genre = """
         PREFIX ex: <http://example.org/movie/>
         SELECT DISTINCT ?g WHERE {
-            ?m ex:genre ?g .
+            ?g a ex:Genre .
         } ORDER BY ?g
         """
         genres_uris = self._execute_query_list(q_genre, "g")
@@ -114,6 +114,7 @@ class QueryEngine:
         query_body = """
         PREFIX ex: <http://example.org/movie/>
         PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
         SELECT DISTINCT ?movie ?title ?year ?runtime
         WHERE {
@@ -127,7 +128,7 @@ class QueryEngine:
             query_body += f'\nFILTER(REGEX(?title, "{title}", "i"))'
         
         if genre:
-            query_body += f'\n?movie ex:genre ?targetGenre . FILTER(STRENDS(STR(?targetGenre), "/{genre}"))'
+            query_body += f'\nVALUES ?reqGenre {{ ex:{genre} }} . ?movie ex:genre ?actualGenre . ?actualGenre rdfs:subClassOf* ?reqGenre .'
 
         if actor:
              query_body += f'\n?movie ex:actor ?targetActor . FILTER(STRENDS(STR(?targetActor), "/{actor}"))'

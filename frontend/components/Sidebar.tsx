@@ -59,7 +59,11 @@ export const Sidebar = ({ options, filters, setFilters, onSearch, loading }: Sid
                    Simple mapping logic:
                 */}
                             {(options[field + 's' as keyof FilterOptions] || []).map((opt) => (
-                                <option key={opt} value={opt}>{opt.replace(/_/g, ' ')}</option>
+                                <option key={opt} value={opt}>
+                                    {field === 'genre'
+                                        ? opt.replace(/_/g, ' ').replace(/([a-z])([A-Z])/g, '$1 $2').replace(/\b\w/g, c => c.toUpperCase())
+                                        : opt.replace(/_/g, ' ')}
+                                </option>
                             ))}
                         </select>
                     </div>
